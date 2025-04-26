@@ -2,6 +2,7 @@ from typing import Tuple
 
 from backend.csvReader import getStats
 from dataclasses import dataclass
+from backend.publicMovieData import getPublicMovieData
 @dataclass
 class MovieData:
     title: str
@@ -57,6 +58,3 @@ def getRatingData(file_path) -> Tuple[float | None, MovieData | None, MovieData 
 def getObscurityData(file_path) -> Tuple[float | None, MovieData | None, MovieData | None]:
     csv_data = getStats(file_path)
     return analyze_movies(csv_data, lambda movie: movie.popularityScore)
-
-def getPublicMovieData(title, year) -> Tuple[float, float]:
-    return (0.0, 0.0)
