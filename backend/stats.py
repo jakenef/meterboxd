@@ -11,6 +11,7 @@ class MovieData:
     user_rating: float
     rating_difference: float
     vote_count: float
+    popularity_score: float
 
     def __str__(self):
         return (
@@ -18,7 +19,8 @@ class MovieData:
             f"   - User Rating: {self.user_rating:.1f}/10\n"
             f"   - Public Rating: {self.public_rating:.1f}/10\n"
             f"   - Difference: {self.rating_difference:+.1f}\n"
-            f"   - Vote Count: {self.vote_count:,} votes"
+            f"   - Vote Count: {self.vote_count:,} votes\n"
+            f"   - Popularity Score: {self.popularity_score:+.1f}"
         )
 
 def analyze_movies(csv_data, metric_function) -> Tuple[float | None, MovieData | None, MovieData | None]:
@@ -45,7 +47,8 @@ def analyze_movies(csv_data, metric_function) -> Tuple[float | None, MovieData |
             public_rating=public_rating,
             user_rating=user_rating,
             rating_difference=difference,
-            vote_count=vote_count
+            vote_count=vote_count,
+            popularity_score=(vote_count/(2025 - year + 1))
         )
 
         metric = metric_function(movie)
@@ -71,4 +74,4 @@ def get_rating_data(file_path) -> Tuple[float | None, MovieData | None, MovieDat
 
 def get_obscurity_data(file_path) -> Tuple[float | None, MovieData | None, MovieData | None]:
     csv_data = getStats(file_path)
-    return analyze_movies(csv_data, lambda movie: movie.vote_count)
+    return analyze_movies(csv_data, lambda movie: movie.popularity_score)

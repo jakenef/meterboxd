@@ -14,7 +14,7 @@ def main():
         sys.exit(1)
 
     file_path = sys.argv[1]
-    average_vote_count, least_obscure_movie, most_obscure_movie = get_obscurity_data(file_path)
+    average_popularity_score, least_obscure_movie, most_obscure_movie = get_obscurity_data(file_path)
     average_rating_difference, most_underrated_movie, most_overrated_movie = get_rating_data(file_path)
 
     console = Console()
@@ -23,7 +23,7 @@ def main():
     table.add_column("Metric", style="bold cyan")
     table.add_column("Value", style="bold magenta")
 
-    table.add_row("Average Vote Count", str(average_vote_count))
+    table.add_row("Average Popularity Score", str(average_popularity_score))
     table.add_row("Least Obscure Movie", str(least_obscure_movie))
     table.add_row("Most Obscure Movie", str(most_obscure_movie))
     table.add_row("Average Rating Difference", str(average_rating_difference))
