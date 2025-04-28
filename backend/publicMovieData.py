@@ -17,25 +17,24 @@ def save_cache(cache):
     with open(CACHE_FILE, 'w') as f:
         json.dump(cache, f, indent=4)
 
-def getPublicMovieData(title: str, year: int, cache: dict) -> Tuple[float, float]:
+def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, float]:
     key = f"{title} ({year})"
     
     if key in cache:
-        print(f"Cache hit: {key}")
         data = cache[key]
-        return data["publicRating"], data["vote_count"]
+        return data["public_rating"], data["vote_count"]
     
     # Otherwise, fetch from TMDb API
-    publicRating, vote_count = fetch_from_tmdb(title, year)
+    public_rating, vote_count = fetch_from_tmdb(title, year)
 
     # Cache it
     cache[key] = {
-        "publicRating": publicRating,
+        "public_rating": public_rating,
         "vote_count": vote_count
     }
     save_cache(cache)
 
-    return publicRating, vote_count
+    return public_rating, vote_count
 
 def fetch_from_tmdb(title: str, year: int) -> Tuple[float, float]:
     """
