@@ -2,7 +2,7 @@ from typing import Tuple
 
 from backend.csvReader import getStats
 from dataclasses import dataclass
-from backend.publicMovieData import getPublicMovieData
+from backend.publicMovieData import getPublicMovieData, load_cache
 @dataclass
 class MovieData:
     title: str
@@ -10,20 +10,21 @@ class MovieData:
     publicRating: float
     userRating: float
     ratingDifference: float
-    popularityScore: float
+    vote_count: float
 
 def analyze_movies(csv_data, metric_function) -> Tuple[float | None, MovieData | None, MovieData | None]:
     maxMovie = None
     minMovie = None
     collected_metrics = []
+    cache = load_cache()
 
     for index, row in csv_data.iterrows():
         title = row['Name']
         year = row['Year']
         userRating = row['Rating']
 
-        publicRating, popularity = getPublicMovieData(title, year)
-        difference = userRating - publicRating
+        publicRating, vote_count = getPublicMovieData(title, year, cache)
+        difference = (userRating * 2) - publicRating
 
         movie = MovieData(
             title=title,
@@ -31,7 +32,7 @@ def analyze_movies(csv_data, metric_function) -> Tuple[float | None, MovieData |
             publicRating=publicRating,
             userRating=userRating,
             ratingDifference=difference,
-            popularityScore=popularity
+            vote_count=vote_count
         )
 
         metric = metric_function(movie)
@@ -57,4 +58,4 @@ def getRatingData(file_path) -> Tuple[float | None, MovieData | None, MovieData 
 
 def getObscurityData(file_path) -> Tuple[float | None, MovieData | None, MovieData | None]:
     csv_data = getStats(file_path)
-    return analyze_movies(csv_data, lambda movie: movie.popularityScore)
+    return analyze_movies(csv_data, lambda movie: movie.vote_count)
