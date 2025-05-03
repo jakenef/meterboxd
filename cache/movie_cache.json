@@ -1,814 +1,1072 @@
 {
     "Inception (2010)": {
-        "public_rating": 8.368,
-        "vote_count": 37400
+        "public_rating": 4.184,
+        "vote_count": 37419,
+        "popularity": 26.7946
     },
     "Spider-Man: No Way Home (2021)": {
-        "public_rating": 7.945,
-        "vote_count": 20707
+        "public_rating": 3.9725,
+        "vote_count": 20720,
+        "popularity": 41.2218
     },
     "La La Land (2016)": {
-        "public_rating": 7.9,
-        "vote_count": 17251
+        "public_rating": 3.95,
+        "vote_count": 17261,
+        "popularity": 17.4195
     },
     "Avengers: Endgame (2019)": {
-        "public_rating": 8.237,
-        "vote_count": 26273
+        "public_rating": 4.119,
+        "vote_count": 26283,
+        "popularity": 41.4204
     },
     "Baby Driver (2017)": {
-        "public_rating": 7.447,
-        "vote_count": 16018
+        "public_rating": 3.7235,
+        "vote_count": 16021,
+        "popularity": 10.4383
     },
     "Knives Out (2019)": {
-        "public_rating": 7.844,
-        "vote_count": 12804
+        "public_rating": 3.922,
+        "vote_count": 12814,
+        "popularity": 22.308
     },
     "Jojo Rabbit (2019)": {
-        "public_rating": 8.01,
-        "vote_count": 9771
+        "public_rating": 4.005,
+        "vote_count": 9777,
+        "popularity": 18.0139
     },
     "Rogue One: A Star Wars Story (2016)": {
-        "public_rating": 7.495,
-        "vote_count": 15533
+        "public_rating": 3.7475,
+        "vote_count": 15546,
+        "popularity": 13.6664
     },
     "Jujutsu Kaisen 0 (2021)": {
-        "public_rating": 8.134,
-        "vote_count": 1482
+        "public_rating": 4.05,
+        "vote_count": 1485,
+        "popularity": 15.9845
     },
     "Star Wars (1977)": {
-        "public_rating": 8.204,
-        "vote_count": 21094
+        "public_rating": 4.102,
+        "vote_count": 21112,
+        "popularity": 48.1206
     },
     "Joker (2019)": {
-        "public_rating": 8.138,
-        "vote_count": 26385
+        "public_rating": 4.069,
+        "vote_count": 26397,
+        "popularity": 18.8818
     },
     "Shang-Chi and the Legend of the Ten Rings (2021)": {
-        "public_rating": 7.523,
-        "vote_count": 9687
+        "public_rating": 3.762,
+        "vote_count": 9691,
+        "popularity": 20.7962
     },
     "Get Out (2017)": {
-        "public_rating": 7.6,
-        "vote_count": 17827
+        "public_rating": 3.809,
+        "vote_count": 17838,
+        "popularity": 17.3108
     },
     "The Empire Strikes Back (1980)": {
-        "public_rating": 8.393,
-        "vote_count": 17354
+        "public_rating": 4.1965,
+        "vote_count": 17363,
+        "popularity": 9.6023
     },
     "Avengers: Infinity War (2018)": {
-        "public_rating": 8.235,
-        "vote_count": 30460
+        "public_rating": 4.118,
+        "vote_count": 30474,
+        "popularity": 53.7466
     },
     "Star Wars: The Rise of Skywalker (2019)": {
-        "public_rating": 6.299,
-        "vote_count": 10155
+        "public_rating": 3.1495,
+        "vote_count": 10161,
+        "popularity": 17.7581
     },
     "The Prestige (2006)": {
-        "public_rating": 8.203,
-        "vote_count": 16482
+        "public_rating": 4.1015,
+        "vote_count": 16490,
+        "popularity": 15.0422
     },
     "Howl's Moving Castle (2004)": {
-        "public_rating": 8.4,
-        "vote_count": 10259
+        "public_rating": 4.1985,
+        "vote_count": 10270,
+        "popularity": 22.3548
     },
     "Back to the Future (1985)": {
-        "public_rating": 8.319,
-        "vote_count": 20469
+        "public_rating": 4.15,
+        "vote_count": 20484,
+        "popularity": 16.5826
     },
     "Titanic (1997)": {
-        "public_rating": 7.905,
-        "vote_count": 25932
+        "public_rating": 3.9525,
+        "vote_count": 25948,
+        "popularity": 54.5256
     },
     "Tangled (2010)": {
-        "public_rating": 7.607,
-        "vote_count": 11721
+        "public_rating": 3.8035,
+        "vote_count": 11726,
+        "popularity": 29.0218
     },
     "Edward Scissorhands (1990)": {
-        "public_rating": 7.716,
-        "vote_count": 13121
-    },
-    "Big Hero 6 (2014)": {
-        "public_rating": 7.728,
-        "vote_count": 15864
+        "public_rating": 3.858,
+        "vote_count": 13124,
+        "popularity": 11.1952
     },
     "Megamind (2010)": {
-        "public_rating": 6.999,
-        "vote_count": 6992
+        "public_rating": 3.5005,
+        "vote_count": 6998,
+        "popularity": 9.9215
     },
     "Loki (2021)": {
-        "public_rating": 7.1,
-        "vote_count": 21
+        "public_rating": 3.55,
+        "vote_count": 21,
+        "popularity": 0.4921
     },
     "The Emperor's New Groove (2000)": {
-        "public_rating": 7.556,
-        "vote_count": 6877
+        "public_rating": 3.778,
+        "vote_count": 6882,
+        "popularity": 13.4763
     },
     "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020)": {
-        "public_rating": 8.212,
-        "vote_count": 4075
+        "public_rating": 4.106,
+        "vote_count": 4081,
+        "popularity": 23.6723
     },
     "Back to the Future Part III (1990)": {
-        "public_rating": 7.484,
-        "vote_count": 10794
+        "public_rating": 3.7425,
+        "vote_count": 10807,
+        "popularity": 6.7915
     },
     "The Goonies (1985)": {
-        "public_rating": 7.513,
-        "vote_count": 5830
+        "public_rating": 3.7565,
+        "vote_count": 5835,
+        "popularity": 14.4837
     },
     "Cloudy with a Chance of Meatballs (2009)": {
-        "public_rating": 6.635,
-        "vote_count": 6070
+        "public_rating": 3.3,
+        "vote_count": 6074,
+        "popularity": 9.2313
     },
     "Scooby-Doo (2002)": {
-        "public_rating": 6.086,
-        "vote_count": 4507
+        "public_rating": 3.0435,
+        "vote_count": 4509,
+        "popularity": 11.9203
     },
     "I Am Legend (2007)": {
-        "public_rating": 7.207,
-        "vote_count": 16020
+        "public_rating": 3.604,
+        "vote_count": 16030,
+        "popularity": 19.3964
     },
     "Shrek Forever After (2010)": {
-        "public_rating": 6.381,
-        "vote_count": 7514
+        "public_rating": 3.1905,
+        "vote_count": 7519,
+        "popularity": 14.6029
     },
     "Edge of Tomorrow (2014)": {
-        "public_rating": 7.629,
-        "vote_count": 14157
+        "public_rating": 3.8,
+        "vote_count": 14169,
+        "popularity": 12.6352
     },
     "X-Men: Apocalypse (2016)": {
-        "public_rating": 6.513,
-        "vote_count": 13152
+        "public_rating": 3.257,
+        "vote_count": 13156,
+        "popularity": 9.8102
     },
     "A Bug's Life (1998)": {
-        "public_rating": 6.972,
-        "vote_count": 9291
+        "public_rating": 3.486,
+        "vote_count": 9296,
+        "popularity": 21.4123
     },
     "Wonder Woman 1984 (2020)": {
-        "public_rating": 6.4,
-        "vote_count": 8595
+        "public_rating": 3.2065,
+        "vote_count": 8600,
+        "popularity": 15.1965
     },
     "Paddington 2 (2017)": {
-        "public_rating": 7.463,
-        "vote_count": 2480
+        "public_rating": 3.7315,
+        "vote_count": 2484,
+        "popularity": 10.1517
     },
     "Pirates of the Caribbean: At World's End (2007)": {
-        "public_rating": 7.258,
-        "vote_count": 14668
+        "public_rating": 3.629,
+        "vote_count": 14675,
+        "popularity": 15.6575
     },
     "The Secret Life of Walter Mitty (2013)": {
-        "public_rating": 7.196,
-        "vote_count": 7763
+        "public_rating": 3.598,
+        "vote_count": 7767,
+        "popularity": 12.3754
     },
     "Indiana Jones and the Last Crusade (1989)": {
-        "public_rating": 7.847,
-        "vote_count": 10388
+        "public_rating": 3.9235,
+        "vote_count": 10395,
+        "popularity": 20.6634
     },
     "Bee Movie (2007)": {
-        "public_rating": 6.021,
-        "vote_count": 4947
+        "public_rating": 3.012,
+        "vote_count": 4953,
+        "popularity": 13.8856
     },
     "Jurassic World (2015)": {
-        "public_rating": 6.694,
-        "vote_count": 20659
+        "public_rating": 3.347,
+        "vote_count": 20665,
+        "popularity": 14.2368
     },
     "Raya and the Last Dragon (2021)": {
-        "public_rating": 7.839,
-        "vote_count": 6909
+        "public_rating": 3.919,
+        "vote_count": 6914,
+        "popularity": 18.0067
     },
     "Monty Python and the Holy Grail (1975)": {
-        "public_rating": 7.802,
-        "vote_count": 5961
+        "public_rating": 3.9015,
+        "vote_count": 5965,
+        "popularity": 11.4145
     },
     "Ice Age (2002)": {
-        "public_rating": 7.36,
-        "vote_count": 13565
+        "public_rating": 3.68,
+        "vote_count": 13571,
+        "popularity": 21.1439
     },
     "Aquaman (2018)": {
-        "public_rating": 6.876,
-        "vote_count": 14294
+        "public_rating": 3.438,
+        "vote_count": 14300,
+        "popularity": 8.6334
     },
     "Wreck-It Ralph (2012)": {
-        "public_rating": 7.342,
-        "vote_count": 12495
+        "public_rating": 3.6715,
+        "vote_count": 12505,
+        "popularity": 18.0454
     },
     "The Greatest Showman (2017)": {
-        "public_rating": 7.876,
-        "vote_count": 9603
+        "public_rating": 3.938,
+        "vote_count": 9607,
+        "popularity": 9.7463
     },
     "Man of Steel (2013)": {
-        "public_rating": 6.631,
-        "vote_count": 15373
+        "public_rating": 3.3,
+        "vote_count": 15385,
+        "popularity": 22.2416
     },
     "X-Men: Days of Future Past (2014)": {
-        "public_rating": 7.528,
-        "vote_count": 15549
+        "public_rating": 3.7635,
+        "vote_count": 15555,
+        "popularity": 8.5397
     },
     "Die Hard (1988)": {
-        "public_rating": 7.798,
-        "vote_count": 11466
+        "public_rating": 3.899,
+        "vote_count": 11476,
+        "popularity": 18.6737
     },
     "Singin' in the Rain (1952)": {
-        "public_rating": 8.1,
-        "vote_count": 3232
+        "public_rating": 4.05,
+        "vote_count": 3235,
+        "popularity": 12.2142
     },
     "The Nightmare Before Christmas (1993)": {
-        "public_rating": 7.835,
-        "vote_count": 9742
+        "public_rating": 3.9,
+        "vote_count": 9747,
+        "popularity": 13.6297
     },
     "Free Guy (2021)": {
-        "public_rating": 7.481,
-        "vote_count": 9050
+        "public_rating": 3.7405,
+        "vote_count": 9057,
+        "popularity": 16.6384
     },
     "Dead Poets Society (1989)": {
-        "public_rating": 8.301,
-        "vote_count": 11619
+        "public_rating": 4.1505,
+        "vote_count": 11626,
+        "popularity": 11.9785
     },
     "Arrival (2016)": {
-        "public_rating": 7.612,
-        "vote_count": 18197
+        "public_rating": 3.8065,
+        "vote_count": 18205,
+        "popularity": 16.6435
     },
     "Spider-Man: Far From Home (2019)": {
-        "public_rating": 7.41,
-        "vote_count": 16035
+        "public_rating": 3.705,
+        "vote_count": 16041,
+        "popularity": 16.5534
     },
     "Dunkirk (2017)": {
-        "public_rating": 7.45,
-        "vote_count": 16751
+        "public_rating": 3.725,
+        "vote_count": 16763,
+        "popularity": 196.5876
     },
     "The Avengers (2012)": {
-        "public_rating": 7.7,
-        "vote_count": 31672
+        "public_rating": 3.8715,
+        "vote_count": 31693,
+        "popularity": 31.0516
     },
     "The Dark Knight Rises (2012)": {
-        "public_rating": 7.785,
-        "vote_count": 23170
+        "public_rating": 3.8925,
+        "vote_count": 23180,
+        "popularity": 22.1872
     },
     "The Amazing Spider-Man (2012)": {
-        "public_rating": 6.714,
-        "vote_count": 17678
+        "public_rating": 3.357,
+        "vote_count": 17682,
+        "popularity": 12.9951
     },
     "Ferris Bueller's Day Off (1986)": {
-        "public_rating": 7.575,
-        "vote_count": 5020
+        "public_rating": 3.7875,
+        "vote_count": 5024,
+        "popularity": 13.9032
     },
     "Captain Marvel (2019)": {
-        "public_rating": 6.801,
-        "vote_count": 15989
+        "public_rating": 3.401,
+        "vote_count": 15997,
+        "popularity": 153.9855
     },
     "The Lego Batman Movie (2017)": {
-        "public_rating": 7.2,
-        "vote_count": 5103
+        "public_rating": 3.612,
+        "vote_count": 5105,
+        "popularity": 7.2366
     },
     "Captain America: The First Avenger (2011)": {
-        "public_rating": 7.0,
-        "vote_count": 21790
+        "public_rating": 3.5005,
+        "vote_count": 21800,
+        "popularity": 10.0641
     },
     "Ant-Man (2015)": {
-        "public_rating": 7.071,
-        "vote_count": 20024
+        "public_rating": 3.5355,
+        "vote_count": 20032,
+        "popularity": 9.553
     },
     "The Lion King (1994)": {
-        "public_rating": 8.257,
-        "vote_count": 18707
+        "public_rating": 4.1285,
+        "vote_count": 18717,
+        "popularity": 32.8742
     },
     "Jaws (1975)": {
-        "public_rating": 7.664,
-        "vote_count": 10719
+        "public_rating": 3.832,
+        "vote_count": 10729,
+        "popularity": 19.0634
     },
     "Clueless (1995)": {
-        "public_rating": 7.3,
-        "vote_count": 4509
+        "public_rating": 3.65,
+        "vote_count": 4516,
+        "popularity": 19.3688
     },
     "The Great Gatsby (2013)": {
-        "public_rating": 7.364,
-        "vote_count": 12423
+        "public_rating": 3.6825,
+        "vote_count": 12431,
+        "popularity": 16.8273
     },
     "The Amazing Spider-Man 2 (2014)": {
-        "public_rating": 6.518,
-        "vote_count": 13518
+        "public_rating": 3.259,
+        "vote_count": 13527,
+        "popularity": 10.7127
     },
     "The Martian (2015)": {
-        "public_rating": 7.688,
-        "vote_count": 20122
+        "public_rating": 3.85,
+        "vote_count": 20127,
+        "popularity": 12.9033
     },
     "Iron Man 2 (2010)": {
-        "public_rating": 6.848,
-        "vote_count": 21389
+        "public_rating": 3.424,
+        "vote_count": 21397,
+        "popularity": 16.0816
     },
     "Suicide Squad (2016)": {
-        "public_rating": 5.918,
-        "vote_count": 21365
+        "public_rating": 2.9595,
+        "vote_count": 21374,
+        "popularity": 8.2934
     },
     "Venom: Let There Be Carnage (2021)": {
-        "public_rating": 6.775,
-        "vote_count": 10618
+        "public_rating": 3.3875,
+        "vote_count": 10627,
+        "popularity": 18.5884
     },
     "The Sixth Sense (1999)": {
-        "public_rating": 7.953,
-        "vote_count": 12005
+        "public_rating": 3.976,
+        "vote_count": 12015,
+        "popularity": 16.9349
     },
     "Ant-Man and the Wasp (2018)": {
-        "public_rating": 6.92,
-        "vote_count": 13529
+        "public_rating": 3.46,
+        "vote_count": 13536,
+        "popularity": 8.2938
     },
     "Toy Story 2 (1999)": {
-        "public_rating": 7.597,
-        "vote_count": 14111
+        "public_rating": 3.7985,
+        "vote_count": 14118,
+        "popularity": 22.6533
     },
     "Incredibles 2 (2018)": {
-        "public_rating": 7.5,
-        "vote_count": 13043
+        "public_rating": 3.7275,
+        "vote_count": 13047,
+        "popularity": 8.1545
     },
     "Thor: The Dark World (2013)": {
-        "public_rating": 6.516,
-        "vote_count": 17554
+        "public_rating": 3.258,
+        "vote_count": 17562,
+        "popularity": 16.1325
     },
     "Home Alone (1990)": {
-        "public_rating": 7.443,
-        "vote_count": 11623
+        "public_rating": 3.7,
+        "vote_count": 11630,
+        "popularity": 0.8486
     },
     "WandaVision (2021)": {
         "public_rating": 0.0,
-        "vote_count": 0.0
+        "vote_count": 0.0,
+        "popularity": 0.0
     },
     "Legally Blonde (2001)": {
-        "public_rating": 6.791,
-        "vote_count": 4142
+        "public_rating": 3.4,
+        "vote_count": 4145,
+        "popularity": 17.5804
     },
     "School of Rock (2003)": {
-        "public_rating": 7.082,
-        "vote_count": 5765
+        "public_rating": 3.541,
+        "vote_count": 5768,
+        "popularity": 6.5296
     },
     "Frozen (2013)": {
-        "public_rating": 7.246,
-        "vote_count": 16825
+        "public_rating": 3.6235,
+        "vote_count": 16831,
+        "popularity": 17.8762
     },
     "The Princess Bride (1987)": {
-        "public_rating": 7.681,
-        "vote_count": 4683
+        "public_rating": 3.8405,
+        "vote_count": 4689,
+        "popularity": 11.3273
     },
     "Toy Story 4 (2019)": {
-        "public_rating": 7.478,
-        "vote_count": 9973
+        "public_rating": 3.739,
+        "vote_count": 9980,
+        "popularity": 10.3805
     },
     "E.T. the Extra-Terrestrial (1982)": {
-        "public_rating": 7.513,
-        "vote_count": 11376
+        "public_rating": 3.7565,
+        "vote_count": 11381,
+        "popularity": 17.7372
     },
     "Solo: A Star Wars Story (2018)": {
-        "public_rating": 6.557,
-        "vote_count": 8738
+        "public_rating": 3.279,
+        "vote_count": 8744,
+        "popularity": 13.178
     },
     "X-Men: First Class (2011)": {
-        "public_rating": 7.296,
-        "vote_count": 12935
+        "public_rating": 3.6485,
+        "vote_count": 12940,
+        "popularity": 0.7822
     },
     "Aladdin (1992)": {
-        "public_rating": 7.651,
-        "vote_count": 11434
+        "public_rating": 3.8255,
+        "vote_count": 11443,
+        "popularity": 18.7174
     },
     "Gravity (2013)": {
-        "public_rating": 7.162,
-        "vote_count": 15567
+        "public_rating": 3.581,
+        "vote_count": 15574,
+        "popularity": 12.0244
     },
     "Despicable Me (2010)": {
-        "public_rating": 7.247,
-        "vote_count": 15350
+        "public_rating": 3.6235,
+        "vote_count": 15355,
+        "popularity": 12.1556
     },
     "Groundhog Day (1993)": {
-        "public_rating": 7.614,
-        "vote_count": 8235
+        "public_rating": 3.807,
+        "vote_count": 8243,
+        "popularity": 7.6451
     },
     "Cast Away (2000)": {
-        "public_rating": 7.658,
-        "vote_count": 11628
+        "public_rating": 3.829,
+        "vote_count": 11635,
+        "popularity": 17.0354
     },
     "Justice League (2017)": {
-        "public_rating": 6.075,
-        "vote_count": 13122
+        "public_rating": 3.0375,
+        "vote_count": 13126,
+        "popularity": 21.8327
     },
     "The Sound of Music (1965)": {
-        "public_rating": 7.728,
-        "vote_count": 3359
+        "public_rating": 3.85,
+        "vote_count": 3362,
+        "popularity": 6.3926
     },
     "Flight of the Navigator (1986)": {
-        "public_rating": 6.954,
-        "vote_count": 865
+        "public_rating": 3.5,
+        "vote_count": 865,
+        "popularity": 3.0401
     },
     "Project X (2012)": {
-        "public_rating": 6.885,
-        "vote_count": 6470
+        "public_rating": 3.4425,
+        "vote_count": 6473,
+        "popularity": 12.8949
     },
     "Jurassic World: Fallen Kingdom (2018)": {
-        "public_rating": 6.538,
-        "vote_count": 12028
+        "public_rating": 3.2685,
+        "vote_count": 12034,
+        "popularity": 18.4919
     },
     "The Fast and the Furious (2001)": {
-        "public_rating": 6.986,
-        "vote_count": 10216
+        "public_rating": 3.4935,
+        "vote_count": 10225,
+        "popularity": 2.0639
     },
     "National Treasure (2004)": {
-        "public_rating": 6.639,
-        "vote_count": 6446
+        "public_rating": 3.3195,
+        "vote_count": 6451,
+        "popularity": 7.2382
     },
     "Step Brothers (2008)": {
-        "public_rating": 6.554,
-        "vote_count": 3174
+        "public_rating": 3.276,
+        "vote_count": 3177,
+        "popularity": 4.9324
     },
     "Maleficent (2014)": {
-        "public_rating": 7.088,
-        "vote_count": 13267
+        "public_rating": 3.544,
+        "vote_count": 13272,
+        "popularity": 12.5254
     },
     "Kong: Skull Island (2017)": {
-        "public_rating": 6.544,
-        "vote_count": 10624
+        "public_rating": 3.2725,
+        "vote_count": 10630,
+        "popularity": 35.9597
     },
     "Yesterday (2019)": {
-        "public_rating": 6.7,
-        "vote_count": 3992
+        "public_rating": 3.3485,
+        "vote_count": 3993,
+        "popularity": 11.7407
     },
     "Anchorman: The Legend of Ron Burgundy (2004)": {
-        "public_rating": 6.699,
-        "vote_count": 4280
+        "public_rating": 3.35,
+        "vote_count": 4283,
+        "popularity": 12.7965
     },
     "In the Heights (2021)": {
-        "public_rating": 7.1,
-        "vote_count": 732
+        "public_rating": 3.577,
+        "vote_count": 735,
+        "popularity": 8.7668
     },
     "Cloverfield (2008)": {
-        "public_rating": 6.694,
-        "vote_count": 7267
+        "public_rating": 3.347,
+        "vote_count": 7270,
+        "popularity": 14.5352
     },
     "The Haunting of Hill House (2018)": {
         "public_rating": 0.0,
-        "vote_count": 0.0
+        "vote_count": 0.0,
+        "popularity": 0.0
     },
     "I, Robot (2004)": {
-        "public_rating": 6.951,
-        "vote_count": 12000
+        "public_rating": 3.4755,
+        "vote_count": 12008,
+        "popularity": 9.8435
     },
     "My Octopus Teacher (2020)": {
-        "public_rating": 7.873,
-        "vote_count": 935
+        "public_rating": 3.9355,
+        "vote_count": 937,
+        "popularity": 3.3002
     },
     "The Dark Knight (2008)": {
-        "public_rating": 8.52,
-        "vote_count": 33772
+        "public_rating": 4.26,
+        "vote_count": 33788,
+        "popularity": 28.1579
     },
     "Monsters, Inc. (2001)": {
-        "public_rating": 7.842,
-        "vote_count": 18802
+        "public_rating": 3.9215,
+        "vote_count": 18813,
+        "popularity": 28.0924
     },
     "Everything Everywhere All at Once (2022)": {
-        "public_rating": 7.761,
-        "vote_count": 6992
+        "public_rating": 3.88,
+        "vote_count": 7002,
+        "popularity": 21.5944
     },
     "Morbius (2022)": {
-        "public_rating": 5.971,
-        "vote_count": 4446
+        "public_rating": 2.985,
+        "vote_count": 4453,
+        "popularity": 13.383
     },
     "Free Solo (2018)": {
-        "public_rating": 7.906,
-        "vote_count": 1378
-    },
-    "The Shawshank Redemption (1994)": {
-        "public_rating": 8.709,
-        "vote_count": 28208
+        "public_rating": 3.953,
+        "vote_count": 1379,
+        "popularity": 3.6438
     },
     "Star Wars: Episode II \u2013\u00a0Attack of the Clones (2002)": {
-        "public_rating": 6.574,
-        "vote_count": 13525
+        "public_rating": 3.287,
+        "vote_count": 13534,
+        "popularity": 10.7007
     },
     "Ready Player One (2018)": {
-        "public_rating": 7.59,
-        "vote_count": 15956
+        "public_rating": 3.795,
+        "vote_count": 15965,
+        "popularity": 18.4643
     },
     "Spider-Man: Into the Spider-Verse (2018)": {
-        "public_rating": 8.397,
-        "vote_count": 16086
+        "public_rating": 4.1985,
+        "vote_count": 16100,
+        "popularity": 20.73
     },
     "The Truman Show (1998)": {
-        "public_rating": 8.147,
-        "vote_count": 18836
+        "public_rating": 4.0735,
+        "vote_count": 18855,
+        "popularity": 22.8735
     },
     "The Godfather (1972)": {
-        "public_rating": 8.687,
-        "vote_count": 21383
+        "public_rating": 4.343,
+        "vote_count": 21402,
+        "popularity": 52.2785
     },
     "Good Will Hunting (1997)": {
-        "public_rating": 8.158,
-        "vote_count": 12763
+        "public_rating": 4.1,
+        "vote_count": 12776,
+        "popularity": 21.4525
     },
     "Iron Man (2008)": {
-        "public_rating": 7.65,
-        "vote_count": 26908
+        "public_rating": 3.825,
+        "vote_count": 26917,
+        "popularity": 21.1664
     },
     "Guardians of the Galaxy Vol. 2 (2017)": {
-        "public_rating": 7.612,
-        "vote_count": 21924
+        "public_rating": 3.806,
+        "vote_count": 21932,
+        "popularity": 39.6313
     },
     "Luca (2021)": {
-        "public_rating": 7.806,
-        "vote_count": 8506
+        "public_rating": 3.903,
+        "vote_count": 8509,
+        "popularity": 21.9553
     },
     "Finding Nemo (2003)": {
-        "public_rating": 7.815,
-        "vote_count": 19616
+        "public_rating": 3.9075,
+        "vote_count": 19623,
+        "popularity": 17.5832
     },
     "Avatar (2009)": {
-        "public_rating": 7.589,
-        "vote_count": 32186
+        "public_rating": 3.7945,
+        "vote_count": 32197,
+        "popularity": 24.2743
     },
     "Spider-Man 3 (2007)": {
-        "public_rating": 6.436,
-        "vote_count": 14419
+        "public_rating": 3.2185,
+        "vote_count": 14428,
+        "popularity": 23.9182
     },
     "Cruella (2021)": {
-        "public_rating": 7.994,
-        "vote_count": 9544
+        "public_rating": 3.997,
+        "vote_count": 9548,
+        "popularity": 14.9887
     },
     "Venom (2018)": {
-        "public_rating": 6.828,
-        "vote_count": 16499
+        "public_rating": 3.4145,
+        "vote_count": 16510,
+        "popularity": 16.4133
     },
     "Gladiator (2000)": {
-        "public_rating": 7.594,
-        "vote_count": 366
+        "public_rating": 4.1095,
+        "vote_count": 19636,
+        "popularity": 35.9789
     },
     "Cars (2006)": {
-        "public_rating": 6.995,
-        "vote_count": 14276
+        "public_rating": 3.498,
+        "vote_count": 14288,
+        "popularity": 16.1501
     },
     "Top Gun (1986)": {
-        "public_rating": 7.057,
-        "vote_count": 8878
+        "public_rating": 3.529,
+        "vote_count": 8884,
+        "popularity": 20.8476
     },
     "Interstellar (2014)": {
-        "public_rating": 8.454,
-        "vote_count": 37029
+        "public_rating": 4.227,
+        "vote_count": 37048,
+        "popularity": 33.8699
     },
     "Tenet (2020)": {
-        "public_rating": 7.181,
-        "vote_count": 10203
+        "public_rating": 3.5905,
+        "vote_count": 10217,
+        "popularity": 17.243
     },
     "Jurassic Park (1993)": {
-        "public_rating": 7.953,
-        "vote_count": 16698
+        "public_rating": 3.9765,
+        "vote_count": 16711,
+        "popularity": 12.3266
     },
     "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)": {
-        "public_rating": 6.778,
-        "vote_count": 5529
+        "public_rating": 3.389,
+        "vote_count": 5534,
+        "popularity": 7.1893
     },
     "World War Z (2013)": {
-        "public_rating": 6.82,
-        "vote_count": 15670
+        "public_rating": 3.41,
+        "vote_count": 15679,
+        "popularity": 22.8868
     },
     "The Batman (2022)": {
-        "public_rating": 7.656,
-        "vote_count": 10854
+        "public_rating": 3.828,
+        "vote_count": 10868,
+        "popularity": 17.4792
     },
     "Dune (2021)": {
-        "public_rating": 7.782,
-        "vote_count": 13464
+        "public_rating": 3.8915,
+        "vote_count": 13481,
+        "popularity": 23.7486
     },
     "Big Fish (2003)": {
-        "public_rating": 7.759,
-        "vote_count": 7339
+        "public_rating": 3.9,
+        "vote_count": 7342,
+        "popularity": 10.8504
     },
     "Ella Enchanted (2004)": {
-        "public_rating": 6.456,
-        "vote_count": 1866
+        "public_rating": 3.2285,
+        "vote_count": 1868,
+        "popularity": 5.0716
     },
     "Surf's Up (2007)": {
-        "public_rating": 6.45,
-        "vote_count": 2555
+        "public_rating": 3.25,
+        "vote_count": 2557,
+        "popularity": 12.3175
     },
     "Doctor Strange in the Multiverse of Madness (2022)": {
-        "public_rating": 7.261,
-        "vote_count": 9489
+        "public_rating": 3.6305,
+        "vote_count": 9499,
+        "popularity": 20.9693
     },
     "Doctor Strange (2016)": {
-        "public_rating": 7.418,
-        "vote_count": 22490
+        "public_rating": 3.709,
+        "vote_count": 22500,
+        "popularity": 14.6558
     },
     "Shutter Island (2010)": {
-        "public_rating": 8.201,
-        "vote_count": 24480
+        "public_rating": 4.1,
+        "vote_count": 24494,
+        "popularity": 21.0641
     },
     "Ratatouille (2007)": {
-        "public_rating": 7.826,
-        "vote_count": 17456
+        "public_rating": 3.913,
+        "vote_count": 17460,
+        "popularity": 19.3411
     },
     "Spider-Man (2002)": {
-        "public_rating": 7.309,
-        "vote_count": 19554
+        "public_rating": 3.6545,
+        "vote_count": 19566,
+        "popularity": 32.08
     },
     "Thor (2011)": {
-        "public_rating": 6.769,
-        "vote_count": 21462
+        "public_rating": 3.3845,
+        "vote_count": 21471,
+        "popularity": 11.9203
     },
     "Iron Man 3 (2013)": {
-        "public_rating": 6.93,
-        "vote_count": 22515
+        "public_rating": 3.465,
+        "vote_count": 22528,
+        "popularity": 22.5884
     },
     "Star Wars: Episode III \u2013\u00a0Revenge of the Sith (2005)": {
-        "public_rating": 7.439,
-        "vote_count": 14049
+        "public_rating": 3.7,
+        "vote_count": 14064,
+        "popularity": 30.8264
     },
     "Return of the Jedi (1983)": {
-        "public_rating": 7.899,
-        "vote_count": 16016
+        "public_rating": 3.95,
+        "vote_count": 16028,
+        "popularity": 9.789
     },
     "Batman Begins (2005)": {
-        "public_rating": 7.712,
-        "vote_count": 21413
+        "public_rating": 3.856,
+        "vote_count": 21424,
+        "popularity": 15.1409
     },
     "Star Wars: The Last Jedi (2017)": {
-        "public_rating": 6.779,
-        "vote_count": 15567
+        "public_rating": 3.3895,
+        "vote_count": 15579,
+        "popularity": 40.5957
     },
     "Bohemian Rhapsody (2018)": {
-        "public_rating": 7.976,
-        "vote_count": 17097
+        "public_rating": 3.988,
+        "vote_count": 17104,
+        "popularity": 12.6907
     },
     "Zootopia (2016)": {
-        "public_rating": 7.748,
-        "vote_count": 16645
+        "public_rating": 3.874,
+        "vote_count": 16655,
+        "popularity": 22.4592
     },
     "Beetlejuice (1988)": {
-        "public_rating": 7.375,
-        "vote_count": 7862
+        "public_rating": 3.6875,
+        "vote_count": 7870,
+        "popularity": 11.6196
     },
     "The Lego Movie (2014)": {
-        "public_rating": 7.4,
-        "vote_count": 7989
+        "public_rating": 3.7075,
+        "vote_count": 7992,
+        "popularity": 6.8476
     },
     "Ford v Ferrari (2019)": {
-        "public_rating": 8.004,
-        "vote_count": 8261
+        "public_rating": 4.0015,
+        "vote_count": 8271,
+        "popularity": 11.1466
     },
     "Real Steel (2011)": {
-        "public_rating": 7.049,
-        "vote_count": 8553
+        "public_rating": 3.5245,
+        "vote_count": 8558,
+        "popularity": 17.0645
     },
     "Pacific Rim (2013)": {
-        "public_rating": 6.909,
-        "vote_count": 12660
-    },
-    "O Auto da Compadecida (1999)": {
-        "public_rating": 0.0,
-        "vote_count": 0.0
-    },
-    "National Theatre Live: Angels In America \u2014 Part Two: Perestroika (2017)": {
-        "public_rating": 8.6,
-        "vote_count": 13
-    },
-    "BTS Permission to Dance On Stage - Seoul: Live Viewing (2022)": {
-        "public_rating": 8.867,
-        "vote_count": 120
+        "public_rating": 3.4545,
+        "vote_count": 12669,
+        "popularity": 20.9779
     },
     "Black Panther (2018)": {
-        "public_rating": 7.373,
-        "vote_count": 22522
+        "public_rating": 3.6865,
+        "vote_count": 22533,
+        "popularity": 24.2888
     },
     "The Social Network (2010)": {
-        "public_rating": 7.369,
-        "vote_count": 12397
+        "public_rating": 3.6845,
+        "vote_count": 12402,
+        "popularity": 93.6781
     },
     "Star Wars: The Force Awakens (2015)": {
-        "public_rating": 7.261,
-        "vote_count": 19705
+        "public_rating": 3.6305,
+        "vote_count": 19714,
+        "popularity": 18.0642
     },
     "The Matrix (1999)": {
-        "public_rating": 8.224,
-        "vote_count": 26313
+        "public_rating": 4.1125,
+        "vote_count": 26324,
+        "popularity": 37.1217
     },
     "Chip 'n Dale: Rescue Rangers (2022)": {
-        "public_rating": 6.993,
-        "vote_count": 1260
+        "public_rating": 3.497,
+        "vote_count": 1262,
+        "popularity": 11.6657
     },
     "Top Gun: Maverick (2022)": {
-        "public_rating": 8.178,
-        "vote_count": 9789
+        "public_rating": 4.0895,
+        "vote_count": 9797,
+        "popularity": 25.1407
     },
     "Chasing Mavericks (2012)": {
-        "public_rating": 7.009,
-        "vote_count": 570
+        "public_rating": 3.5045,
+        "vote_count": 570,
+        "popularity": 4.0915
     },
     "Jurassic World Dominion (2022)": {
-        "public_rating": 6.665,
-        "vote_count": 6336
+        "public_rating": 3.332,
+        "vote_count": 6345,
+        "popularity": 28.2311
     },
     "17 Again (2009)": {
-        "public_rating": 6.308,
-        "vote_count": 5204
+        "public_rating": 3.1545,
+        "vote_count": 5206,
+        "popularity": 4.8277
     },
     "Dune: Part Two (2024)": {
-        "public_rating": 8.148,
-        "vote_count": 6583
+        "public_rating": 4.075,
+        "vote_count": 6603,
+        "popularity": 30.208
     },
     "Glass Onion (2022)": {
-        "public_rating": 7.053,
-        "vote_count": 5856
+        "public_rating": 3.55,
+        "vote_count": 5862,
+        "popularity": 15.6203
     },
     "Five Nights at Freddy's (2023)": {
-        "public_rating": 7.475,
-        "vote_count": 4315
+        "public_rating": 3.737,
+        "vote_count": 4318,
+        "popularity": 21.5297
     },
     "The Fall Guy (2024)": {
-        "public_rating": 7.024,
-        "vote_count": 2941
+        "public_rating": 3.512,
+        "vote_count": 2943,
+        "popularity": 21.7811
     },
     "Sing 2 (2021)": {
-        "public_rating": 7.85,
-        "vote_count": 4502
+        "public_rating": 3.925,
+        "vote_count": 4507,
+        "popularity": 21.7591
     },
     "Crazy Rich Asians (2018)": {
-        "public_rating": 7.066,
-        "vote_count": 3712
+        "public_rating": 3.533,
+        "vote_count": 3716,
+        "popularity": 11.6475
     },
     "Creed (2015)": {
-        "public_rating": 7.405,
-        "vote_count": 7557
+        "public_rating": 3.703,
+        "vote_count": 7562,
+        "popularity": 12.0878
     },
     "Creed II (2018)": {
-        "public_rating": 7.032,
-        "vote_count": 5503
+        "public_rating": 3.517,
+        "vote_count": 5508,
+        "popularity": 13.2075
     },
     "Creed III (2023)": {
-        "public_rating": 7.11,
-        "vote_count": 2619
+        "public_rating": 3.555,
+        "vote_count": 2625,
+        "popularity": 19.3941
     },
     "A Quiet Place: Day One (2024)": {
-        "public_rating": 6.726,
-        "vote_count": 2724
+        "public_rating": 3.365,
+        "vote_count": 2731,
+        "popularity": 22.7398
     },
     "10 Things I Hate About You (1999)": {
-        "public_rating": 7.594,
-        "vote_count": 8338
+        "public_rating": 3.797,
+        "vote_count": 8343,
+        "popularity": 16.6277
     },
     "Wicked (2024)": {
-        "public_rating": 6.9,
-        "vote_count": 2083
+        "public_rating": 3.4685,
+        "vote_count": 2091,
+        "popularity": 27.3895
     },
     "Heretic (2024)": {
-        "public_rating": 7.056,
-        "vote_count": 1594
+        "public_rating": 3.526,
+        "vote_count": 1610,
+        "popularity": 24.8613
     },
     "Divergent (2014)": {
-        "public_rating": 6.9,
-        "vote_count": 12958
+        "public_rating": 3.4575,
+        "vote_count": 12963,
+        "popularity": 11.4002
     },
     "Twilight (2008)": {
-        "public_rating": 6.288,
-        "vote_count": 13768
+        "public_rating": 3.144,
+        "vote_count": 13775,
+        "popularity": 29.6669
     },
     "Moana 2 (2024)": {
-        "public_rating": 7.078,
-        "vote_count": 2294
+        "public_rating": 3.55,
+        "vote_count": 2306,
+        "popularity": 124.0322
     },
     "Moana (2016)": {
-        "public_rating": 7.567,
-        "vote_count": 13040
+        "public_rating": 3.7835,
+        "vote_count": 13045,
+        "popularity": 4.3898
     },
     "Hacksaw Ridge (2016)": {
-        "public_rating": 8.193,
-        "vote_count": 14056
+        "public_rating": 4.0965,
+        "vote_count": 14066,
+        "popularity": 19.8293
     },
     "Sonic the Hedgehog 3 (2024)": {
-        "public_rating": 7.726,
-        "vote_count": 2474
+        "public_rating": 3.863,
+        "vote_count": 2496,
+        "popularity": 119.6125
     },
     "Free Willy: Escape from Pirate's Cove (2010)": {
-        "public_rating": 6.2,
-        "vote_count": 184
+        "public_rating": 3.1,
+        "vote_count": 184,
+        "popularity": 2.9231
     },
     "Whiplash (2014)": {
-        "public_rating": 8.374,
-        "vote_count": 15578
+        "public_rating": 4.2,
+        "vote_count": 15594,
+        "popularity": 18.9957
     },
     "We Live in Time (2024)": {
-        "public_rating": 7.3,
-        "vote_count": 798
+        "public_rating": 3.666,
+        "vote_count": 808,
+        "popularity": 21.2492
     },
     "Bridge to Terabithia (2007)": {
-        "public_rating": 7.308,
-        "vote_count": 4909
+        "public_rating": 3.65,
+        "vote_count": 4915,
+        "popularity": 11.8303
     },
     "A Quiet Place Part II (2020)": {
-        "public_rating": 7.47,
-        "vote_count": 6771
+        "public_rating": 3.736,
+        "vote_count": 6785,
+        "popularity": 18.9195
     },
     "Leave the World Behind (2023)": {
-        "public_rating": 6.392,
-        "vote_count": 2749
+        "public_rating": 3.196,
+        "vote_count": 2753,
+        "popularity": 13.5513
     },
     "Paddington in Peru (2024)": {
-        "public_rating": 6.8,
-        "vote_count": 354
+        "public_rating": 3.425,
+        "vote_count": 356,
+        "popularity": 26.5529
     },
     "The 5th Wave (2016)": {
-        "public_rating": 5.942,
-        "vote_count": 5809
+        "public_rating": 2.9715,
+        "vote_count": 5813,
+        "popularity": 11.1466
+    },
+    "Ponyo (2008)": {
+        "public_rating": 3.8735,
+        "vote_count": 4430,
+        "popularity": 10.0438
+    },
+    "The Gorge (2025)": {
+        "public_rating": 3.8625,
+        "vote_count": 2497,
+        "popularity": 71.1619
+    },
+    "Everest (2015)": {
+        "public_rating": 3.411,
+        "vote_count": 4951,
+        "popularity": 4.6629
+    },
+    "Big Hero 6 (2014)": {
+        "public_rating": 3.864,
+        "vote_count": 15871,
+        "popularity": 18.6197
+    },
+    "A Minecraft Movie (2025)": {
+        "public_rating": 3.1,
+        "vote_count": 796,
+        "popularity": 406.2532
+    },
+    "Rise of the Planet of the Apes (2011)": {
+        "public_rating": 3.666,
+        "vote_count": 12141,
+        "popularity": 15.5252
+    },
+    "When a Stranger Calls (2006)": {
+        "public_rating": 3.0805,
+        "vote_count": 271,
+        "popularity": 3.9036
+    },
+    "Signs (2002)": {
+        "public_rating": 3.347,
+        "vote_count": 5779,
+        "popularity": 5.8394
+    },
+    "Borat Subsequent Moviefilm (2020)": {
+        "public_rating": 3.2215,
+        "vote_count": 2621,
+        "popularity": 9.5576
+    },
+    "Dawn of the Planet of the Apes (2014)": {
+        "public_rating": 3.665,
+        "vote_count": 11652,
+        "popularity": 9.9723
+    },
+    "Attack on Titan The Final Chapters: Special 1 (2023)": {
+        "public_rating": 0.0,
+        "vote_count": 0.0,
+        "popularity": 0.0
+    },
+    "The Shawshank Redemption (1994)": {
+        "public_rating": 4.3545,
+        "vote_count": 28232,
+        "popularity": 39.6386
+    },
+    "Attack on Titan The Final Chapters: Special 2 (2023)": {
+        "public_rating": 0.0,
+        "vote_count": 0.0,
+        "popularity": 0.0
+    },
+    "Annie (2014)": {
+        "public_rating": 3.12,
+        "vote_count": 1293,
+        "popularity": 5.6736
+    },
+    "Nope (2022)": {
+        "public_rating": 3.423,
+        "vote_count": 4347,
+        "popularity": 18.5833
+    },
+    "Ramona and Beezus (2010)": {
+        "public_rating": 3.267,
+        "vote_count": 760,
+        "popularity": 4.5599
     }
 }

@@ -21,7 +21,7 @@ def main():
     table = Table(title="Movie Statistics")
 
     table.add_column("Metric", style="bold cyan")
-    table.add_column("Value", style="bold magenta")
+    table.add_column("Value", style="bold green")
 
     table.add_row("Average Popularity Score", str(average_popularity_score))
     table.add_row("Least Obscure Movie", str(least_obscure_movie))
