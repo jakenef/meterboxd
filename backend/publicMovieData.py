@@ -32,9 +32,6 @@ def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, fl
     # Check if this movie has an override
     if key in overrides:
         override = overrides[key]
-        if override.get("ignore"):
-            print(f"Skipping {key} due to override.")
-            return 0.0, 0, 0
         public_rating = override.get("public_rating", 0.0)
         vote_count = override.get("vote_count", 0)
         popularity = override.get("popularity", 0)
