@@ -14,8 +14,8 @@ def main():
         sys.exit(1)
 
     file_path = sys.argv[1]
-    average_popularity_score, least_obscure_movie, most_obscure_movie = get_obscurity_data(file_path)
-    average_rating_difference, most_underrated_movie, most_overrated_movie = get_rating_data(file_path)
+    average_popularity_score, least_obscure_movies, most_obscure_movies = get_obscurity_data(file_path)
+    average_rating_difference, most_underrated_movies, most_overrated_movies = get_rating_data(file_path)
 
     console = Console()
     table = Table(title="Movie Statistics")
@@ -24,11 +24,11 @@ def main():
     table.add_column("Value", style="bold green")
 
     table.add_row("Average Popularity Score", str(average_popularity_score))
-    table.add_row("Least Obscure Movie", str(least_obscure_movie))
-    table.add_row("Most Obscure Movie", str(most_obscure_movie))
+    table.add_row("Least Obscure Movies", ", ".join(map(str, least_obscure_movies)))
+    table.add_row("Most Obscure Movies", ", ".join(map(str, most_obscure_movies)))
     table.add_row("Average Rating Difference", str(average_rating_difference))
-    table.add_row("Most Underrated Movie", str(most_underrated_movie))
-    table.add_row("Most Overrated Movie", str(most_overrated_movie))
+    table.add_row("Most Underrated Movies", ", ".join(map(str, most_underrated_movies)))
+    table.add_row("Most Overrated Movies", ", ".join(map(str, most_overrated_movies)))
 
     console.print(table)
 
