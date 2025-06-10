@@ -12,7 +12,7 @@ export default function Speedometer({
   textColor = '#fff',
 }) {
   return (
-    <div style={{ width: '100%', maxWidth: 300, margin: '0 auto' }}>
+    <div style={{ width: '100%', maxWidth: 400, margin: '0 auto'}}>
       <ReactSpeedometer
         minValue={min}
         maxValue={max}
@@ -24,7 +24,8 @@ export default function Speedometer({
         endColor={endColor}
         textColor={textColor}
         currentValueText={`${value}`}
-        height={200}
+        height={250}
+        width={400}
         ringWidth={30}
         needleTransition="easeQuad"
         needleTransitionDuration={2000}
