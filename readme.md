@@ -1,4 +1,4 @@
-# 🎬 MeterBoxd
+# 🎬 Meterboxd
 
 ## 📌 Overview
 MeterBoxd analyzes your Letterboxd watch history to generate unique, personalized movie stats:
