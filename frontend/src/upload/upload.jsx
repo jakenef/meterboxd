@@ -1,10 +1,12 @@
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import JSZip from "jszip";
 
 const Upload = () => {
     const fileInputRef = useRef(null);
     const [fileName, setFileName] = useState("");
+    const navigate = useNavigate();
 
     const validateZip = async (file) => {
         const zip = new JSZip();
@@ -23,12 +25,17 @@ const Upload = () => {
 
     const handleFileChange = async (e) => {
         if (e.target.files && e.target.files[0]) {
-
+            const file = e.target.files[0];
             const isValid = await validateZip(e.target.files[0])
 
             if(isValid){
-                setFileName(e.target.files[0].name);
-                //route to another page for stats
+                setFileName(file.name);
+                navigate("/stats", {
+                    state: {
+                        file,
+                        fileName: file.name
+                    }
+                })
             } else {
                 alert("Invalid ZIP file. Please upload your letterboxd-username-date.zip file.")
             }

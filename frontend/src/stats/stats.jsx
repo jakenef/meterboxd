@@ -1,31 +1,81 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Speedometer from "../speedometer/speedometer";
 
 export default function Stats() {
-  const [toughValue, setToughValue] = useState(33);
-  const [obscureValue, setObscureValue] = useState(75);
+  const { state } = useLocation();
+  const navigate = useNavigate();
+  const file = state?.file;
+  const fileName = state?.fileName;
 
-  //   useEffect(() => {
-  //     async function fetchData() {
-  //       try {
-  //         const res = await axios.get('/api/meters');
-  //         setToughValue(res.data.toughCrowd);     // e.g. 62
-  //         setObscureValue(res.data.obscurity);    // e.g. 35
-  //       } catch {
-  //         setToughValue(60);
-  //         setObscureValue(40);
-  //       }
-  //     }
-  //     fetchData();
-  //   }, []);
+  const [stats, setStats] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError]   = useState("");
+
+  useEffect(() => {
+    if (!file) {
+      setError("No ZIP file provided");
+      setLoading(false);
+      return;
+    }
+
+    const uploadAndGetStats = async () => {
+      setLoading(true);
+      const formData = new FormData();
+      formData.append("zip", file, fileName);
+
+      try {
+        const res = await fetch("/api/upload", {
+          method: "POST",
+          body: formData,
+        });
+        if (!res.ok) throw new Error(res.statusText);
+
+        const data = await res.json();
+        setStats(data);
+      } catch (err) {
+        console.error(err);
+        //setError("Failed to load stats: " + err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    uploadAndGetStats();
+  }, [file, fileName]);
+
+  const renderBackButton = () => (
+    <button
+      className="btn btn-secondary mb-4"
+      onClick={() => navigate("/")}
+    >Back to Upload</button>
+  )
+
+  if (loading) {
+    return (
+      <div className="container text-center">
+        <p className="text-light">Loading stats...</p>
+        {renderBackButton()}
+      </div>
+    )
+  }
+
+  if (error) {
+    return (
+      <div className="container text-center">
+        <p className="text-danger">{error}</p>
+        {renderBackButton()}
+      </div>
+    )
+  }
 
   return (
     <div className="container text-center">
       <div className="row row-cols-2 align-items-center">
         <div className="col">
           <h2 className="mb-4 text-light">Tough Crowd Meter</h2>
-          <Speedometer min={-100} max={100} value={toughValue} startColor="#FFFF5F" endColor="#FF3A36"/>
+          <Speedometer min={-100} max={100} value={75} startColor="#FFFF5F" endColor="#FF3A36"/>
         </div>
         <div className="col">
             <h4 className="text-light">Most Overrated Movies:</h4>
@@ -48,7 +98,7 @@ export default function Stats() {
           <Speedometer
             min={0}
             max={100}
-            value={obscureValue}
+            value={2}
             endColor="#01e154"
             startColor="#444"
           />
