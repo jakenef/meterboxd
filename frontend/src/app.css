@@ -1,0 +1,5 @@
+.speedometer-wrapper svg {
+  width: 100% !important;
+  height: auto  !important;
+  max-width: 400px;
+}

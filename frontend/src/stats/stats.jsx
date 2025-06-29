@@ -11,7 +11,7 @@ export default function Stats() {
 
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError]   = useState("");
+  const [error, setError] = useState("");
 
   useEffect(() => {
     if (!file) {
@@ -46,11 +46,10 @@ export default function Stats() {
   }, [file, fileName]);
 
   const renderBackButton = () => (
-    <button
-      className="btn btn-secondary mb-4"
-      onClick={() => navigate("/")}
-    >Back to Upload</button>
-  )
+    <button className="btn btn-secondary mb-4" onClick={() => navigate("/")}>
+      Back to Upload
+    </button>
+  );
 
   if (loading) {
     return (
@@ -58,7 +57,7 @@ export default function Stats() {
         <p className="text-light">Loading stats...</p>
         {renderBackButton()}
       </div>
-    )
+    );
   }
 
   if (error) {
@@ -67,32 +66,47 @@ export default function Stats() {
         <p className="text-danger">{error}</p>
         {renderBackButton()}
       </div>
-    )
+    );
   }
 
   return (
     <div className="container text-center">
-      <div className="row row-cols-2 align-items-center">
+      <div className="row row-cols-1 row-cols-md-2 align-items-center">
         <div className="col">
           <h2 className="mb-4 text-light">Tough Crowd Meter</h2>
-          <Speedometer min={-100} max={100} value={75} startColor="#FFFF5F" endColor="#FF3A36"/>
+          <Speedometer
+            min={-100}
+            max={100}
+            value={75}
+            startColor="#FFFF5F"
+            endColor="#FF3A36"
+          />
         </div>
         <div className="col">
-            <h4 className="text-light">Most Overrated Movies:</h4>
+          <h4 className="text-light">Most Overrated Movies:</h4>
+          <div className="table-responsive">
             <table className="table table-dark table-striped">
-                <thead>
-                    <tr>
-                        <th><i>Movie</i></th>
-                        <th><i>Avg. Rating</i></th>
-                        <th><i>Your Rating</i></th>
-                        <th><i>Difference</i></th>
-                    </tr>
-                </thead>
-
+              <thead>
+                <tr>
+                  <th>
+                    <i>Movie</i>
+                  </th>
+                  <th>
+                    <i>Avg. Rating</i>
+                  </th>
+                  <th>
+                    <i>Your Rating</i>
+                  </th>
+                  <th>
+                    <i>Difference</i>
+                  </th>
+                </tr>
+              </thead>
             </table>
+          </div>
         </div>
-    </div>
-    <div className="row row-cols-2">
+      </div>
+      <div className="row row-cols-1 row-cols-md-2">
         <div className="col">
           <h2 className="mt-5 mb-4 text-light">Obscurity Meter</h2>
           <Speedometer
@@ -103,9 +117,7 @@ export default function Stats() {
             startColor="#444"
           />
         </div>
-        <div className="col">
-            list
-        </div>
+        <div className="col">list</div>
       </div>
     </div>
   );
