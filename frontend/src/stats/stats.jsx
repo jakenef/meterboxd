@@ -51,6 +51,17 @@ export default function Stats() {
     </button>
   );
 
+  function renderToughCrowdRows(arr) {
+    return arr.slice(0, 5).map((movie) => (
+      <tr key={movie.title}>
+        <td>{movie.title}</td>
+        <td>{movie.avgRating.toFixed(1)}</td>
+        <td>{movie.yourRating.toFixed(1)}</td>
+        <td>{movie.difference.toFixed(1)}</td>
+      </tr>
+    ));
+  }
+
   if (loading) {
     return (
       <div className="container text-center">
@@ -77,13 +88,35 @@ export default function Stats() {
           <Speedometer
             min={-100}
             max={100}
-            value={75}
+            value={55}
             startColor="#FFFF5F"
             endColor="#FF3A36"
           />
         </div>
         <div className="col">
           <h4 className="text-light">Most Overrated Movies:</h4>
+          <div className="table-responsive">
+            <table className="table table-dark table-striped mb-5">
+              <thead>
+                <tr>
+                  <th>
+                    <i>Movie</i>
+                  </th>
+                  <th>
+                    <i>Avg. Rating</i>
+                  </th>
+                  <th>
+                    <i>Your Rating</i>
+                  </th>
+                  <th>
+                    <i>Difference</i>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>{stats && stats.overrated ? renderToughCrowdRows(stats.overrated) : null}</tbody>
+            </table>
+          </div>
+          <h4 className="text-light">Most Underrated Movies:</h4>
           <div className="table-responsive">
             <table className="table table-dark table-striped">
               <thead>
@@ -102,6 +135,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
+              <tbody>{stats && stats.underrated ? renderToughCrowdRows(stats.underrated) : null}</tbody>
             </table>
           </div>
         </div>
@@ -112,12 +146,45 @@ export default function Stats() {
           <Speedometer
             min={0}
             max={100}
-            value={2}
+            value={22}
             endColor="#01e154"
             startColor="#444"
           />
         </div>
-        <div className="col">list</div>
+        <div className="col">
+          <h4 className="text-light">Most Obscure Movies:</h4>
+          <div className="table-responsive">
+            <table className="table table-dark table-striped mb-5">
+              <thead>
+                <tr>
+                  <th>
+                    <i>Movie</i>
+                  </th>
+                  <th>
+                    <i>Popularity Score</i>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>{stats && stats.overrated ? renderToughCrowdRows(stats.overrated) : null}</tbody>
+            </table>
+          </div>
+          <h4 className="text-light">Least Obscure Movies:</h4>
+          <div className="table-responsive">
+            <table className="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th>
+                    <i>Movie</i>
+                  </th>
+                  <th>
+                    <i>Popularity Score</i>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>{stats && stats.underrated ? renderToughCrowdRows(stats.underrated) : null}</tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   );
