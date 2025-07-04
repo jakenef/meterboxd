@@ -2,25 +2,37 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./app.css";
 import './main.scss';
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import {Routes, Route, NavLink, useLocation } from "react-router-dom";
 import Upload from "./upload/upload.jsx";
 import Stats from "./stats/stats.jsx";
 
 export default function App() {
+  const location = useLocation();
+
   return (
-    <BrowserRouter>
       <div className="d-flex flex-column min-vh-100 body text-light">
         <header className="bg-black text-light py-3">
-          <div className="container d-flex align-items-center">
-            <img
-              src="/meterBoxdv3Transparent.png"
-              alt="Meterboxd Logo"
-              style={{ height: "64px", width: "64px", marginRight: "16px" }}
-            />
-            <div>
-              <h1 className="mb-0">Meterboxd</h1>
-              <p className="mb-0">Metrics for your Letterboxd data.</p>
+          <div className="container d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center">
+              <img
+                src="/meterBoxdv3Transparent.png"
+                alt="Meterboxd Logo"
+                style={{ height: "64px", width: "64px", marginRight: "16px" }}
+              />
+              <div>
+                <h1 className="mb-0">Meterboxd</h1>
+                <p className="mb-0">Metrics for your Letterboxd data.</p>
+              </div>
             </div>
+            {location.pathname === "/stats" && (
+              <NavLink
+                to="/"
+                className="btn btn-outline-light"
+                style={{ marginLeft: "16px" }}
+              >
+                &larr; Back to Upload
+              </NavLink>
+            )}
           </div>
         </header>
         <main
@@ -39,7 +51,6 @@ export default function App() {
           </div>
         </footer>
       </div>
-    </BrowserRouter>
   );
 }
 

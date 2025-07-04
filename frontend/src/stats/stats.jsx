@@ -62,6 +62,15 @@ export default function Stats() {
     ));
   }
 
+  function renderObscurityRows(arr) {
+    return arr.slice(0, 5).map((movie) => (
+      <tr key={movie.title}>
+        <td>{movie.title}</td>
+        <td>{movie.popularityRating.toFixed(1)}</td>
+      </tr>
+    ));
+  }
+
   if (loading) {
     return (
       <div className="container text-center">
@@ -165,7 +174,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.overrated ? renderToughCrowdRows(stats.overrated) : null}</tbody>
+              <tbody>{stats && stats.overrated ? renderObscurityRows(stats.mostObscure) : null}</tbody>
             </table>
           </div>
           <h4 className="text-light">Least Obscure Movies:</h4>
@@ -181,7 +190,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.underrated ? renderToughCrowdRows(stats.underrated) : null}</tbody>
+              <tbody>{stats && stats.underrated ? renderObscurityRows(stats.leastObscure) : null}</tbody>
             </table>
           </div>
         </div>
