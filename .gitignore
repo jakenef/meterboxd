@@ -6,3 +6,4 @@ venv/
 .env
 /frontend/node_modules
 /node_modules
+.vscode/

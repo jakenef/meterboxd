@@ -1,7 +1,8 @@
-from typing import Tuple
+from typing import Tuple, Optional, List
 from backend.src.csvReader import getStats
 from dataclasses import dataclass
 from backend.src.publicMovieData import get_public_movie_data, load_cache
+
 @dataclass
 class MovieData:
     title: str
@@ -46,7 +47,7 @@ Notes:
     - Normalized vote count is calculated as `vote_count / (2025 - year + 1)`.
     - Vote count popularity is calculated as a weighted combination of normalized vote count (70%) and popularity (30%).
 """
-def analyze_movies(csv_data, metric_function) -> Tuple[float | None, list[MovieData] | None, list[MovieData] | None]:
+def analyze_movies(csv_data, metric_function) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
     movie_list = []
     collected_metrics = []
     cache = load_cache()
@@ -88,10 +89,10 @@ def analyze_movies(csv_data, metric_function) -> Tuple[float | None, list[MovieD
 
     return (avg_metric, highest_metric_list, lowest_metric_list)
 
-def get_rating_data(file_path) -> Tuple[float | None, list[MovieData] | None, list[MovieData] | None]:
+def get_rating_data(file_path) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
     csv_data = getStats(file_path)
     return analyze_movies(csv_data, lambda movie: movie.rating_difference)
 
-def get_obscurity_data(file_path) -> Tuple[float | None, list[MovieData] | None, list[MovieData] | None]:
+def get_obscurity_data(file_path) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
     csv_data = getStats(file_path)
     return analyze_movies(csv_data, lambda movie: movie.vote_count_popularity)
