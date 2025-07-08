@@ -7,4 +7,4 @@ __pycache__/
 .env
 /frontend/node_modules
 /node_modules
-.vscode/d
+.vscode/
