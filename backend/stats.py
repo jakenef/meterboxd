@@ -1,7 +1,7 @@
 from typing import Tuple, Optional, List
-from backend.src.csvReader import getStats
+from csvReader import getStats
 from dataclasses import dataclass
-from backend.src.publicMovieData import get_public_movie_data, load_cache
+from publicMovieData import get_public_movie_data, load_cache
 
 @dataclass
 class MovieData:

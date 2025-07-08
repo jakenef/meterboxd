@@ -1,9 +1,9 @@
 import sys
 import os
-from rich.traceback import install
+from rich.traceback import install  # type: ignore
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from backend.src.stats import get_obscurity_data, get_rating_data
+from stats import get_obscurity_data, get_rating_data
 from rich.console import Console
 from rich.table import Table
 install()
