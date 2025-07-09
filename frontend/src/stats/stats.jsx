@@ -55,9 +55,9 @@ export default function Stats() {
     return arr.slice(0, 5).map((movie) => (
       <tr key={movie.title}>
         <td>{movie.title}</td>
-        <td>{movie.avgRating.toFixed(1)}</td>
-        <td>{movie.yourRating.toFixed(1)}</td>
-        <td>{movie.difference.toFixed(1)}</td>
+        <td>{movie.public_rating.toFixed(1)}</td>
+        <td>{movie.user_rating.toFixed(1)}</td>
+        <td>{movie.rating_difference.toFixed(1)}</td>
       </tr>
     ));
   }
@@ -66,7 +66,7 @@ export default function Stats() {
     return arr.slice(0, 5).map((movie) => (
       <tr key={movie.title}>
         <td>{movie.title}</td>
-        <td>{movie.popularityRating.toFixed(1)}</td>
+        <td>{movie.vote_count_popularity.toFixed(1)}</td>
       </tr>
     ));
   }
