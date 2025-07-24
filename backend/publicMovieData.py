@@ -42,24 +42,47 @@ def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, fl
         return data["public_rating"], data["vote_count"], data["popularity"]
     
     # Otherwise, fetch from TMDb API
-    public_rating, vote_count, popularity = fetch_from_tmdb(title, year)
+    full_api_data = fetch_from_tmdb(title, year)
+    
+    # Handle case where no movie was found
+    if not full_api_data:
+        return 0.0, 0.0, 0.0
+    
+    # Extract the values we need
+    public_rating = full_api_data.get("vote_average", 0.0) / 2.0  # Convert TMDB 10-point to 5-point scale
+    vote_count = full_api_data.get("vote_count", 0.0)
+    popularity = full_api_data.get("popularity", 0.0)
 
-    public_rating = public_rating / 2.0
-
-    # Cache it
+    # Cache everything at the top level - no nesting or duplication
     cache[key] = {
+        # Our processed values (what we actually use)
         "public_rating": public_rating,
         "vote_count": vote_count,
-        "popularity": popularity
+        "popularity": popularity,
+        
+        # Additional TMDB fields that might be useful later
+        "tmdb_id": full_api_data.get("id"),
+        "original_title": full_api_data.get("original_title"),
+        "overview": full_api_data.get("overview"),
+        "poster_path": full_api_data.get("poster_path"),
+        "backdrop_path": full_api_data.get("backdrop_path"),
+        "genre_ids": full_api_data.get("genre_ids", []),
+        "release_date": full_api_data.get("release_date"),
+        "original_language": full_api_data.get("original_language"),
+        "adult": full_api_data.get("adult", False),
+        "video": full_api_data.get("video", False),
+        
+        # Store original unprocessed rating for reference
+        "tmdb_vote_average": full_api_data.get("vote_average", 0.0)
     }
     save_cache(cache)
 
     return public_rating, vote_count, popularity
 
-def fetch_from_tmdb(title: str, year: int) -> Tuple[float, float, float]:
+def fetch_from_tmdb(title: str, year: int) -> dict:
     """
-    Fetch public rating and popularity score from TMDb based on movie title and year.
-    Returns (vote_average, vote_count).
+    Fetch movie data from TMDb based on movie title and year.
+    Returns the full API response for the first matching movie, or empty dict if not found.
     """
     if not TMDB_API_KEY:
         raise ValueError("TMDB_API_KEY is not set!")
@@ -78,11 +101,7 @@ def fetch_from_tmdb(title: str, year: int) -> Tuple[float, float, float]:
 
     if not data["results"]:
         # No matching movie found
-        return 0.0, 0.0, 0.0
+        return {}
 
-    first_result = data["results"][0]
-    public_rating = first_result.get("vote_average", 0.0)
-    vote_count = first_result.get("vote_count", 0.0)
-    popularity = first_result.get("popularity", 0.0)
-
-    return public_rating, vote_count, popularity
+    # Return the first matching movie's full data
+    return data["results"][0]
