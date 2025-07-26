@@ -9,6 +9,32 @@ from stats import get_rating_data, get_obscurity_data
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
+# Validate TMDB API key at startup
+try:
+    from publicMovieData import TMDB_API_KEY
+    if not TMDB_API_KEY:
+        app.logger.warning("TMDB_API_KEY is not set. Movie data features will not work properly.")
+except Exception as e:
+    app.logger.error(f"Failed to load TMDB configuration: {e}")
+
+@app.route("/api/health", methods=["GET"])
+def health_check():
+    """Health check endpoint to verify API key and service status"""
+    try:
+        from publicMovieData import TMDB_API_KEY
+        status = {
+            "status": "healthy",
+            "tmdb_configured": bool(TMDB_API_KEY)
+        }
+        return jsonify(status), 200
+    except Exception as e:
+        app.logger.error(f"Configuration error during health check: {e}")
+        return jsonify({
+            "status": "unhealthy", 
+            "error": "Configuration error",
+            "tmdb_configured": False
+        }), 500
+
 @app.route("/api/upload", methods=["POST"])
 def upload_and_stats():
     if 'zip' not in request.files:
@@ -83,9 +109,16 @@ def upload_and_stats():
     except zipfile.BadZipFile:
         return jsonify(error="Invalid ZIP file"), 400
     except ValueError as e:
-        # Handle specific validation errors without exposing details
-        app.logger.warning(f"Validation error: {str(e)}")
-        return jsonify(error="Invalid file format"), 400
+        error_message = str(e)
+        app.logger.warning(f"Validation error: {error_message}")
+        
+        # Provide specific error messages for known issues
+        if "TMDB_API_KEY is not set" in error_message:
+            return jsonify(error="Movie database service is temporarily unavailable. Please try again later."), 503
+        elif "not found" in error_message.lower() or "invalid" in error_message.lower():
+            return jsonify(error="Invalid file format"), 400
+        else:
+            return jsonify(error="Error processing file data"), 400
     except Exception as e:
         # Log the full error internally but don't expose details
         app.logger.exception(f"Unexpected error processing upload: {str(e)}")

@@ -12,6 +12,7 @@ class MovieData:
     normalized_vote_count: float
     popularity: float
     vote_count_popularity: float
+    poster_url: str
 
     def __str__(self):
         return (
@@ -23,4 +24,5 @@ class MovieData:
             f"   - Normalized Vote Count: {self.normalized_vote_count:+.1f}\n"
             f"   - Popularity: {self.popularity:+.1f}\n"
             f"   - Vote Count Popularity: {self.vote_count_popularity:+.1f}\n"
+            f"   - Poster URL: {self.poster_url}\n"
         )

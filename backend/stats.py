@@ -32,7 +32,7 @@ def analyze_movies(csv_data, metric_function) -> Tuple[Optional[float], Optional
         year = row['Year']
         user_rating = row['Rating']
 
-        public_rating, vote_count, popularity = get_public_movie_data(title, year, cache)
+        public_rating, vote_count, popularity, poster_url = get_public_movie_data(title, year, cache)
 
         if public_rating == 0 or vote_count == 0 or popularity == 0:
             continue
@@ -50,7 +50,8 @@ def analyze_movies(csv_data, metric_function) -> Tuple[Optional[float], Optional
             vote_count=vote_count,
             normalized_vote_count=normalized_vote_count,
             popularity=popularity,
-            vote_count_popularity=vote_count_popularity
+            vote_count_popularity=vote_count_popularity,
+            poster_url=poster_url
         )
 
         metric = metric_function(movie)

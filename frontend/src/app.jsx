@@ -3,15 +3,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./app.css";
 import './main.scss';
 import {Routes, Route, NavLink, useLocation } from "react-router-dom";
-import Upload from "./upload/upload.jsx";
-import Stats from "./stats/stats.jsx";
+import Upload from "./upload/Upload.jsx";
+import Stats from "./stats/Stats.jsx";
 
 export default function App() {
   const location = useLocation();
 
   return (
       <div className="d-flex flex-column min-vh-100 body text-light">
-        <header className="bg-black text-light py-3">
+        <header className="bg-black text-light py-3" style={{ 
+          position: "fixed", 
+          top: 0, 
+          left: 0, 
+          right: 0, 
+          zIndex: 1030,
+          height: "var(--header-height)"
+        }}>
           <div className="container d-flex align-items-center justify-content-between">
             <div className="d-flex align-items-center">
               <img
@@ -37,7 +44,7 @@ export default function App() {
         </header>
         <main
           className="flex-grow-1 d-flex justify-content-center align-items-center bg-dark text-light"
-          style={{ minHeight: 0 }}
+          style={{ minHeight: 0, paddingTop: "var(--header-height)" }}
         >
           <Routes>
             <Route path="/" element={<Upload />} exact />

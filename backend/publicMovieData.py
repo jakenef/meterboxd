@@ -2,6 +2,10 @@ from typing import Tuple
 import json
 import requests
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 CACHE_FILE = 'cache/movie_cache.json'
 OVERRIDES_FILE = 'overrides/overrides.json'
@@ -26,7 +30,7 @@ def save_cache(cache):
 
 overrides = load_overrides()
 
-def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, float, float]:
+def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, float, float, str]:
     key = f"{title} ({year})"
 
     # Check if this movie has an override
@@ -35,18 +39,22 @@ def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, fl
         public_rating = override.get("public_rating", 0.0)
         vote_count = override.get("vote_count", 0)
         popularity = override.get("popularity", 0)
-        return public_rating, vote_count, popularity
+        poster_path = override.get("poster_path", "")
+        poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
+        return public_rating, vote_count, popularity, poster_url
     
     if key in cache:
         data = cache[key]
-        return data["public_rating"], data["vote_count"], data["popularity"]
+        poster_path = data.get("poster_path", "")
+        poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
+        return data["public_rating"], data["vote_count"], data["popularity"], poster_url
     
     # Otherwise, fetch from TMDb API
     full_api_data = fetch_from_tmdb(title, year)
     
     # Handle case where no movie was found
     if not full_api_data:
-        return 0.0, 0.0, 0.0
+        return 0.0, 0.0, 0.0, ""
     
     # Extract the values we need
     public_rating = full_api_data.get("vote_average", 0.0) / 2.0  # Convert TMDB 10-point to 5-point scale
@@ -77,7 +85,11 @@ def get_public_movie_data(title: str, year: int, cache: dict) -> Tuple[float, fl
     }
     save_cache(cache)
 
-    return public_rating, vote_count, popularity
+    # Create the poster URL
+    poster_path = full_api_data.get("poster_path", "")
+    poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
+
+    return public_rating, vote_count, popularity, poster_url
 
 def fetch_from_tmdb(title: str, year: int) -> dict:
     """

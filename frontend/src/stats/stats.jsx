@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
-import Speedometer from "../speedometer/speedometer";
+import ToughCrowdSection from "./ToughCrowdSection";
+import ObscuritySection from "./ObscuritySection";
 
 export default function Stats() {
   const { state } = useLocation();
@@ -12,6 +13,51 @@ export default function Stats() {
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [activeTab, setActiveTab] = useState("tough-crowd");
+
+  // Configuration for sections - easy to add new ones!
+  const sections = [
+    {
+      id: "tough-crowd",
+      label: "Tough Crowd Meter",
+      component: ToughCrowdSection,
+      ref: useRef(null)
+    },
+    {
+      id: "obscurity", 
+      label: "Obscurity Meter",
+      component: ObscuritySection,
+      ref: useRef(null)
+    }
+  ];
+
+  // Handle scroll to update active tab
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 200;
+      
+      // Find which section we're currently in
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        const element = section.ref.current;
+        if (element && scrollPosition >= element.offsetTop) {
+          setActiveTab(section.id);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [sections]);
+
+  // Handle tab click to scroll to section
+  const scrollToSection = (sectionRef) => {
+    sectionRef.current?.scrollIntoView({ 
+      behavior: "smooth", 
+      block: "start" 
+    });
+  };
 
   useEffect(() => {
     if (!file) {
@@ -58,26 +104,6 @@ export default function Stats() {
     </button>
   );
 
-  function renderToughCrowdRows(arr) {
-    return arr.slice(0, 5).map((movie) => (
-      <tr key={movie.title}>
-        <td>{movie.title}</td>
-        <td>{movie.public_rating.toFixed(1)}</td>
-        <td>{movie.user_rating.toFixed(1)}</td>
-        <td>{movie.rating_difference.toFixed(1)}</td>
-      </tr>
-    ));
-  }
-
-  function renderObscurityRows(arr) {
-    return arr.slice(0, 5).map((movie) => (
-      <tr key={movie.title}>
-        <td>{movie.title}</td>
-        <td>{movie.vote_count_popularity.toFixed(1)}</td>
-      </tr>
-    ));
-  }
-
   if (loading) {
     return (
       <div className="container text-center">
@@ -94,112 +120,70 @@ export default function Stats() {
     );
   }
 
-  return (
-    <div className="container text-center">
-      <div className="row row-cols-1 row-cols-md-2 align-items-center">
-        <div className="col">
-          <h2 className="mb-4 text-light">Tough Crowd Meter</h2>
-          <Speedometer
-            min={-1}
-            max={1}
-            value={stats.rating_stats.average_rating_difference}
-            startColor="#FFFF5F"
-            endColor="#FF3A36"
-          />
-        </div>
-        <div className="col">
-          <h4 className="text-light">Most Overrated Movies:</h4>
-          <div className="table-responsive">
-            <table className="table table-dark table-striped mb-5">
-              <thead>
-                <tr>
-                  <th>
-                    <i>Movie</i>
-                  </th>
-                  <th>
-                    <i>Avg. Rating</i>
-                  </th>
-                  <th>
-                    <i>Your Rating</i>
-                  </th>
-                  <th>
-                    <i>Difference</i>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>{stats && stats.rating_stats ? renderToughCrowdRows(stats.rating_stats.overrated_movies) : null}</tbody>
-            </table>
-          </div>
-          <h4 className="text-light">Most Underrated Movies:</h4>
-          <div className="table-responsive">
-            <table className="table table-dark table-striped">
-              <thead>
-                <tr>
-                  <th>
-                    <i>Movie</i>
-                  </th>
-                  <th>
-                    <i>Avg. Rating</i>
-                  </th>
-                  <th>
-                    <i>Your Rating</i>
-                  </th>
-                  <th>
-                    <i>Difference</i>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>{stats && stats.rating_stats ? renderToughCrowdRows(stats.rating_stats.underrated_movies) : null}</tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-md-2">
-        <div className="col">
-          <h2 className="mt-5 mb-4 text-light">Obscurity Meter</h2>
-          <Speedometer
-            min={-1000}
-            max={1000}
-            value={stats.obscurity_stats.obscurity_score}
-            endColor="#01e154"
-            startColor="#444"
-          />
-        </div>
-        <div className="col">
-          <h4 className="text-light">Most Obscure Movies:</h4>
-          <div className="table-responsive">
-            <table className="table table-dark table-striped mb-5">
-              <thead>
-                <tr>
-                  <th>
-                    <i>Movie</i>
-                  </th>
-                  <th>
-                    <i>Popularity Score</i>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.most_obscure_movies) : null}</tbody>
-            </table>
-          </div>
-          <h4 className="text-light">Least Obscure Movies:</h4>
-          <div className="table-responsive">
-            <table className="table table-dark table-striped">
-              <thead>
-                <tr>
-                  <th>
-                    <i>Movie</i>
-                  </th>
-                  <th>
-                    <i>Popularity Score</i>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.least_obscure_movies) : null}</tbody>
-            </table>
-          </div>
-        </div>
+  const renderTabs = () => (
+    <div className="container" style={{
+      position: "fixed",
+      top: "var(--header-height)",
+      left: "50%",
+      transform: "translateX(-50%)",
+      zIndex: 1020,
+      paddingTop: "0",
+      paddingBottom: "0",
+      width: "100%"
+    }}>
+      <div style={{ 
+        display: "flex", 
+        gap: "2px",
+        alignItems: "flex-end",
+        width: "auto"
+      }}>
+        {sections.map((section) => (
+          <button
+            key={section.id}
+            onClick={() => scrollToSection(section.ref)}
+            style={{
+              borderRadius: "0 0 8px 8px",
+              border: "none",
+              padding: "12px 20px",
+              fontSize: "14px",
+              fontWeight: "500",
+              transition: "all 0.3s ease",
+              backgroundColor: activeTab === section.id ? `var(--tab-${section.id})` : "rgba(108, 117, 125, 0.2)",
+              color: activeTab === section.id ? "white" : "#adb5bd",
+              cursor: "pointer",
+              whiteSpace: "nowrap",
+              display: "inline-block",
+              width: "auto",
+              minWidth: "auto"
+            }}
+          >
+            {section.label}
+          </button>
+        ))}
       </div>
     </div>
+  );
+
+  return (
+    <>
+      {renderTabs()}
+      <div className="container text-center" style={{ paddingTop: "calc(var(--header-height) + 30px)" }}>
+        {sections.map((section, index) => {
+          const Component = section.component;
+          return (
+            <div 
+              key={section.id}
+              ref={section.ref} 
+              style={{ 
+                paddingTop: index === 0 ? "20px" : "80px", 
+                marginTop: "-20px" 
+              }}
+            >
+              <Component stats={stats} />
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }

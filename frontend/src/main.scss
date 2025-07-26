@@ -2,4 +2,11 @@ $primary: #40baf4;
 $dark: #1f252c;
 $black: #14191d;
 
+// CSS Variables for layout dimensions
+:root {
+  --header-height: 96px;
+  --tab-tough-crowd: #dc3545; // Bootstrap danger red
+  --tab-obscurity: #{$primary}; // Your primary blue
+}
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
