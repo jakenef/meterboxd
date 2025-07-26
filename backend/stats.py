@@ -1,5 +1,4 @@
 from typing import Tuple, Optional, List
-from csvReader import getStats
 from models import MovieData
 from publicMovieData import get_public_movie_data, load_cache
 
@@ -65,10 +64,8 @@ def analyze_movies(csv_data, metric_function) -> Tuple[Optional[float], Optional
 
     return (avg_metric, highest_metric_list, lowest_metric_list)
 
-def get_rating_data(file_path) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
-    csv_data = getStats(file_path)
+def get_rating_data(csv_data) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
     return analyze_movies(csv_data, lambda movie: movie.rating_difference)
 
-def get_obscurity_data(file_path) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
-    csv_data = getStats(file_path)
-    return analyze_movies(csv_data, lambda movie: movie.vote_count_popularity)
+def get_obscurity_data(csv_data) -> Tuple[Optional[float], Optional[List[MovieData]], Optional[List[MovieData]]]:
+    return analyze_movies(csv_data, lambda movie: -movie.vote_count_popularity)

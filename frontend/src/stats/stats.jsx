@@ -26,17 +26,24 @@ export default function Stats() {
       formData.append("zip", file, fileName);
 
       try {
-        const res = await fetch("/api/upload", {
+        const res = await fetch("http://localhost:4000/api/upload", {
           method: "POST",
           body: formData,
         });
+        
+        const data = await res.json();
+        
+        // Check if backend returned an error
+        if (data.error) {
+          throw new Error(data.error);
+        }
+        
         if (!res.ok) throw new Error(res.statusText);
 
-        const data = await res.json();
         setStats(data);
       } catch (err) {
         console.error(err);
-        //setError("Failed to load stats: " + err.message);
+        setError("Failed to load stats: " + err.message);
       } finally {
         setLoading(false);
       }
@@ -75,7 +82,6 @@ export default function Stats() {
     return (
       <div className="container text-center">
         <p className="text-light">Loading stats...</p>
-        {renderBackButton()}
       </div>
     );
   }
@@ -84,7 +90,6 @@ export default function Stats() {
     return (
       <div className="container text-center">
         <p className="text-danger">{error}</p>
-        {renderBackButton()}
       </div>
     );
   }
@@ -95,9 +100,9 @@ export default function Stats() {
         <div className="col">
           <h2 className="mb-4 text-light">Tough Crowd Meter</h2>
           <Speedometer
-            min={-100}
-            max={100}
-            value={55}
+            min={-1}
+            max={1}
+            value={stats.rating_stats.average_rating_difference}
             startColor="#FFFF5F"
             endColor="#FF3A36"
           />
@@ -122,7 +127,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.overrated ? renderToughCrowdRows(stats.overrated) : null}</tbody>
+              <tbody>{stats && stats.rating_stats ? renderToughCrowdRows(stats.rating_stats.overrated_movies) : null}</tbody>
             </table>
           </div>
           <h4 className="text-light">Most Underrated Movies:</h4>
@@ -144,7 +149,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.underrated ? renderToughCrowdRows(stats.underrated) : null}</tbody>
+              <tbody>{stats && stats.rating_stats ? renderToughCrowdRows(stats.rating_stats.underrated_movies) : null}</tbody>
             </table>
           </div>
         </div>
@@ -153,9 +158,9 @@ export default function Stats() {
         <div className="col">
           <h2 className="mt-5 mb-4 text-light">Obscurity Meter</h2>
           <Speedometer
-            min={0}
-            max={100}
-            value={22}
+            min={-1000}
+            max={1000}
+            value={stats.obscurity_stats.obscurity_score}
             endColor="#01e154"
             startColor="#444"
           />
@@ -174,7 +179,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.overrated ? renderObscurityRows(stats.mostObscure) : null}</tbody>
+              <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.most_obscure_movies) : null}</tbody>
             </table>
           </div>
           <h4 className="text-light">Least Obscure Movies:</h4>
@@ -190,7 +195,7 @@ export default function Stats() {
                   </th>
                 </tr>
               </thead>
-              <tbody>{stats && stats.underrated ? renderObscurityRows(stats.leastObscure) : null}</tbody>
+              <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.least_obscure_movies) : null}</tbody>
             </table>
           </div>
         </div>

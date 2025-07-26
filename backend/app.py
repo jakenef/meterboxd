@@ -2,12 +2,14 @@ import io
 import zipfile
 from dataclasses import asdict
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from csvReader import load_ratings_csv
 from stats import get_rating_data, get_obscurity_data
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
-@app.route("api/upload", methods=["POST"])
+@app.route("/api/upload", methods=["POST"])
 def upload_and_stats():
     if 'zip' not in request.files:
         return jsonify(error="No file part"), 400
