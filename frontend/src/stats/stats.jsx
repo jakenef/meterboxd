@@ -19,7 +19,7 @@ export default function Stats() {
   const sections = [
     {
       id: "tough-crowd",
-      label: "Tough Crowd Meter",
+      label: "Average Rating Difference",
       component: ToughCrowdSection,
       ref: useRef(null)
     },

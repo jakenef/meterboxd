@@ -3,3 +3,7 @@
   height: auto  !important;
   max-width: 400px;
 }
+
+.custom-dark{
+  background-color: var(--black)
+}

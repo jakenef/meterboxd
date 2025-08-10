@@ -7,8 +7,9 @@ $warning-orange: #fd7e14;
 // CSS Variables for layout dimensions
 :root {
   --header-height: 96px;
-  --tab-tough-crowd: #dc3545; // Bootstrap danger red
-  --tab-obscurity: #{$primary}; // Your primary blue
+  --black: #{$black};
+  --tab-tough-crowd: #{$black}; // Bootstrap danger red
+  --tab-obscurity: #{$black}; // Your primary blue
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
@@ -124,6 +125,66 @@ $warning-orange: #fd7e14;
     &:hover {
       border-color: rgba(64, 186, 244, 0.5);
       background: rgba(64, 186, 244, 0.05);
+    }
+  }
+}
+
+// Mobile Responsive Styles for Tough Crowd Section
+@media (max-width: 768px) {
+  .tough-crowd-mobile {
+    .tough-crowd-header {
+      font-size: 1.5rem !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    .tough-crowd-intro {
+      font-size: 1.4rem !important;
+      margin-bottom: 3px !important;
+    }
+    
+    .tough-crowd-content {
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 1rem !important;
+    }
+    
+    .tough-crowd-text {
+      text-align: center !important;
+      
+      .tough-crowd-main-text {
+        font-size: 2.2rem !important;
+      }
+      
+      .tough-crowd-sub-text {
+        font-size: 1.3rem !important;
+        margin-top: 5px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .tough-crowd-mobile {
+    .tough-crowd-header {
+      font-size: 1.3rem !important;
+    }
+    
+    .tough-crowd-intro {
+      font-size: 1.2rem !important;
+    }
+    
+    .tough-crowd-content {
+      gap: 0.8rem !important;
+    }
+    
+    .tough-crowd-text {
+      .tough-crowd-main-text {
+        font-size: 1.8rem !important;
+      }
+      
+      .tough-crowd-sub-text {
+        font-size: 1.1rem !important;
+      }
     }
   }
 }

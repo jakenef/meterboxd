@@ -11,7 +11,7 @@ export default function App() {
 
   return (
       <div className="d-flex flex-column min-vh-100 body text-light">
-        <header className="bg-black text-light py-3" style={{ 
+        <header className="custom-dark text-light py-3" style={{ 
           position: "fixed", 
           top: 0, 
           left: 0, 
