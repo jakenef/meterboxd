@@ -14,8 +14,8 @@ export default function ToughCrowdSection({ stats }) {
   }
 
   return (
-    <div className="row row-cols-1 row-cols-md-2 align-items-center">
-      <div className="col">
+    <div className="d-flex flex-column align-items-center">
+      <div className="text-center mb-4">
         <h2 className="mb-4 text-light">Tough Crowd Meter</h2>
         <Speedometer
           min={-1}
@@ -25,10 +25,11 @@ export default function ToughCrowdSection({ stats }) {
           endColor="#FF3A36"
         />
       </div>
-      <div className="col">
-        <h4 className="text-light">Most Overrated Movies:</h4>
+      
+      <div className="w-100 mb-5">
+        <h4 className="text-light text-center mb-3">Most Overrated Movies:</h4>
         <div className="table-responsive">
-          <table className="table table-dark table-striped mb-5">
+          <table className="table table-dark table-striped">
             <thead>
               <tr>
                 <th>
@@ -48,7 +49,10 @@ export default function ToughCrowdSection({ stats }) {
             <tbody>{stats && stats.rating_stats ? renderToughCrowdRows(stats.rating_stats.overrated_movies) : null}</tbody>
           </table>
         </div>
-        <h4 className="text-light">Most Underrated Movies:</h4>
+      </div>
+      
+      <div className="w-100">
+        <h4 className="text-light text-center mb-3">Most Underrated Movies:</h4>
         <div className="table-responsive">
           <table className="table table-dark table-striped">
             <thead>

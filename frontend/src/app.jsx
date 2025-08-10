@@ -4,7 +4,7 @@ import "./app.css";
 import './main.scss';
 import {Routes, Route, NavLink, useLocation } from "react-router-dom";
 import Upload from "./upload/Upload.jsx";
-import Stats from "./stats/Stats.jsx";
+import Stats from "./stats/stats.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -35,7 +35,7 @@ export default function App() {
               <NavLink
                 to="/"
                 className="btn btn-outline-light"
-                style={{ marginLeft: "16px" }}
+                style={{ marginLeft: "16px", cursor: "pointer" }}
               >
                 &larr; Back to Upload
               </NavLink>
