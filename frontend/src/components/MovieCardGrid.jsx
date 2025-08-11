@@ -46,12 +46,18 @@ const MovieCard = ({ movie }) => {
         <div className="movie-ratings">
           <div className="rating-item">
             <span className="rating-label">Avg Rating</span>
-            <span className="rating-value">{formatRating(movie.public_rating)}</span>
+            <span className="rating-value">
+              {formatRating(movie.public_rating)}
+              <span className="rating-star">★</span>
+            </span>
           </div>
           
           <div className="rating-item">
             <span className="rating-label">Your Rating</span>
-            <span className="rating-value">{formatRating(movie.user_rating)}</span>
+            <span className="rating-value">
+              {formatRating(movie.user_rating)}
+              <span className="rating-star">★</span>
+            </span>
           </div>
           
           <div className="rating-item">
@@ -61,6 +67,7 @@ const MovieCard = ({ movie }) => {
               style={{ color: getDifferenceColor(movie.rating_difference) }}
             >
               {formatDifference(movie.rating_difference)}
+              <span className="rating-star">★</span>
             </span>
           </div>
         </div>

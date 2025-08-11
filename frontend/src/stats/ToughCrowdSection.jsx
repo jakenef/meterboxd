@@ -1,9 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import Odometer from "../odometer/Odometer";
 import FlickerText from "../components/FlickerText";
 import MovieCardGrid from "../components/MovieCardGrid";
+import { getUserTagline } from "../utils/userTaglines";
 
 export default function ToughCrowdSection({ stats }) {
+  const [showTagline, setShowTagline] = useState(false);
+
+  const ratingDifference = stats?.rating_stats?.average_rating_difference || 0;
+  const isMoreStars = ratingDifference > 0;
+  const moreOrLess = isMoreStars ? "more" : "less";
+
+  // Memoize the Odometer to prevent re-rendering when tagline state changes
+  const memoizedOdometer = useMemo(() => (
+    <Odometer value={ratingDifference} />
+  ), [ratingDifference]);
   useEffect(() => {
     // Initialize all tooltips on the page
     const tooltipTriggerList = document.querySelectorAll(
@@ -19,9 +30,14 @@ export default function ToughCrowdSection({ stats }) {
     };
   }, []);
 
-  const ratingDifference = stats?.rating_stats?.average_rating_difference || 0;
-  const isMoreStars = ratingDifference > 0;
-  const moreOrLess = isMoreStars ? "more" : "less";
+  useEffect(() => {
+    // Show tagline after odometer animation completes (longer delay to ensure all animations finish)
+    const taglineTimer = setTimeout(() => {
+      setShowTagline(true);
+    }, 3500); // Increased from 2300ms to 3500ms
+
+    return () => clearTimeout(taglineTimer);
+  }, []);
 
   console.log(
     "Rating difference:",
@@ -55,7 +71,7 @@ export default function ToughCrowdSection({ stats }) {
             className="d-flex align-items-center gap-4 tough-crowd-content"
             style={{ justifyContent: "flex-start" }}
           >
-            <Odometer value={ratingDifference} />
+            {memoizedOdometer}
             <div
               className="d-flex flex-column tough-crowd-text"
               style={{ textAlign: "left" }}
@@ -93,6 +109,25 @@ export default function ToughCrowdSection({ stats }) {
               </h4>
             </div>
           </div>
+        </div>
+        
+        {/* Tagline centered below the entire odometer/text section - always takes space */}
+        <div className="text-center" style={{ marginTop: "24px", minHeight: "32px" }}>
+          <p
+            className="user-tagline"
+            style={{
+              fontSize: "1.1rem",
+              fontStyle: "italic",
+              color: "#40baf4",
+              margin: 0,
+              textShadow: "0 1px 2px rgba(0,0,0,0.3)",
+              opacity: showTagline ? 1 : 0,
+              transition: "opacity 0.8s ease-out",
+              visibility: showTagline ? "visible" : "hidden"
+            }}
+          >
+            {getUserTagline(ratingDifference)}
+          </p>
         </div>
       </div>
 

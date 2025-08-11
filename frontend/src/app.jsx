@@ -55,7 +55,7 @@ export default function App() {
         </main>
         <footer className="bg-dark text-secondary py-3 mt-auto">
           <div className="container text-center">
-            <small>Built by Jake Nef</small> <a href="https://github.com/jakenef/meterboxd" target="_blank" rel="noopener noreferrer">Github</a>
+            <small>Built by Jake Nef</small> <a href="https://github.com/jakenef/meterboxd" target="_blank" rel="noopener noreferrer" className="github-link">Github</a>
           </div>
         </footer>
       </div>

@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import ToughCrowdSection from "./ToughCrowdSection";
 import ObscuritySection from "./ObscuritySection";
+import ModernLoadingScreen from "../components/ModernLoadingScreen";
 
 export default function Stats() {
   const { state } = useLocation();
@@ -23,12 +24,12 @@ export default function Stats() {
       component: ToughCrowdSection,
       ref: useRef(null)
     },
-    {
-      id: "obscurity", 
-      label: "Obscurity Meter",
-      component: ObscuritySection,
-      ref: useRef(null)
-    }
+    // {
+    //   id: "obscurity", 
+    //   label: "Obscurity Meter",
+    //   component: ObscuritySection,
+    //   ref: useRef(null)
+    // }
   ];
 
   // Handle scroll to update active tab
@@ -106,11 +107,7 @@ export default function Stats() {
   );
 
   if (loading) {
-    return (
-      <div className="container text-center">
-        <p className="text-light">Loading stats...</p>
-      </div>
-    );
+    return <ModernLoadingScreen />;
   }
 
   if (error) {
