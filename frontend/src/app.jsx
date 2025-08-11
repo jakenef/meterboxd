@@ -34,9 +34,10 @@ export default function App() {
             {location.pathname === "/stats" && (
               <NavLink
                 to="/"
-                className="btn btn-outline-light"
-                style={{ marginLeft: "16px", cursor: "pointer" }}
+                className="modern-upload-btn back-button-nav"
+                style={{ marginLeft: "16px", cursor: "pointer", textDecoration: "none" }}
               >
+                <i className="upload-icon bi bi-arrow-left"></i>
                 &larr; Back to Upload
               </NavLink>
             )}

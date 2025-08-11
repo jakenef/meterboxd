@@ -60,8 +60,8 @@ def analyze_movies(csv_data, metric_function) -> Tuple[Optional[float], Optional
 
     avg_metric = sum(collected_metrics) / len(collected_metrics) if collected_metrics else 0.0
     sorted_movies = sorted(movie_list, key=lambda x: x[0], reverse=True)
-    highest_metric_list = [movie for _, movie in sorted_movies[:5]]
-    lowest_metric_list = [movie for _, movie in sorted_movies[-5:]][::-1]
+    highest_metric_list = [movie for _, movie in sorted_movies[:8]]
+    lowest_metric_list = [movie for _, movie in sorted_movies[-8:]][::-1]
 
     return (avg_metric, highest_metric_list, lowest_metric_list)
 

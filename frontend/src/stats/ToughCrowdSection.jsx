@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Odometer from "../odometer/Odometer";
 import FlickerText from "../components/FlickerText";
+import MovieCardGrid from "../components/MovieCardGrid";
 
 export default function ToughCrowdSection({ stats }) {
   useEffect(() => {
@@ -17,17 +18,6 @@ export default function ToughCrowdSection({ stats }) {
       tooltipList.forEach((tooltip) => tooltip.dispose());
     };
   }, []);
-
-  function renderToughCrowdRows(arr) {
-    return arr.slice(0, 5).map((movie) => (
-      <tr key={movie.title}>
-        <td>{movie.title}</td>
-        <td>{movie.public_rating.toFixed(1)}</td>
-        <td>{movie.user_rating.toFixed(1)}</td>
-        <td>{movie.rating_difference.toFixed(1)}</td>
-      </tr>
-    ));
-  }
 
   const ratingDifference = stats?.rating_stats?.average_rating_difference || 0;
   const isMoreStars = ratingDifference > 0;
@@ -106,63 +96,15 @@ export default function ToughCrowdSection({ stats }) {
         </div>
       </div>
 
-      <div className="w-100 mb-5">
-        <h4 className="text-light text-center mb-3">Most Overrated Movies:</h4>
-        <div className="table-responsive">
-          <table className="table table-dark table-striped">
-            <thead>
-              <tr>
-                <th>
-                  <i>Movie</i>
-                </th>
-                <th>
-                  <i>Avg. Rating</i>
-                </th>
-                <th>
-                  <i>Your Rating</i>
-                </th>
-                <th>
-                  <i>Difference</i>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {stats && stats.rating_stats
-                ? renderToughCrowdRows(stats.rating_stats.overrated_movies)
-                : null}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      <MovieCardGrid 
+        movies={stats?.rating_stats?.overrated_movies} 
+        title="Most Overrated Movies:" 
+      />
 
-      <div className="w-100">
-        <h4 className="text-light text-center mb-3">Most Underrated Movies:</h4>
-        <div className="table-responsive">
-          <table className="table table-dark table-striped">
-            <thead>
-              <tr>
-                <th>
-                  <i>Movie</i>
-                </th>
-                <th>
-                  <i>Avg. Rating</i>
-                </th>
-                <th>
-                  <i>Your Rating</i>
-                </th>
-                <th>
-                  <i>Difference</i>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {stats && stats.rating_stats
-                ? renderToughCrowdRows(stats.rating_stats.underrated_movies)
-                : null}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      <MovieCardGrid 
+        movies={stats?.rating_stats?.underrated_movies} 
+        title="Most Underrated Movies:" 
+      />
     </div>
   );
 }

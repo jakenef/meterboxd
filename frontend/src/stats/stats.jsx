@@ -99,7 +99,8 @@ export default function Stats() {
   }, [file, fileName]);
 
   const renderBackButton = () => (
-    <button className="btn btn-secondary mb-4" onClick={() => navigate("/")}>
+    <button className="modern-upload-btn back-button mb-4" onClick={() => navigate("/")}>
+      <i className="upload-icon bi bi-arrow-left"></i>
       Back to Upload
     </button>
   );
