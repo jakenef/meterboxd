@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import axios from "axios";
 import ToughCrowdSection from "./ToughCrowdSection";
 import ObscuritySection from "./ObscuritySection";
 import ModernLoadingScreen from "../components/ModernLoadingScreen";
