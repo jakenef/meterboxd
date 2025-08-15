@@ -4476,5 +4476,1655 @@
         "adult": false,
         "video": false,
         "tmdb_vote_average": 8.079
+    },
+    "Minari (2020)": {
+        "public_rating": 3.671,
+        "vote_count": 1709,
+        "popularity": 2.0892,
+        "tmdb_id": 615643,
+        "original_title": "Minari",
+        "overview": "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of this new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a home.",
+        "poster_path": "/6mPNdmjdbVKPITv3LLCmQoKs9Zw.jpg",
+        "backdrop_path": "/bKCpRjjTKcr3KAITmwjVMobbBYg.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2021-02-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.342
+    },
+    "Black Widow (2021)": {
+        "public_rating": 3.5975,
+        "vote_count": 10696,
+        "popularity": 9.2317,
+        "tmdb_id": 497698,
+        "original_title": "Black Widow",
+        "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+        "poster_path": "/7JPpIjhD2V0sKyFvhB9khUMa30d.jpg",
+        "backdrop_path": "/dq18nCTTLpy9PmtzZI6Y2yAgdw5.jpg",
+        "genre_ids": [
+            28,
+            12,
+            878
+        ],
+        "release_date": "2021-07-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.195
+    },
+    "Spirited Away (2001)": {
+        "public_rating": 4.2675,
+        "vote_count": 17366,
+        "popularity": 17.4559,
+        "tmdb_id": 129,
+        "original_title": "\u5343\u3068\u5343\u5c0b\u306e\u795e\u96a0\u3057",
+        "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+        "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "backdrop_path": "/6oaL4DP75yABrd5EbC4H2zq5ghc.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            14
+        ],
+        "release_date": "2001-07-20",
+        "original_language": "ja",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.535
+    },
+    "Easy A (2010)": {
+        "public_rating": 3.4055,
+        "vote_count": 7070,
+        "popularity": 4.9401,
+        "tmdb_id": 37735,
+        "original_title": "Easy A",
+        "overview": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all.",
+        "poster_path": "/v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+        "backdrop_path": "/30rvmoEBqovm723agDJ3QddWXcY.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2010-09-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.811
+    },
+    "Shrek 2 (2004)": {
+        "public_rating": 3.65,
+        "vote_count": 12823,
+        "popularity": 14.7871,
+        "tmdb_id": 809,
+        "original_title": "Shrek 2",
+        "overview": "Shrek, Fiona, and Donkey set off to Far, Far Away to meet Fiona's mother and father, the Queen and King. But not everyone is happily ever after. Shrek and the King find it difficult to get along, and there's tension in the marriage. The Fairy Godmother discovers that Fiona has married Shrek instead of her son Prince Charming and plots to destroy their marriage.",
+        "poster_path": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "backdrop_path": "/iaNoLnnpQb5SNxGc4bkQmdCvEdG.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            35,
+            14,
+            12
+        ],
+        "release_date": "2004-05-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.3
+    },
+    "Lady Bird (2017)": {
+        "public_rating": 3.6275,
+        "vote_count": 8751,
+        "popularity": 5.5222,
+        "tmdb_id": 391713,
+        "original_title": "Lady Bird",
+        "overview": "Lady Bird McPherson, a strong willed, deeply opinionated, artistic 17 year old comes of age in Sacramento. Her relationship with her mother and her upbringing are questioned and tested as she plans to head off to college.",
+        "poster_path": "/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg",
+        "backdrop_path": "/pcWxKfFNCznTKYy0E8M9nG1cwL4.jpg",
+        "genre_ids": [
+            18,
+            35
+        ],
+        "release_date": "2017-09-01",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.255
+    },
+    "Confessions of a Teenage Drama Queen (2004)": {
+        "public_rating": 2.85,
+        "vote_count": 919,
+        "popularity": 2.7809,
+        "tmdb_id": 11132,
+        "original_title": "Confessions of a Teenage Drama Queen",
+        "overview": "When the always dramatic Lola and her family move from the center of everything in New York City to the center of a cultural wasteland in suburban New Jersey, she feels her life is simply not worth living! But no matter who or what gets in the way, Lola won't give up on her life's ambition: to be a star! In a crowd-pleasing movie treat bursting with music, dance and excitement, Lola's fun-filled adventure won't be glamorous or easy, but it might just show her that real life could exceed even her wildest dreams!",
+        "poster_path": "/3LUWyY3WXNDaezwbz69uB9qtVpk.jpg",
+        "backdrop_path": "/z5r8XnWFWTD0shvIlR9yCn85Lna.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2004-02-17",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 5.7
+    },
+    "The Edge of Seventeen (2016)": {
+        "public_rating": 3.58,
+        "vote_count": 4123,
+        "popularity": 3.2869,
+        "tmdb_id": 376660,
+        "original_title": "The Edge of Seventeen",
+        "overview": "Two high school girls are best friends until one dates the other's older brother, who is totally his sister's nemesis.",
+        "poster_path": "/1LyFay8CGf8mhPRDrMe0ljWw9GK.jpg",
+        "backdrop_path": "/9g8UsxDTkzlVyjBJBRJT3zDceTC.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "2016-11-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.16
+    },
+    "Pitch Perfect (2012)": {
+        "public_rating": 3.65,
+        "vote_count": 6673,
+        "popularity": 4.8629,
+        "tmdb_id": 114150,
+        "original_title": "Pitch Perfect",
+        "overview": "College student Beca knows she does not want to be part of a clique, but that's exactly where she finds herself after arriving at her new school. Thrust in among mean gals, nice gals and just plain weird gals, Beca finds that the only thing they have in common is how well they sing together. She takes the women of the group out of their comfort zone of traditional arrangements and into a world of amazing harmonic combinations in a fight to the top of college music competitions.",
+        "poster_path": "/gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
+        "backdrop_path": "/2sE6hrwfn9IV7eDlMvpIb9q1EWy.jpg",
+        "genre_ids": [
+            35,
+            10402,
+            10749
+        ],
+        "release_date": "2012-09-28",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.3
+    },
+    "Okja (2017)": {
+        "public_rating": 3.675,
+        "vote_count": 4388,
+        "popularity": 3.5883,
+        "tmdb_id": 387426,
+        "original_title": "Okja",
+        "overview": "A young girl named Mija risks everything to prevent a powerful, multi-national company from kidnapping her best friend - a massive animal named Okja.",
+        "poster_path": "/lHBYG2NcBMW7UpFL4rSCpsgvz4m.jpg",
+        "backdrop_path": "/qkLZoJ1h998eJEmbuHGPCKZF0y7.jpg",
+        "genre_ids": [
+            12,
+            18,
+            878
+        ],
+        "release_date": "2017-06-28",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.35
+    },
+    "Invisible Sister (2015)": {
+        "public_rating": 3.35,
+        "vote_count": 300,
+        "popularity": 2.7436,
+        "tmdb_id": 360605,
+        "original_title": "Invisible Sister",
+        "overview": "Teenager Cleo's school science project goes quite awry, causing her popular older sister Molly to go invisible.",
+        "poster_path": "/seWQvVIzb5xBjHW0Y1h4jvokxZN.jpg",
+        "backdrop_path": "/xy4kRFTxMbPeWBKcQkijJ8i1DFx.jpg",
+        "genre_ids": [
+            14,
+            12,
+            35,
+            10770
+        ],
+        "release_date": "2015-12-10",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.7
+    },
+    "Percy Jackson & the Olympians: The Lightning Thief (2010)": {
+        "public_rating": 3.1055,
+        "vote_count": 7593,
+        "popularity": 8.2789,
+        "tmdb_id": 32657,
+        "original_title": "Percy Jackson & the Olympians: The Lightning Thief",
+        "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world.",
+        "poster_path": "/brzpTyZ5bnM7s53C1KSk1TmrMO6.jpg",
+        "backdrop_path": "/ugiV9SpJburMOPeIyjBJyAnO1So.jpg",
+        "genre_ids": [
+            12,
+            14,
+            10751
+        ],
+        "release_date": "2010-02-01",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.211
+    },
+    "Percy Jackson: Sea of Monsters (2013)": {
+        "public_rating": 3.012,
+        "vote_count": 5211,
+        "popularity": 3.6074,
+        "tmdb_id": 76285,
+        "original_title": "Percy Jackson: Sea of Monsters",
+        "overview": "In their quest to confront the ultimate evil, Percy and his friends battle swarms of mythical creatures to find the mythical Golden Fleece and to stop an ancient evil from rising.",
+        "poster_path": "/tAu90qEpLqwqiZLsMqpaMVr55oN.jpg",
+        "backdrop_path": "/fvrGb6zfQaQ8RD9pC8o9vv1b7W2.jpg",
+        "genre_ids": [
+            12,
+            10751,
+            14
+        ],
+        "release_date": "2013-08-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.024
+    },
+    "The Perks of Being a Wallflower (2012)": {
+        "public_rating": 3.899,
+        "vote_count": 10748,
+        "popularity": 6.2537,
+        "tmdb_id": 84892,
+        "original_title": "The Perks of Being a Wallflower",
+        "overview": "Pittsburgh, Pennsylvania, 1991. High school freshman Charlie is a wallflower, always watching life from the sidelines, until two senior students, Sam and her stepbrother Patrick, become his mentors, helping him discover the joys of friendship, music and love.",
+        "poster_path": "/aKCvdFFF5n80P2VdS7d8YBwbCjh.jpg",
+        "backdrop_path": "/59ur074TVZ13QuQvRcubrEB3Izf.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2012-09-20",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.798
+    },
+    "A Cinderella Story (2004)": {
+        "public_rating": 3.2895,
+        "vote_count": 3275,
+        "popularity": 5.3847,
+        "tmdb_id": 11247,
+        "original_title": "A Cinderella Story",
+        "overview": "Routinely exploited by her wicked stepmother, the downtrodden Samantha Montgomery is excited about the prospect of meeting her Internet beau at the school's Halloween dance.",
+        "poster_path": "/ukwP7gDPWxj1R1dW5iN3mnxkL3D.jpg",
+        "backdrop_path": "/fYvuNvY6ZJyap7hIKiJbhuKWxeG.jpg",
+        "genre_ids": [
+            35,
+            10751,
+            10749
+        ],
+        "release_date": "2004-07-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.579
+    },
+    "Enola Holmes (2020)": {
+        "public_rating": 3.626,
+        "vote_count": 6240,
+        "popularity": 4.7237,
+        "tmdb_id": 497582,
+        "original_title": "Enola Holmes",
+        "overview": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+        "poster_path": "/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "backdrop_path": "/pQQggUuDMleFSl2tQYxzTmKIiLU.jpg",
+        "genre_ids": [
+            12,
+            9648,
+            80
+        ],
+        "release_date": "2020-09-23",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.252
+    },
+    "Booksmart (2019)": {
+        "public_rating": 3.505,
+        "vote_count": 2711,
+        "popularity": 3.1109,
+        "tmdb_id": 505600,
+        "original_title": "Booksmart",
+        "overview": "Two academic teenage superstars realize, on the eve of their high school graduation, that they should have worked less and played more. Determined to never fall short of their peers, the girls set out on a mission to cram four years of fun into one night.",
+        "poster_path": "/2aSxRDmisJP90H3S0aocyuQIe4z.jpg",
+        "backdrop_path": "/cheDSO3mYmsAFQlRM91o7MK6Wcc.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2019-05-24",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.01
+    },
+    "The Twilight Saga: New Moon (2009)": {
+        "public_rating": 2.996,
+        "vote_count": 9427,
+        "popularity": 10.141,
+        "tmdb_id": 18239,
+        "original_title": "The Twilight Saga: New Moon",
+        "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks.",
+        "poster_path": "/k2qTooPlHffgNABNWxeJdGMglPK.jpg",
+        "backdrop_path": "/1E7kqUJghDRSgYkxDXAyoaVqQ96.jpg",
+        "genre_ids": [
+            12,
+            14,
+            18,
+            10749
+        ],
+        "release_date": "2009-11-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 5.992
+    },
+    "Ma (2019)": {
+        "public_rating": 2.9125,
+        "vote_count": 2332,
+        "popularity": 2.5694,
+        "tmdb_id": 502416,
+        "original_title": "Ma",
+        "overview": "Sue Ann is a loner who keeps to herself in her quiet Ohio town. One day, she is asked by Maggie, a new teenager in town, to buy some booze for her and her friends, and Sue Ann sees the chance to make some unsuspecting, if younger, friends of her own.",
+        "poster_path": "/6n7ASmQ1wY2cxTubFFGlcvPpyk7.jpg",
+        "backdrop_path": "/7yNJyHSPRFrYnG6v9FG1hcNRwaB.jpg",
+        "genre_ids": [
+            27,
+            53
+        ],
+        "release_date": "2019-05-29",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 5.825
+    },
+    "Election (1999)": {
+        "public_rating": 3.45,
+        "vote_count": 1113,
+        "popularity": 2.1289,
+        "tmdb_id": 9451,
+        "original_title": "Election",
+        "overview": "Tracy Flick is running unopposed for this year\u2019s high school student election. But Jim McAllister has a different plan. Partly to establish a more democratic election, and partly to satisfy some deep personal anger toward Tracy, Jim talks football player Paul Metzler to run for president as well.",
+        "poster_path": "/5gPOFU6IPvDrx50XaPCK4twNw79.jpg",
+        "backdrop_path": "/lNPPNnYM3j0cb8IZ9CsJiDt0BK9.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "1999-04-23",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.9
+    },
+    "Bo Burnham: Inside (2021)": {
+        "public_rating": 4.012,
+        "vote_count": 543,
+        "popularity": 0.9186,
+        "tmdb_id": 823754,
+        "original_title": "Bo Burnham: Inside",
+        "overview": "Stuck in COVID-19 lockdown, US comedian and musician Bo Burnham attempts to stay sane and happy by writing, shooting and performing a one-man comedy special.",
+        "poster_path": "/ku1UvTWYvhFQbSesOD6zteY7bXT.jpg",
+        "backdrop_path": "/9sfVyE3sP2dkCwDyV7UlYP5TAAR.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "2021-07-22",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.024
+    },
+    "The Last Black Man in San Francisco (2019)": {
+        "public_rating": 3.5075,
+        "vote_count": 334,
+        "popularity": 0.8751,
+        "tmdb_id": 522039,
+        "original_title": "The Last Black Man in San Francisco",
+        "overview": "Jimmie Fails dreams of reclaiming the Victorian home his grandfather built in the heart of San Francisco. Joined on his quest by his best friend Mont, Jimmie searches for belonging in a rapidly changing city that seems to have left them behind.",
+        "poster_path": "/ow9zjibNrz5TYVZ6cqwmvCR1YX1.jpg",
+        "backdrop_path": "/n0FzDpOvVhkj3uN7WHXXnAXOKFi.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2019-06-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.015
+    },
+    "Brave (2012)": {
+        "public_rating": 3.5105,
+        "vote_count": 13707,
+        "popularity": 9.7769,
+        "tmdb_id": 62177,
+        "original_title": "Brave",
+        "overview": "In the mystical Scottish Highlands, Merida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, Merida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, Merida seeks out an eccentric old Wise Woman and is granted an ill-fated wish. Also figuring into Merida's quest \u2014 and serving as comic relief \u2014 are the kingdom's three lords: the enormous Lord MacGuffin, the surly Lord Macintosh, and the disagreeable Lord Dingwall.",
+        "poster_path": "/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
+        "backdrop_path": "/3SszodoxSiJRQVoFg9IRjrMcSuJ.jpg",
+        "genre_ids": [
+            16,
+            12,
+            35,
+            10751,
+            28,
+            14
+        ],
+        "release_date": "2012-06-21",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.021
+    },
+    "He's All That (2021)": {
+        "public_rating": 3.2565,
+        "vote_count": 1419,
+        "popularity": 3.5846,
+        "tmdb_id": 347626,
+        "original_title": "He's All That",
+        "overview": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into prom king.",
+        "poster_path": "/kW3AG5NHoyq52dcSbMiFB6LyHvk.jpg",
+        "backdrop_path": "/nYQ0fT0xg4HeGWiXGuwSldJNAsJ.jpg",
+        "genre_ids": [
+            35,
+            10749
+        ],
+        "release_date": "2021-08-27",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.513
+    },
+    "Turning Red (2022)": {
+        "public_rating": 3.6705,
+        "vote_count": 5490,
+        "popularity": 11.0573,
+        "tmdb_id": 508947,
+        "original_title": "Turning Red",
+        "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist \u2013 when she gets too excited, she transforms into a giant red panda.",
+        "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+        "backdrop_path": "/b8Ma7TkasTDpMIkoIngzHVcgANa.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            35,
+            14
+        ],
+        "release_date": "2022-03-10",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.341
+    },
+    "Don't Worry Darling (2022)": {
+        "public_rating": 3.397,
+        "vote_count": 2685,
+        "popularity": 5.6687,
+        "tmdb_id": 619730,
+        "original_title": "Don't Worry Darling",
+        "overview": "Alice and Jack are lucky to be living in the idealized community of Victory, the experimental company town housing the men who work for the top-secret Victory Project and their families. But when cracks in their idyllic life begin to appear, exposing flashes of something much more sinister lurking beneath the attractive fa\u00e7ade, Alice can\u2019t help questioning exactly what they\u2019re doing in Victory, and why.",
+        "poster_path": "/jOqxKIOC92BVyinYO1Fm73XY7Tc.jpg",
+        "backdrop_path": "/tfCNMP37jRX3TOetuce7FLkxNKa.jpg",
+        "genre_ids": [
+            878,
+            9648,
+            53
+        ],
+        "release_date": "2022-09-21",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.794
+    },
+    "Moonlight (2016)": {
+        "public_rating": 3.685,
+        "vote_count": 7237,
+        "popularity": 3.2385,
+        "tmdb_id": 376867,
+        "original_title": "Moonlight",
+        "overview": "The tender, heartbreaking story of a young man\u2019s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling with his own sexuality.",
+        "poster_path": "/rcICfiL9fvwRjoWHxW8QeroLYrJ.jpg",
+        "backdrop_path": "/A9KPbYTQvWsp51Lgz85ukVkFrKf.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2016-10-21",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.37
+    },
+    "Eighth Grade (2018)": {
+        "public_rating": 3.5805,
+        "vote_count": 1586,
+        "popularity": 2.1362,
+        "tmdb_id": 489925,
+        "original_title": "Eighth Grade",
+        "overview": "Thirteen-year-old Kayla endures the tidal wave of contemporary suburban adolescence as she makes her way through the last week of middle school \u2014 the end of her thus far disastrous eighth grade year \u2014 before she begins high school.",
+        "poster_path": "/xTa9cLhGHfQ7084UvoPQ2bBXKqd.jpg",
+        "backdrop_path": "/nDfZN2q1IPGaLiwAgr9sU209MU5.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "2018-01-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.161
+    },
+    "(500) Days of Summer (2009)": {
+        "public_rating": 3.6485,
+        "vote_count": 10524,
+        "popularity": 8.4317,
+        "tmdb_id": 19913,
+        "original_title": "(500) Days of Summer",
+        "overview": "Tom, greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer, suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life.",
+        "poster_path": "/qXAuQ9hF30sQRsXf40OfRVl0MJZ.jpg",
+        "backdrop_path": "/1M2i4Mxd03elGOTmEkIvqrHfmyS.jpg",
+        "genre_ids": [
+            35,
+            18,
+            10749
+        ],
+        "release_date": "2009-07-17",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.297
+    },
+    "Girl, Interrupted (1999)": {
+        "public_rating": 3.7835,
+        "vote_count": 3963,
+        "popularity": 5.073,
+        "tmdb_id": 3558,
+        "original_title": "Girl, Interrupted",
+        "overview": "Set in the changing world of the late 1960s, Susanna Kaysen's prescribed \"short rest\" from a psychiatrist she had met only once becomes a strange, unknown journey into Alice's Wonderland, where she struggles with the thin line between normal and crazy. Susanna soon realizes how hard it is to get out once she has been committed, and she ultimately has to choose between the world of people who belong inside or the difficult world of reality outside.",
+        "poster_path": "/dOBdatHIVppvmRFw2z7bf9VKJr9.jpg",
+        "backdrop_path": "/ajKmVMSIr0BgRKn8tLSdIFrptTX.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "1999-12-21",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.567
+    },
+    "Speak (2004)": {
+        "public_rating": 3.503,
+        "vote_count": 487,
+        "popularity": 1.9763,
+        "tmdb_id": 15058,
+        "original_title": "Speak",
+        "overview": "Freshman high-school student Melinda has refused to speak ever since she called the cops on a popular summer party. With her old friends snubbing her for being a rat, and her parents too busy to notice her troubles, she folds into herself, trying to hide her secret: that star senior Andy raped her at the party. But Melinda does manage to find solace in her art class headed by Mr. Freeman.",
+        "poster_path": "/oRjQJG2PziTl2bUvzUCFS16ncfj.jpg",
+        "backdrop_path": "/yyQpbJE5uTzZN5TR2Mb5p3VDj24.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2004-01-20",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.006
+    },
+    "Spencer (2021)": {
+        "public_rating": 3.374,
+        "vote_count": 1722,
+        "popularity": 1.4783,
+        "tmdb_id": 716612,
+        "original_title": "Spencer",
+        "overview": "During her Christmas holidays with the royal family at the Sandringham estate in Norfolk, England, Diana decides to leave her marriage to Prince Charles.",
+        "poster_path": "/j0XxLH1QcOrnyxBLvMYWJZSzLfH.jpg",
+        "backdrop_path": "/uAf1Ua3UDm8cDR2CgNGbZepOqDV.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "release_date": "2021-11-04",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.748
+    },
+    "Enola Holmes 2 (2022)": {
+        "public_rating": 3.6735,
+        "vote_count": 1579,
+        "popularity": 3.7731,
+        "tmdb_id": 829280,
+        "original_title": "Enola Holmes 2",
+        "overview": "Now a detective-for-hire like her infamous brother, Enola Holmes takes on her first official case to find a missing girl, as the sparks of a dangerous conspiracy ignite a mystery that requires the help of friends \u2014 and Sherlock himself \u2014 to unravel.",
+        "poster_path": "/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg",
+        "backdrop_path": "/n2OaA7Je0fgcVnfJM7xDJoPny7x.jpg",
+        "genre_ids": [
+            12,
+            9648,
+            80
+        ],
+        "release_date": "2022-11-30",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.347
+    },
+    "The Cabin in the Woods (2011)": {
+        "public_rating": 3.319,
+        "vote_count": 8126,
+        "popularity": 5.805,
+        "tmdb_id": 22970,
+        "original_title": "The Cabin in the Woods",
+        "overview": "A group of teens journey to a remote cabin in the woods where their fate is unknowingly controlled by technicians as part of a worldwide conspiracy where all horror movie clich\u00e9s are revealed to be part of an elaborate sacrifice ritual.",
+        "poster_path": "/zZZe5wn0udlhMtdlDjN4NB72R6e.jpg",
+        "backdrop_path": "/dWLoSzvw52y1gt7ni9gZXdy693e.jpg",
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "release_date": "2012-04-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.638
+    },
+    "Harry Potter and the Goblet of Fire (2005)": {
+        "public_rating": 3.9005,
+        "vote_count": 21345,
+        "popularity": 20.2065,
+        "tmdb_id": 674,
+        "original_title": "Harry Potter and the Goblet of Fire",
+        "overview": "When Harry Potter's name emerges from the Goblet of Fire, he becomes a competitor in a grueling battle for glory among three wizarding schools\u2014the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
+        "poster_path": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+        "backdrop_path": "/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg",
+        "genre_ids": [
+            12,
+            14
+        ],
+        "release_date": "2005-11-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.801
+    },
+    "Anora (2024)": {
+        "public_rating": 3.5255,
+        "vote_count": 2506,
+        "popularity": 21.2536,
+        "tmdb_id": 1064213,
+        "original_title": "Anora",
+        "overview": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+        "poster_path": "/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
+        "backdrop_path": "/kEYWal656zP5Q2Tohm91aw6orlT.jpg",
+        "genre_ids": [
+            18,
+            35,
+            10749
+        ],
+        "release_date": "2024-10-14",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.051
+    },
+    "The Holiday (2006)": {
+        "public_rating": 3.5465,
+        "vote_count": 5321,
+        "popularity": 4.1237,
+        "tmdb_id": 1581,
+        "original_title": "The Holiday",
+        "overview": "Two women, one American and one British, swap homes at Christmastime following bad breakups. Each woman finds romance with a local man but realizes that the imminent return home may end the relationship.",
+        "poster_path": "/h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+        "backdrop_path": "/9Ebn8atCcGk5OZrx4xmoTobAxoh.jpg",
+        "genre_ids": [
+            35,
+            10749
+        ],
+        "release_date": "2006-12-05",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.093
+    },
+    "Remember Me (2010)": {
+        "public_rating": 3.557,
+        "vote_count": 3592,
+        "popularity": 2.3697,
+        "tmdb_id": 23169,
+        "original_title": "Remember Me",
+        "overview": "Still reeling from a heartbreaking family event and his parents' subsequent divorce, Tyler Hawkins discovers a fresh lease on life when he meets Ally Craig, a gregarious beauty who witnessed her mother's death. But as the couple draws closer, the fallout from their separate tragedies jeopardizes their love.",
+        "poster_path": "/j7umuMiLCHvWT7wYhFKJOTFSokF.jpg",
+        "backdrop_path": "/bSYnRf7nzKLtJ3RIKAVCl9ttuls.jpg",
+        "genre_ids": [
+            18,
+            10749
+        ],
+        "release_date": "2010-03-11",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.114
+    },
+    "Challengers (2024)": {
+        "public_rating": 3.5,
+        "vote_count": 2282,
+        "popularity": 11.3102,
+        "tmdb_id": 937287,
+        "original_title": "Challengers",
+        "overview": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event \u2014 close to the lowest level of pro tournament \u2014 where he finds himself standing across the net from his former best friend and Tashi's former boyfriend.",
+        "poster_path": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+        "backdrop_path": "/4CcUgdiGe83MeqJW1NyJVmZqRrF.jpg",
+        "genre_ids": [
+            18,
+            10749
+        ],
+        "release_date": "2024-04-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.0
+    },
+    "Beautiful Boy (2018)": {
+        "public_rating": 3.7745,
+        "vote_count": 2686,
+        "popularity": 6.4491,
+        "tmdb_id": 451915,
+        "original_title": "Beautiful Boy",
+        "overview": "After he and his first wife separate, journalist David Sheff struggles to help their teenage son, who goes from experimenting with drugs to becoming devastatingly addicted to methamphetamine.",
+        "poster_path": "/zuw4QtOpOO0Ib1f866SG9WmduMN.jpg",
+        "backdrop_path": "/sOhtC4cmaYPOlcjXCWxxrx2NKKn.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2018-10-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.549
+    },
+    "One of Them Days (2025)": {
+        "public_rating": 3.3725,
+        "vote_count": 192,
+        "popularity": 5.9941,
+        "tmdb_id": 1280672,
+        "original_title": "One of Them Days",
+        "overview": "Best friends and roommates Dreux and Alyssa are about to have One of Them Days. When they discover Alyssa\u2019s boyfriend has blown their rent money, the duo finds themselves going to extremes in a comical race against the clock to avoid eviction and keep their friendship intact.",
+        "poster_path": "/ccn6bFUA5DECjA3Lo0CuJqGNQCv.jpg",
+        "backdrop_path": "/t25z4ggC2Uvs3EhI66lxVO2jDp5.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2025-01-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.745
+    },
+    "The Tree of Life (2011)": {
+        "public_rating": 3.3695,
+        "vote_count": 3181,
+        "popularity": 3.0049,
+        "tmdb_id": 8967,
+        "original_title": "The Tree of Life",
+        "overview": "The impressionistic story of a Texas family in the 1950s. The film follows the life journey of the eldest son, Jack, through the innocence of childhood to his disillusioned adult years as he tries to reconcile a complicated relationship with his father. Jack finds himself a lost soul in the modern world, seeking answers to the origins and meaning of life while questioning the existence of faith.",
+        "poster_path": "/l8cwuB5WJSoj4uMAsnzuHBOMaSJ.jpg",
+        "backdrop_path": "/xq1HIwZq9VbuvMQELAua1nqEkH.jpg",
+        "genre_ids": [
+            18,
+            14
+        ],
+        "release_date": "2011-05-17",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.739
+    },
+    "Monster House (2006)": {
+        "public_rating": 3.3455,
+        "vote_count": 4111,
+        "popularity": 5.8273,
+        "tmdb_id": 9297,
+        "original_title": "Monster House",
+        "overview": "Monsters under the bed are scary enough, but what happens when an entire house is out to get you? Three teens aim to find out when they go up against a decrepit neighboring home and unlock its frightening secrets.",
+        "poster_path": "/zCRPr4bkO3ae0U1134vJ39xZnAG.jpg",
+        "backdrop_path": "/aDnCTWpWMHcQxOeGWsITmoLuEGy.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10751,
+            14
+        ],
+        "release_date": "2006-06-30",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.691
+    },
+    "Princess Mononoke (1997)": {
+        "public_rating": 4.15,
+        "vote_count": 8467,
+        "popularity": 7.705,
+        "tmdb_id": 128,
+        "original_title": "\u3082\u306e\u306e\u3051\u59eb",
+        "overview": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+        "poster_path": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+        "backdrop_path": "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
+        "genre_ids": [
+            12,
+            14,
+            16
+        ],
+        "release_date": "1997-07-12",
+        "original_language": "ja",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.3
+    },
+    "Gone Girl (2014)": {
+        "public_rating": 3.945,
+        "vote_count": 19177,
+        "popularity": 14.4137,
+        "tmdb_id": 210577,
+        "original_title": "Gone Girl",
+        "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+        "poster_path": "/ts996lKsxvjkO2yiYG0ht4qAicO.jpg",
+        "backdrop_path": "/1ufic9NSdolkgNkQSAVjlVp0uqn.jpg",
+        "genre_ids": [
+            9648,
+            53,
+            18
+        ],
+        "release_date": "2014-10-01",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.89
+    },
+    "Gladiator II (2024)": {
+        "public_rating": 3.3375,
+        "vote_count": 3746,
+        "popularity": 20.9308,
+        "tmdb_id": 558449,
+        "original_title": "Gladiator II",
+        "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+        "poster_path": "/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+        "backdrop_path": "/euYIwmwkmz95mnXvufEmbL6ovhZ.jpg",
+        "genre_ids": [
+            28,
+            12,
+            18
+        ],
+        "release_date": "2024-11-13",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.675
+    },
+    "Eternal Sunshine of the Spotless Mind (2004)": {
+        "public_rating": 4.046,
+        "vote_count": 15610,
+        "popularity": 9.1527,
+        "tmdb_id": 38,
+        "original_title": "Eternal Sunshine of the Spotless Mind",
+        "overview": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
+        "poster_path": "/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+        "backdrop_path": "/744ybMaYRry1IQKoDakMc4GEU4L.jpg",
+        "genre_ids": [
+            878,
+            18,
+            10749
+        ],
+        "release_date": "2004-03-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.092
+    },
+    "The Lizzie McGuire Movie (2003)": {
+        "public_rating": 3.157,
+        "vote_count": 1280,
+        "popularity": 2.6192,
+        "tmdb_id": 18736,
+        "original_title": "The Lizzie McGuire Movie",
+        "overview": "Lizzie McGuire has graduated from middle school and takes a trip to Rome, Italy with her class. And what was supposed to be only a normal trip, becomes a teenager's dream come true.",
+        "poster_path": "/ecDrdzRhl01fck3Bwd3pn9Qm3Un.jpg",
+        "backdrop_path": "/hgzX6YBJXI4fvosxvjnPrAmWPNu.jpg",
+        "genre_ids": [
+            10751,
+            35
+        ],
+        "release_date": "2003-05-02",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.314
+    },
+    "A Complete Unknown (2024)": {
+        "public_rating": 3.55,
+        "vote_count": 1158,
+        "popularity": 7.7004,
+        "tmdb_id": 661539,
+        "original_title": "A Complete Unknown",
+        "overview": "New York, early 1960s. Against the backdrop of a vibrant music scene and tumultuous cultural upheaval, an enigmatic 19-year-old from Minnesota arrives in the West Village with his guitar and revolutionary talent, destined to change the course of American music.",
+        "poster_path": "/llWl3GtNoXosbvYboelmoT459NM.jpg",
+        "backdrop_path": "/d2faCjeaynI2nPDVh9PiRapcLcl.jpg",
+        "genre_ids": [
+            18,
+            10402
+        ],
+        "release_date": "2024-12-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.1
+    },
+    "Mickey 17 (2025)": {
+        "public_rating": 3.4385,
+        "vote_count": 2517,
+        "popularity": 13.8833,
+        "tmdb_id": 696506,
+        "original_title": "Mickey 17",
+        "overview": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job\u2026 to die, for a living.",
+        "poster_path": "/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+        "backdrop_path": "/pkZ8SaIQwjBuS1fcJJE7Are7IrL.jpg",
+        "genre_ids": [
+            878,
+            35,
+            12
+        ],
+        "release_date": "2025-02-28",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.877
+    },
+    "No Hard Feelings (2023)": {
+        "public_rating": 3.3605,
+        "vote_count": 3455,
+        "popularity": 8.5115,
+        "tmdb_id": 884605,
+        "original_title": "No Hard Feelings",
+        "overview": "On the brink of losing her childhood home, Maddie discovers an intriguing job listing: wealthy helicopter parents looking for someone to \u201cdate\u201d their introverted 19-year-old son, Percy, before he leaves for college. To her surprise, Maddie soon discovers the awkward Percy is no sure thing.",
+        "poster_path": "/gD72DhJ7NbfxvtxGiAzLaa0xaoj.jpg",
+        "backdrop_path": "/rRcNmiH55Tz0ugUsDUGmj8Bsa4V.jpg",
+        "genre_ids": [
+            35,
+            10749
+        ],
+        "release_date": "2023-06-15",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.721
+    },
+    "The Endless Summer (1966)": {
+        "public_rating": 3.603,
+        "vote_count": 126,
+        "popularity": 0.7521,
+        "tmdb_id": 21,
+        "original_title": "The Endless Summer",
+        "overview": "Bruce Brown's The Endless Summer is one of the first and most influential surf movies of all time. The film documents American surfers Mike Hynson and Robert August as they travel the world during California\u2019s winter (which, back in 1965 was off-season for surfing) in search of the perfect wave and ultimately, an endless summer.",
+        "poster_path": "/hinHiXl8sOGIz2TLIZNpO5rhjND.jpg",
+        "backdrop_path": "/uNRfK14Ga8Hwfqt07vo8nvWQN1i.jpg",
+        "genre_ids": [
+            99
+        ],
+        "release_date": "1966-06-15",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.206
+    },
+    "The Devil Wears Prada (2006)": {
+        "public_rating": 3.6975,
+        "vote_count": 12443,
+        "popularity": 13.1412,
+        "tmdb_id": 350,
+        "original_title": "The Devil Wears Prada",
+        "overview": "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
+        "poster_path": "/8912AsVuS7Sj915apArUFbv6F9L.jpg",
+        "backdrop_path": "/3tWw50B1xXlCnJ9A7NX4nNzZF4j.jpg",
+        "genre_ids": [
+            18,
+            35
+        ],
+        "release_date": "2006-06-29",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.395
+    },
+    "Aquaman and the Lost Kingdom (2023)": {
+        "public_rating": 3.2965,
+        "vote_count": 3166,
+        "popularity": 11.4396,
+        "tmdb_id": 572802,
+        "original_title": "Aquaman and the Lost Kingdom",
+        "overview": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Arthur (Aquaman) forges an alliance with his imprisoned brother. They must protect the kingdom.",
+        "poster_path": "/jcA2QFJ4wuFcG79P97wA7OBLQoL.jpg",
+        "backdrop_path": "/bckxSN9ueOgm0gJpVJmPQrecWul.jpg",
+        "genre_ids": [
+            28,
+            12,
+            14
+        ],
+        "release_date": "2023-12-20",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.593
+    },
+    "The Boys in the Boat (2023)": {
+        "public_rating": 3.6195,
+        "vote_count": 299,
+        "popularity": 1.8938,
+        "tmdb_id": 823452,
+        "original_title": "The Boys in the Boat",
+        "overview": "The triumphant underdog story of the University of Washington men's rowing team, who stunned the world by competing at the 1936 Berlin Olympics.",
+        "poster_path": "/ncJMztHprw3gLRAnDjNnnT23CIt.jpg",
+        "backdrop_path": "/gub9e0qRZWmmzTV77A6T95HELIF.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "release_date": "2023-12-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.239
+    },
+    "Conclave (2024)": {
+        "public_rating": 3.6015,
+        "vote_count": 2813,
+        "popularity": 8.8743,
+        "tmdb_id": 974576,
+        "original_title": "Conclave",
+        "overview": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church\u2019s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+        "poster_path": "/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+        "backdrop_path": "/1YMrOtrW7b4pL2lfD8UciZPOJGs.jpg",
+        "genre_ids": [
+            18,
+            53
+        ],
+        "release_date": "2024-10-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.203
+    },
+    "Bottoms (2023)": {
+        "public_rating": 3.4,
+        "vote_count": 720,
+        "popularity": 2.8965,
+        "tmdb_id": 814776,
+        "original_title": "Bottoms",
+        "overview": "Unpopular best friends PJ and Josie start a high school self-defense club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
+        "poster_path": "/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg",
+        "backdrop_path": "/2sxiysM6O0FAxeR2CEIeKSv9IkA.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2023-08-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.8
+    },
+    "Se7en (1995)": {
+        "public_rating": 4.1875,
+        "vote_count": 21962,
+        "popularity": 18.129,
+        "tmdb_id": 807,
+        "original_title": "Se7en",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "poster_path": "/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+        "backdrop_path": "/p1PLSI5Nw2krGxD7X4ulul1tDAk.jpg",
+        "genre_ids": [
+            80,
+            9648,
+            53
+        ],
+        "release_date": "1995-09-22",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.375
+    },
+    "Vice (2018)": {
+        "public_rating": 3.508,
+        "vote_count": 3443,
+        "popularity": 2.4945,
+        "tmdb_id": 429197,
+        "original_title": "Vice",
+        "overview": "George W. Bush picks Dick Cheney, the CEO of Halliburton Co., to be his Republican running mate in the 2000 presidential election. No stranger to politics, Cheney's impressive r\u00e9sum\u00e9 includes stints as White House chief of staff, House Minority Whip and Defense Secretary. When Bush wins by a narrow margin, Cheney begins to use his newfound power to help reshape the country and the world.",
+        "poster_path": "/1gCab6rNv1r6V64cwsU4oEr649Y.jpg",
+        "backdrop_path": "/aHcNu3tYihvkL45CrXTFY4YfrfF.jpg",
+        "genre_ids": [
+            18,
+            35
+        ],
+        "release_date": "2018-12-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.016
+    },
+    "The Bourne Identity (2002)": {
+        "public_rating": 3.734,
+        "vote_count": 9600,
+        "popularity": 9.0613,
+        "tmdb_id": 2501,
+        "original_title": "The Bourne Identity",
+        "overview": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy\u2014but who does he work for?",
+        "poster_path": "/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+        "backdrop_path": "/kJaRWmy1BGq3pHyE94LOTteiHer.jpg",
+        "genre_ids": [
+            28,
+            18,
+            9648,
+            53
+        ],
+        "release_date": "2002-06-14",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.468
+    },
+    "Meet the Mormons (2014)": {
+        "public_rating": 0.0,
+        "vote_count": 0,
+        "popularity": 0.0913,
+        "tmdb_id": 716951,
+        "original_title": "Meet the Mormons",
+        "overview": "Follow a young Mormon as he gives up 2 years of his life and goes off to convert the people. For 20-year-old Josh Field, it's an emotional journey full of sacrifice.",
+        "poster_path": "/oV0f34mkt2NlJIKazNS5rCOMwr7.jpg",
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "release_date": "2014-06-26",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 0.0
+    },
+    "The Phoenician Scheme (2025)": {
+        "public_rating": 3.3765,
+        "vote_count": 465,
+        "popularity": 14.7088,
+        "tmdb_id": 1137350,
+        "original_title": "The Phoenician Scheme",
+        "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists, and determined assassins.",
+        "poster_path": "/jtEqpy0K1iVuCebRwWqT6BZ6jLN.jpg",
+        "backdrop_path": "/w3RDV3pSpxN0C2DZ4Xpw4o5LWpI.jpg",
+        "genre_ids": [
+            12,
+            35
+        ],
+        "release_date": "2025-05-23",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.753
+    },
+    "The Terminator (1984)": {
+        "public_rating": 3.8345,
+        "vote_count": 13773,
+        "popularity": 13.4642,
+        "tmdb_id": 218,
+        "original_title": "The Terminator",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "poster_path": "/hzXSE66v6KthZ8nPoLZmsi2G05j.jpg",
+        "backdrop_path": "/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
+        "genre_ids": [
+            28,
+            53,
+            878
+        ],
+        "release_date": "1984-10-26",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.669
+    },
+    "Four Weddings and a Funeral (1994)": {
+        "public_rating": 3.4,
+        "vote_count": 2827,
+        "popularity": 3.9915,
+        "tmdb_id": 712,
+        "original_title": "Four Weddings and a Funeral",
+        "overview": "Over the course of five social occasions, a committed bachelor must consider the notion that he may have discovered love.",
+        "poster_path": "/qa72G2VS0bpxms6yo0tI9vsHm2e.jpg",
+        "backdrop_path": "/ejFaHWnDP29z7ePw2cJVOsWvOvH.jpg",
+        "genre_ids": [
+            35,
+            18,
+            10749
+        ],
+        "release_date": "1994-03-09",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.8
+    },
+    "The Silence of the Lambs (1991)": {
+        "public_rating": 4.1735,
+        "vote_count": 17007,
+        "popularity": 2.9251,
+        "tmdb_id": 274,
+        "original_title": "The Silence of the Lambs",
+        "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+        "poster_path": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+        "backdrop_path": "/aYcnDyLMnpKce1FOYUpZrXtgUye.jpg",
+        "genre_ids": [
+            80,
+            18,
+            53
+        ],
+        "release_date": "1991-02-14",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.347
+    },
+    "Raiders of the Lost Ark (1981)": {
+        "public_rating": 3.9625,
+        "vote_count": 13005,
+        "popularity": 9.1873,
+        "tmdb_id": 85,
+        "original_title": "Raiders of the Lost Ark",
+        "overview": "When Dr. Indiana Jones \u2013 the tweed-suited professor who just happens to be a celebrated archaeologist \u2013 is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "poster_path": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+        "backdrop_path": "/ueDw7djPgKPZfph0vC43aD2EMyF.jpg",
+        "genre_ids": [
+            12,
+            28
+        ],
+        "release_date": "1981-06-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.925
+    },
+    "Woman of the Hour (2023)": {
+        "public_rating": 3.2125,
+        "vote_count": 836,
+        "popularity": 3.009,
+        "tmdb_id": 835113,
+        "original_title": "Woman of the Hour",
+        "overview": "An aspiring actress crosses paths with a prolific serial killer in '70s LA when they're cast on an episode of \"The Dating Game.\"",
+        "poster_path": "/nc9ZqrJFbcUdlMg9lxXXtJb24jU.jpg",
+        "backdrop_path": "/n6KXCV9jqUDDL5HCIoKHQ8kD9Fq.jpg",
+        "genre_ids": [
+            80,
+            18,
+            53
+        ],
+        "release_date": "2024-10-03",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.425
+    },
+    "Lost in Translation (2003)": {
+        "public_rating": 3.7,
+        "vote_count": 7632,
+        "popularity": 6.3294,
+        "tmdb_id": 153,
+        "original_title": "Lost in Translation",
+        "overview": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America.",
+        "poster_path": "/wkSzJs7oMf8MIr9CQVICsvRfwA7.jpg",
+        "backdrop_path": "/6ITVHoipvxAS8luzKtHTbPaHLtT.jpg",
+        "genre_ids": [
+            18,
+            10749,
+            35
+        ],
+        "release_date": "2003-09-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.4
+    },
+    "Uptown Girls (2003)": {
+        "public_rating": 3.45,
+        "vote_count": 969,
+        "popularity": 4.1149,
+        "tmdb_id": 14926,
+        "original_title": "Uptown Girls",
+        "overview": "Molly Gunn, the freewheeling daughter of a deceased rock legend, is forced to get a job when her manager steals her money. As nanny for precocious Ray, the oft ignored daughter of a music executive she learns what it means to be an adult while teaching Ray how to be a child.",
+        "poster_path": "/liazMoopc2fhWq1YlfwasQcvWu.jpg",
+        "backdrop_path": "/7TvehiVjzE9hMvnq94mOYjP8kGT.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "2003-08-15",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.9
+    },
+    "I Saw the TV Glow (2024)": {
+        "public_rating": 3.0325,
+        "vote_count": 527,
+        "popularity": 3.7425,
+        "tmdb_id": 858017,
+        "original_title": "I Saw the TV Glow",
+        "overview": "Teenager Owen is just trying to make it through life in the suburbs when his classmate Maddy introduces him to a mysterious TV show \u2014 a vision of a supernatural world beneath their own. In the pale glow of the television, Owen\u2019s view of reality begins to crack.",
+        "poster_path": "/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg",
+        "backdrop_path": "/sNBnCmF1ueoERa4uW5kh929KkRO.jpg",
+        "genre_ids": [
+            18,
+            27
+        ],
+        "release_date": "2024-05-03",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.065
+    },
+    "Superman (2025)": {
+        "public_rating": 3.8395,
+        "vote_count": 1679,
+        "popularity": 168.8676,
+        "tmdb_id": 1061474,
+        "original_title": "Superman",
+        "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+        "poster_path": "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+        "backdrop_path": "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+        "genre_ids": [
+            878,
+            12,
+            28
+        ],
+        "release_date": "2025-07-09",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.679
+    },
+    "Ocean's Eleven (2001)": {
+        "public_rating": 3.7245,
+        "vote_count": 11979,
+        "popularity": 8.2247,
+        "tmdb_id": 161,
+        "original_title": "Ocean's Eleven",
+        "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
+        "poster_path": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+        "backdrop_path": "/43BEez1EGdmNpg8rcPUFToujlii.jpg",
+        "genre_ids": [
+            53,
+            80
+        ],
+        "release_date": "2001-12-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.449
+    },
+    "The Bourne Supremacy (2004)": {
+        "public_rating": 3.6615,
+        "vote_count": 7758,
+        "popularity": 6.5041,
+        "tmdb_id": 2502,
+        "original_title": "The Bourne Supremacy",
+        "overview": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive.",
+        "poster_path": "/g09UIYfShY8uWGMGP3HkvWp8L8n.jpg",
+        "backdrop_path": "/xTl1KkHSnMIYnYMukoAQUOewcrY.jpg",
+        "genre_ids": [
+            28,
+            18,
+            53
+        ],
+        "release_date": "2004-07-23",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.323
+    },
+    "The Talented Mr. Ripley (1999)": {
+        "public_rating": 3.6,
+        "vote_count": 3907,
+        "popularity": 4.1429,
+        "tmdb_id": 1213,
+        "original_title": "The Talented Mr. Ripley",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "poster_path": "/6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+        "backdrop_path": "/51UDa3IuGyiKGe2MgMcLGvJE2Fm.jpg",
+        "genre_ids": [
+            53,
+            80,
+            18
+        ],
+        "release_date": "1999-12-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.2
+    },
+    "F1 (2025)": {
+        "public_rating": 3.8085,
+        "vote_count": 1017,
+        "popularity": 74.7148,
+        "tmdb_id": 911430,
+        "original_title": "F1",
+        "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
+        "poster_path": "/9JePWGvgg1t4BOojyZEVQdOWjXO.jpg",
+        "backdrop_path": "/1Lz0CmgukN8KyzxIn8gGe4NLV3D.jpg",
+        "genre_ids": [
+            28,
+            18
+        ],
+        "release_date": "2025-06-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.617
+    },
+    "KPop Demon Hunters (2025)": {
+        "public_rating": 4.2095,
+        "vote_count": 989,
+        "popularity": 148.7914,
+        "tmdb_id": 803796,
+        "original_title": "KPop Demon Hunters",
+        "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+        "poster_path": "/22AouvwlhlXbe3nrFcjzL24bvWH.jpg",
+        "backdrop_path": "/l3ycQYwWmbz7p8otwbomFDXIEhn.jpg",
+        "genre_ids": [
+            16,
+            14,
+            35,
+            10402,
+            10751
+        ],
+        "release_date": "2025-06-20",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.419
+    },
+    "Past Lives (2023)": {
+        "public_rating": 3.869,
+        "vote_count": 1983,
+        "popularity": 6.0773,
+        "tmdb_id": 666277,
+        "original_title": "Past Lives",
+        "overview": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life.",
+        "poster_path": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+        "backdrop_path": "/7HR38hMBl23lf38MAN63y4pKsHz.jpg",
+        "genre_ids": [
+            18,
+            10749
+        ],
+        "release_date": "2023-06-02",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.738
+    },
+    "There Will Be Blood (2007)": {
+        "public_rating": 4.05,
+        "vote_count": 6919,
+        "popularity": 9.1501,
+        "tmdb_id": 7345,
+        "original_title": "There Will Be Blood",
+        "overview": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+        "poster_path": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+        "backdrop_path": "/9UAKA6ceZi6TgQwTAAMt7DWwYPI.jpg",
+        "genre_ids": [
+            18
+        ],
+        "release_date": "2007-12-26",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.1
+    },
+    "Cat City (2017)": {
+        "public_rating": 4.0,
+        "vote_count": 1,
+        "popularity": 0.1051,
+        "tmdb_id": 469154,
+        "original_title": "Cat City",
+        "overview": "A cat leaves his life as a pet to get a job in the big city.",
+        "poster_path": "/yQuPN9RGQrKjoR7Hf76knU2MMIM.jpg",
+        "backdrop_path": "/2tUPXic82dwe7sIwGrY3tEDue7U.jpg",
+        "genre_ids": [
+            16,
+            35,
+            18
+        ],
+        "release_date": "2024-11-08",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.0
+    },
+    "Little Miss Sunshine (2006)": {
+        "public_rating": 3.846,
+        "vote_count": 7427,
+        "popularity": 5.8695,
+        "tmdb_id": 773,
+        "original_title": "Little Miss Sunshine",
+        "overview": "A family loaded with quirky, colorful characters piles into an old van and road trips to California for little Olive to compete in a beauty pageant.",
+        "poster_path": "/wKn7AJw730emlmzLSmJtzquwaeW.jpg",
+        "backdrop_path": "/vD15pg2cXynxeNIknyuvVH2sPx4.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "release_date": "2006-07-26",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.692
+    },
+    "How to Lose a Guy in 10 Days (2003)": {
+        "public_rating": 3.423,
+        "vote_count": 4202,
+        "popularity": 6.2137,
+        "tmdb_id": 9919,
+        "original_title": "How to Lose a Guy in 10 Days",
+        "overview": "It's the battle of wills, as Andie needs to prove she can dump a guy in 10 days, whereas Ben needs to prove he can win a girl in 10 days. Now, the clock is ticking\u2014and the wildly entertaining comedy smash is off and running in this irresistible tale of sex, lies and outrageous romantic fireworks!",
+        "poster_path": "/2dlftyPz7mTYbrsPvTogyFmYd7d.jpg",
+        "backdrop_path": "/cdYj6HFpKp5NTmLiHHbNEGSmDT4.jpg",
+        "genre_ids": [
+            35,
+            10749
+        ],
+        "release_date": "2003-02-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.846
+    },
+    "Her (2013)": {
+        "public_rating": 3.9235,
+        "vote_count": 14689,
+        "popularity": 8.0282,
+        "tmdb_id": 152601,
+        "original_title": "Her",
+        "overview": "In the not so distant future, Theodore, a lonely writer, purchases a newly developed operating system designed to meet the user's every need. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
+        "poster_path": "/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg",
+        "backdrop_path": "/zxttikp0SNEtF4vWsg70Vs6McFi.jpg",
+        "genre_ids": [
+            10749,
+            878,
+            18
+        ],
+        "release_date": "2013-12-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.847
+    },
+    "Austenland (2013)": {
+        "public_rating": 3.1955,
+        "vote_count": 466,
+        "popularity": 1.3343,
+        "tmdb_id": 156711,
+        "original_title": "Austenland",
+        "overview": "Obsessed with the BBC production of \"Pride and Prejudice\", a woman travels to a Jane Austen theme park in search for her perfect gentleman.",
+        "poster_path": "/8f9XX2rIOY5kmzivS5sZfnVuCxE.jpg",
+        "backdrop_path": "/c3eDS62fd2wuchzjbv5kJAIoIiD.jpg",
+        "genre_ids": [
+            35,
+            10749
+        ],
+        "release_date": "2013-08-15",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.391
+    },
+    "In the Mood for Love (2000)": {
+        "public_rating": 4.0505,
+        "vote_count": 2995,
+        "popularity": 6.0748,
+        "tmdb_id": 843,
+        "original_title": "\u82b1\u6a23\u5e74\u83ef",
+        "overview": "In 1962 Hong Kong, neighbors Su Li-zhen (Mrs. Chan) and Chow Mo-wan (Mr. Chow) discover their spouses are having an affair. As they spend time together, they develop feelings for each other, but their relationship remains chaste and unspoken, reflecting societal constraints and their own moral compass.",
+        "poster_path": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg",
+        "backdrop_path": "/n4GJFGzsc7NinI1VeGDXIcQjtU2.jpg",
+        "genre_ids": [
+            18,
+            10749
+        ],
+        "release_date": "2000-09-29",
+        "original_language": "cn",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.101
+    },
+    "The Idea of You (2024)": {
+        "public_rating": 3.6785,
+        "vote_count": 1742,
+        "popularity": 17.9632,
+        "tmdb_id": 843527,
+        "original_title": "The Idea of You",
+        "overview": "40-year-old single mom Sol\u00e8ne begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet. As they begin a whirlwind romance, it isn't long before Hayes' superstar status poses unavoidable challenges to their relationship, and Sol\u00e8ne soon discovers that life in the glare of his spotlight might be more than she bargained for.",
+        "poster_path": "/Y5P4Q3q8nrruZ9aD3wXeJS2Plg.jpg",
+        "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
+        "genre_ids": [
+            10749,
+            18,
+            35
+        ],
+        "release_date": "2024-05-02",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.357
     }
 }

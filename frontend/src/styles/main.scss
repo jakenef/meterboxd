@@ -1,0 +1,13 @@
+// Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Base styles
+@import 'base/variables';
+
+// Component styles  
+@import 'components/buttons';
+@import 'components/upload';
+@import 'components/tough-crowd';
+@import 'components/movie-grid';
+@import 'components/loading';
+@import 'components/shareable-image';

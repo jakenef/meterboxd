@@ -1,0 +1,59 @@
+// Mobile Responsive Styles for Tough Crowd Section
+@media (max-width: $tablet) {
+  .tough-crowd-mobile {
+    .tough-crowd-header {
+      font-size: 1.5rem !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    .tough-crowd-intro {
+      font-size: 1.4rem !important;
+      margin-bottom: 3px !important;
+    }
+    
+    .tough-crowd-content {
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 1rem !important;
+    }
+    
+    .tough-crowd-text {
+      text-align: center !important;
+      
+      .tough-crowd-main-text {
+        font-size: 2.2rem !important;
+      }
+      
+      .tough-crowd-sub-text {
+        font-size: 1.3rem !important;
+        margin-top: 5px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .tough-crowd-mobile {
+    .tough-crowd-header {
+      font-size: 1.3rem !important;
+    }
+    
+    .tough-crowd-intro {
+      font-size: 1.2rem !important;
+    }
+    
+    .tough-crowd-content {
+      gap: 0.8rem !important;
+    }
+    
+    .tough-crowd-text {
+      .tough-crowd-main-text {
+        font-size: 1.8rem !important;
+      }
+      
+      .tough-crowd-sub-text {
+        font-size: 1.1rem !important;
+      }
+    }
+  }
+}

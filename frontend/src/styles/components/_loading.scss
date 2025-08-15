@@ -1,0 +1,230 @@
+// User tagline animation
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-tagline {
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+}
+
+// Modern Loading Screen Styles
+.modern-loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, $black 0%, $dark 50%, $black 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-content {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  padding: 40px;
+}
+
+.loading-icon-container {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-icon {
+  background: linear-gradient(135deg, $primary 0%, #2980b9 100%);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 10px 30px rgba(64, 186, 244, 0.3);
+}
+
+.pulse-icon {
+  font-size: 2.5rem;
+  color: white;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.loading-rings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring {
+  position: absolute;
+  border: 2px solid transparent;
+  border-top: 2px solid rgba(64, 186, 244, 0.6);
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ring-1 {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: -50px;
+  animation-duration: 2s;
+}
+
+.ring-2 {
+  width: 120px;
+  height: 120px;
+  top: -60px;
+  left: -60px;
+  animation-duration: 3s;
+  animation-direction: reverse;
+}
+
+.ring-3 {
+  width: 140px;
+  height: 140px;
+  top: -70px;
+  left: -70px;
+  animation-duration: 4s;
+}
+
+.loading-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, $primary 0%, #2980b9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.loading-message {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+  min-height: 30px;
+  transition: opacity $transition-slow ease;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, $primary 0%, #2980b9 50%, #11998e 100%);
+  border-radius: 20px;
+  transition: width 0.8s ease;
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.progress-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+
+.loading-facts {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: $border-radius-lg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fact-text {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  
+  i {
+    color: $primary;
+    margin-right: 8px;
+  }
+}
+
+// Mobile responsive adjustments for loading screen
+@media (max-width: $tablet) {
+  .loading-content {
+    padding: 20px;
+    max-width: 90vw;
+  }
+  
+  .loading-title {
+    font-size: 2rem;
+  }
+  
+  .loading-message {
+    font-size: 1rem;
+  }
+  
+  .loading-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .pulse-icon {
+    font-size: 2rem;
+  }
+  
+  .ring-1 {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: -40px;
+  }
+  
+  .ring-2 {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: -50px;
+  }
+  
+  .ring-3 {
+    width: 120px;
+    height: 120px;
+    top: -60px;
+    left: -60px;
+  }
+}

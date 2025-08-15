@@ -9,7 +9,7 @@ export const getUserTagline = (averageDiff) => {
   } else if (averageDiff < -0.2) {
     return "wow! tough critic!";
   } else if (Math.abs(averageDiff) <= 0.2) {
-    return "spot-on with the rest of us!";
+    return "almost spot-on with the rest of us!";
   } else if (averageDiff < 1.0) {
     return "generosity level: high";
   } else {

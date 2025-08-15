@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from "react";
 import Odometer from "../odometer/Odometer";
 import FlickerText from "../components/FlickerText";
 import MovieCardGrid from "../components/MovieCardGrid";
+import ShareableImage from "../components/ShareableImage";
 import { getUserTagline } from "../utils/userTaglines";
 
 export default function ToughCrowdSection({ stats }) {
@@ -38,15 +39,6 @@ export default function ToughCrowdSection({ stats }) {
 
     return () => clearTimeout(taglineTimer);
   }, []);
-
-  console.log(
-    "Rating difference:",
-    ratingDifference,
-    "Is more stars:",
-    isMoreStars,
-    "Text should be:",
-    moreOrLess
-  );
 
   return (
     <div className="d-flex flex-column align-items-center tough-crowd-mobile">
@@ -133,13 +125,15 @@ export default function ToughCrowdSection({ stats }) {
 
       <MovieCardGrid 
         movies={stats?.rating_stats?.overrated_movies} 
-        title="Most Overrated Movies:" 
+        title="Movies You Rated Lower Than Most:" 
       />
 
       <MovieCardGrid 
         movies={stats?.rating_stats?.underrated_movies} 
-        title="Most Underrated Movies:" 
+        title="Movies You Rated Higher Than Most:" 
       />
+
+      <ShareableImage stats={stats} />
     </div>
   );
 }
