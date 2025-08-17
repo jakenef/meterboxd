@@ -3,29 +3,24 @@
 ## 📌 Overview
 MeterBoxd analyzes your Letterboxd watch history to generate unique, personalized movie stats:
 
-- **Obscurity Rating** → How often do you watch films with under 1,000 reviews?
-- **Tough Crowd Meter** → Do you rate movies higher or lower than the average Letterboxd user?
+- **Rating Difference** → Do you rate movies higher or lower than the average Letterboxd user?
 
-Simply upload your `watched.csv` file and get instant insights!
+Simply upload your `letterboxd.zip` file and get instant insights!
 
 ## 🚀 Features
-- 📊 **Obscurity Rating** – See how many hidden gems you've watched.
-- 🎭 **Tough Crowd Meter** – Compare your ratings to the Letterboxd average.
+- 🎭 **Rating Difference** – Compare your ratings to the Letterboxd average.
 - 📂 **Instant CSV Analysis** – No sign-up required.
 - 🎨 **Shareable Graphics** – Show off your movie-watching style.
+- 📊 **Database Storage** - To prevent rate limiting and optimize performance, movie data is stored in MongoDB.
 
 ## 📂 How It Works
 1. **Download your Letterboxd data** (Settings → Import & Export → "Export Your Data").
-2. **Extract the ZIP** and find `watched.csv`.
-3. **Upload it to MeterBoxd** and see your stats instantly!
+2. **Upload it to MeterBoxd** and see your stats instantly!
 
 ## 🛠️ Tech Stack
 - **Backend:** Python (CSV processing & data analysis)
 - **Frontend:** HTML, CSS, JavaScript
 - **External API:** TMDb (for movie metadata)
 
-## 📜 License
-TBD – Open-source for now, but may be closed if the project gains traction.
-
 ## 🌟 Stay Updated
-Follow development progress on GitHub!
+Follow development progress on GitHub! Reach out with any ideas for more personalized stats!

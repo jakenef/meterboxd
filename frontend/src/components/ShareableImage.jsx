@@ -116,9 +116,9 @@ const ShareableImage = ({ stats }) => {
   };
 
   const drawMovieCard = (ctx, movie, x, y, type) => {
-    // Card background with gradient (bigger for higher resolution)
+    // Card background with gradient (bigger for higher resolution and taller for longer titles)
     const cardWidth = 200;
-    const cardHeight = 160;
+    const cardHeight = 180; // Increased height to accommodate longer titles
     
     // Create gradient for card background
     const cardGradient = ctx.createLinearGradient(x - cardWidth/2, y, x + cardWidth/2, y + cardHeight);
@@ -146,12 +146,77 @@ const ShareableImage = ({ stats }) => {
     ctx.lineWidth = 2;
     ctx.stroke();
 
-    // Movie title (bigger font)
+    // Movie title with text wrapping
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 18px -apple-system, BlinkMacSystemFont, sans-serif';
     ctx.textAlign = 'center';
-    const title = movie.title.length > 14 ? movie.title.substring(0, 11) + '...' : movie.title;
-    ctx.fillText(title, x, y + 30);
+    
+    // Function to wrap text
+    const wrapText = (text, maxWidth) => {
+      const words = text.split(' ');
+      const lines = [];
+      let currentLine = words[0];
+
+      for (let i = 1; i < words.length; i++) {
+        const word = words[i];
+        const width = ctx.measureText(currentLine + ' ' + word).width;
+        if (width < maxWidth) {
+          currentLine += ' ' + word;
+        } else {
+          lines.push(currentLine);
+          currentLine = word;
+        }
+      }
+      lines.push(currentLine);
+      return lines;
+    };
+
+    // Determine font size based on title length - longer titles get smaller font
+    let fontSize = 16;
+    if (movie.title.length <= 20) {
+      fontSize = 20; // Larger font for short titles
+    } else if (movie.title.length <= 35) {
+      fontSize = 18; // Medium font for medium titles
+    } else {
+      fontSize = 16; // Smaller font for long titles
+    }
+    
+    ctx.font = `bold ${fontSize}px -apple-system, BlinkMacSystemFont, sans-serif`;
+
+    // Wrap the movie title to fit within the card
+    const titleLines = wrapText(movie.title, cardWidth - 20); // 20px padding
+    const lineHeight = fontSize + 2; // Adjust line height based on font size
+    
+    // Calculate total title height
+    const totalTitleHeight = titleLines.length * lineHeight;
+    
+    // Center the title in the top third of the card, with better spacing
+    const topSectionHeight = cardHeight / 3;
+    const titleStartY = y + (topSectionHeight - totalTitleHeight) / 2 + lineHeight;
+
+    // If title is too long (more than 3 lines), truncate it
+    const maxLines = 3;
+    const displayLines = titleLines.slice(0, maxLines);
+    if (titleLines.length > maxLines) {
+      // Truncate the last line and add ellipsis
+      const lastLine = displayLines[maxLines - 1];
+      const ellipsis = '...';
+      let truncatedLine = lastLine;
+      
+      while (ctx.measureText(truncatedLine + ellipsis).width > cardWidth - 20 && truncatedLine.length > 0) {
+        truncatedLine = truncatedLine.slice(0, -1);
+      }
+      displayLines[maxLines - 1] = truncatedLine + ellipsis;
+    }
+
+    // Draw each line of the title
+    displayLines.forEach((line, index) => {
+      ctx.fillText(line, x, titleStartY + (index * lineHeight));
+    });
+
+    // Fixed positions for consistent layout with better spacing
+    const ratingY = y + cardHeight/2 + 10; // Slightly lower in middle section
+    const labelY = y + cardHeight - 45; // Near bottom
+    const detailsY = y + cardHeight - 20; // Bottom
 
     // Rating difference with glow (bigger)
     const diff = movie.rating_difference || 0;
@@ -160,7 +225,7 @@ const ShareableImage = ({ stats }) => {
     ctx.shadowBlur = 12;
     ctx.fillStyle = diffColor;
     ctx.font = 'bold 28px -apple-system, BlinkMacSystemFont, sans-serif';
-    ctx.fillText(`${diff > 0 ? '+' : ''}${diff.toFixed(1)}★`, x, y + 70);
+    ctx.fillText(`${diff > 0 ? '+' : ''}${diff.toFixed(1)}★`, x, ratingY);
 
     // Reset shadow
     ctx.shadowColor = 'transparent';
@@ -170,14 +235,14 @@ const ShareableImage = ({ stats }) => {
     ctx.fillStyle = '#adb5bd';
     ctx.font = '16px -apple-system, BlinkMacSystemFont, sans-serif';
     const label = type === 'overrated' ? 'You rated lower' : 'You rated higher';
-    ctx.fillText(label, x, y + 100);
+    ctx.fillText(label, x, labelY);
 
     // Your rating vs avg (bigger)
     ctx.fillStyle = '#e0e0e0';
     ctx.font = '14px -apple-system, BlinkMacSystemFont, sans-serif';
     const userRating = (movie.user_rating || 0).toFixed(1);
     const avgRating = (movie.public_rating || 0).toFixed(1);
-    ctx.fillText(`You: ${userRating}★ | Avg: ${avgRating}★`, x, y + 125);
+    ctx.fillText(`You: ${userRating}★ | Avg: ${avgRating}★`, x, detailsY);
   };
 
   const getUserTagline = (averageDiff) => {

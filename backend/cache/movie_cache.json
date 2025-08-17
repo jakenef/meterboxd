@@ -6126,5 +6126,761 @@
         "adult": false,
         "video": false,
         "tmdb_vote_average": 7.357
+    },
+    "Up (2009)": {
+        "public_rating": 3.979,
+        "vote_count": 20864,
+        "popularity": 13.1649,
+        "tmdb_id": 14160,
+        "original_title": "Up",
+        "overview": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+        "poster_path": "/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+        "backdrop_path": "/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10751,
+            12
+        ],
+        "release_date": "2009-05-28",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.958
+    },
+    "Guardians of the Galaxy (2014)": {
+        "public_rating": 3.952,
+        "vote_count": 28759,
+        "popularity": 7.8417,
+        "tmdb_id": 118340,
+        "original_title": "Guardians of the Galaxy",
+        "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+        "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+        "backdrop_path": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "release_date": "2014-07-30",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.904
+    },
+    "Don't Look Up (2021)": {
+        "public_rating": 3.535,
+        "vote_count": 8704,
+        "popularity": 7.4706,
+        "tmdb_id": 646380,
+        "original_title": "Don't Look Up",
+        "overview": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
+        "poster_path": "/th4E1yqsE8DGpAseLiUrI60Hf8V.jpg",
+        "backdrop_path": "/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg",
+        "genre_ids": [
+            35,
+            878
+        ],
+        "release_date": "2021-12-08",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.07
+    },
+    "Hereditary (2018)": {
+        "public_rating": 3.646,
+        "vote_count": 8068,
+        "popularity": 9.8039,
+        "tmdb_id": 493922,
+        "original_title": "Hereditary",
+        "overview": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
+        "poster_path": "/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+        "backdrop_path": "/gJbTXKNTL6O7r7PzF6ZRkJGBlPp.jpg",
+        "genre_ids": [
+            27,
+            9648,
+            53
+        ],
+        "release_date": "2018-06-07",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.292
+    },
+    "A Quiet Place (2018)": {
+        "public_rating": 3.6985,
+        "vote_count": 14707,
+        "popularity": 7.3151,
+        "tmdb_id": 447332,
+        "original_title": "A Quiet Place",
+        "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+        "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+        "backdrop_path": "/nIrDm42dy5PaXtUAzUfPmxM4mQm.jpg",
+        "genre_ids": [
+            27,
+            18,
+            878
+        ],
+        "release_date": "2018-04-03",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.397
+    },
+    "WALL\u00b7E (2008)": {
+        "public_rating": 4.0505,
+        "vote_count": 19411,
+        "popularity": 11.8796,
+        "tmdb_id": 10681,
+        "original_title": "WALL\u00b7E",
+        "overview": "What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL\u2022E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL\u2022E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL\u2022E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
+        "poster_path": "/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+        "backdrop_path": "/3CvNc04vTwTir5q3LBDuvUb8Ng6.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            878
+        ],
+        "release_date": "2008-06-22",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.101
+    },
+    "Encanto (2021)": {
+        "public_rating": 3.793,
+        "vote_count": 9823,
+        "popularity": 13.4353,
+        "tmdb_id": 568124,
+        "original_title": "Encanto",
+        "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family\u2014every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+        "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+        "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10751,
+            14
+        ],
+        "release_date": "2021-10-13",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.586
+    },
+    "Psycho (1960)": {
+        "public_rating": 4.2105,
+        "vote_count": 10464,
+        "popularity": 7.7768,
+        "tmdb_id": 539,
+        "original_title": "Psycho",
+        "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+        "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+        "backdrop_path": "/uif5fUshJrXyyDzfpzp1DLw3N0S.jpg",
+        "genre_ids": [
+            27,
+            53,
+            9648
+        ],
+        "release_date": "1960-06-22",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.421
+    },
+    "Shrek (2001)": {
+        "public_rating": 3.8765,
+        "vote_count": 17885,
+        "popularity": 19.8325,
+        "tmdb_id": 808,
+        "original_title": "Shrek",
+        "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+        "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "backdrop_path": "/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+        "genre_ids": [
+            16,
+            35,
+            14,
+            12,
+            10751
+        ],
+        "release_date": "2001-05-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.753
+    },
+    "Harry Potter and the Chamber of Secrets (2002)": {
+        "public_rating": 3.853,
+        "vote_count": 22730,
+        "popularity": 22.2518,
+        "tmdb_id": 672,
+        "original_title": "Harry Potter and the Chamber of Secrets",
+        "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione\u2019s magical abilities and courage.",
+        "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+        "backdrop_path": "/xACx8htL9Ubz1qGe0gU2ggHonxV.jpg",
+        "genre_ids": [
+            12,
+            14
+        ],
+        "release_date": "2002-11-13",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.706
+    },
+    "Harry Potter and the Deathly Hallows: Part 2 (2011)": {
+        "public_rating": 4.0425,
+        "vote_count": 21201,
+        "popularity": 18.4709,
+        "tmdb_id": 12445,
+        "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+        "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+        "poster_path": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+        "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+        "genre_ids": [
+            14,
+            12
+        ],
+        "release_date": "2011-07-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.085
+    },
+    "Toy Story 3 (2010)": {
+        "public_rating": 3.9,
+        "vote_count": 15105,
+        "popularity": 11.341,
+        "tmdb_id": 10193,
+        "original_title": "Toy Story 3",
+        "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+        "poster_path": "/j0iPLV1DZb03SwubhRSI5ztP3lZ.jpg",
+        "backdrop_path": "/wE5JGzujfvDPMIfFjJyrhXFjZLc.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            35
+        ],
+        "release_date": "2010-06-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.8
+    },
+    "The Hunger Games (2012)": {
+        "public_rating": 3.6085,
+        "vote_count": 22553,
+        "popularity": 7.0889,
+        "tmdb_id": 70160,
+        "original_title": "The Hunger Games",
+        "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games.  Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which \u201cTributes\u201d must fight with one another until one survivor remains.  Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy.  If she\u2019s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
+        "poster_path": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+        "backdrop_path": "/p2i9vE7mu2ZTmwYbEiimgHeKpq5.jpg",
+        "genre_ids": [
+            878,
+            12,
+            28
+        ],
+        "release_date": "2012-03-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.217
+    },
+    "Harry Potter and the Deathly Hallows: Part 1 (2010)": {
+        "public_rating": 3.85,
+        "vote_count": 19659,
+        "popularity": 17.3826,
+        "tmdb_id": 12444,
+        "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+        "overview": "Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort's bid for immortality. But with Harry's beloved Dumbledore dead and Voldemort's unscrupulous Death Eaters on the loose, the world is more dangerous than ever.",
+        "poster_path": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+        "backdrop_path": "/AqLcLsGGTzAjm3pCCq0CZCQrp6m.jpg",
+        "genre_ids": [
+            12,
+            14
+        ],
+        "release_date": "2010-11-17",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.7
+    },
+    "Star Wars: Episode I \u2013 The Phantom Menace (1999)": {
+        "public_rating": 3.282,
+        "vote_count": 15160,
+        "popularity": 7.3689,
+        "tmdb_id": 1893,
+        "original_title": "Star Wars: Episode I - The Phantom Menace",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "poster_path": "/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+        "backdrop_path": "/qKnCpQl6ARxbSjw3CLqPlfm43vb.jpg",
+        "genre_ids": [
+            12,
+            28,
+            878
+        ],
+        "release_date": "1999-05-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.564
+    },
+    "Bird Box (2018)": {
+        "public_rating": 3.415,
+        "vote_count": 10191,
+        "popularity": 5.3531,
+        "tmdb_id": 405774,
+        "original_title": "Bird Box",
+        "overview": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
+        "poster_path": "/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg",
+        "backdrop_path": "/pDKFL1zcHzEpmz4MJA5JJnRbJeD.jpg",
+        "genre_ids": [
+            27,
+            53,
+            18
+        ],
+        "release_date": "2018-12-13",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.83
+    },
+    "Jumanji: Welcome to the Jungle (2017)": {
+        "public_rating": 3.4105,
+        "vote_count": 13985,
+        "popularity": 7.8817,
+        "tmdb_id": 353486,
+        "original_title": "Jumanji: Welcome to the Jungle",
+        "overview": "Four teenagers in detention discover an old video game console with a game they\u2019ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They\u2019ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
+        "poster_path": "/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
+        "backdrop_path": "/rz3TAyd5kmiJmozp3GUbYeB5Kep.jpg",
+        "genre_ids": [
+            12,
+            35,
+            14,
+            28,
+            10751
+        ],
+        "release_date": "2017-12-09",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.821
+    },
+    "Kung Fu Panda (2008)": {
+        "public_rating": 3.6515,
+        "vote_count": 12045,
+        "popularity": 11.4172,
+        "tmdb_id": 9502,
+        "original_title": "Kung Fu Panda",
+        "overview": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the \"chosen one\" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
+        "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "backdrop_path": "/364B8ohneoQSgIuYNRYZhjOCcEL.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            35,
+            28,
+            12
+        ],
+        "release_date": "2008-06-04",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.303
+    },
+    "The Ten Commandments (1956)": {
+        "public_rating": 3.885,
+        "vote_count": 1729,
+        "popularity": 9.9259,
+        "tmdb_id": 6844,
+        "original_title": "The Ten Commandments",
+        "overview": "Escaping death, a Hebrew infant is raised in a royal household to become a prince. Upon discovery of his true heritage, Moses embarks on a personal quest to reclaim his destiny as the leader and liberator of the Hebrew people.",
+        "poster_path": "/3Ei59AR64x6dMZfWobPCkZjbqTL.jpg",
+        "backdrop_path": "/3e3dVaVrla2GH6CWKbNRjTvk3s8.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "release_date": "1956-10-05",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.77
+    },
+    "2001: A Space Odyssey (1968)": {
+        "public_rating": 4.0325,
+        "vote_count": 11976,
+        "popularity": 8.4482,
+        "tmdb_id": 62,
+        "original_title": "2001: A Space Odyssey",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "poster_path": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+        "backdrop_path": "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+        "genre_ids": [
+            878,
+            9648,
+            12
+        ],
+        "release_date": "1968-04-02",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.065
+    },
+    "Ad Astra (2019)": {
+        "public_rating": 3.0605,
+        "vote_count": 6873,
+        "popularity": 2.3925,
+        "tmdb_id": 419704,
+        "original_title": "Ad Astra",
+        "overview": "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
+        "poster_path": "/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg",
+        "backdrop_path": "/AeDS2MKGFy6QcjgWbJBde0Ga6Hd.jpg",
+        "genre_ids": [
+            878,
+            18
+        ],
+        "release_date": "2019-09-17",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.121
+    },
+    "Old (2021)": {
+        "public_rating": 3.163,
+        "vote_count": 4648,
+        "popularity": 4.6607,
+        "tmdb_id": 631843,
+        "original_title": "Old",
+        "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly \u2013 reducing their entire lives into a single day.",
+        "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
+        "backdrop_path": "/32yqxyLlWcO81UCx51Jfq9aeJdA.jpg",
+        "genre_ids": [
+            53,
+            9648,
+            27
+        ],
+        "release_date": "2021-07-21",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.326
+    },
+    "Oppenheimer (2023)": {
+        "public_rating": 4.0265,
+        "vote_count": 10570,
+        "popularity": 25.1621,
+        "tmdb_id": 872585,
+        "original_title": "Oppenheimer",
+        "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+        "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "backdrop_path": "/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "release_date": "2023-07-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.053
+    },
+    "The Peanut Butter Falcon (2019)": {
+        "public_rating": 3.7,
+        "vote_count": 1498,
+        "popularity": 2.4897,
+        "tmdb_id": 463257,
+        "original_title": "The Peanut Butter Falcon",
+        "overview": "A down-on-his-luck crab fisherman embarks on a journey to get a young man with Down syndrome to a professional wrestling school in rural North Carolina and away from the retirement home where he\u2019s lived for the past two and a half years.",
+        "poster_path": "/qyQcRGvdW3VtxHR4fSDgPOePEip.jpg",
+        "backdrop_path": "/lewYqqt8epnjFhEOIIIINX9Z8EE.jpg",
+        "genre_ids": [
+            12,
+            35,
+            18
+        ],
+        "release_date": "2019-08-09",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.4
+    },
+    "Inside Out 2 (2024)": {
+        "public_rating": 3.777,
+        "vote_count": 6056,
+        "popularity": 37.071,
+        "tmdb_id": 1022789,
+        "original_title": "Inside Out 2",
+        "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who\u2019ve long been running a successful operation by all accounts, aren\u2019t sure how to feel when Anxiety shows up. And it looks like she\u2019s not alone.",
+        "poster_path": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+        "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+        "genre_ids": [
+            16,
+            12,
+            35,
+            10751
+        ],
+        "release_date": "2024-06-11",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.554
+    },
+    "Knowing (2009)": {
+        "public_rating": 3.114,
+        "vote_count": 5516,
+        "popularity": 5.184,
+        "tmdb_id": 13811,
+        "original_title": "Knowing",
+        "overview": "A teacher opens a time capsule that has been dug up at his son's elementary school; in it are some chilling predictions -- some that have already occurred and others that are about to -- that lead him to believe his family plays a role in the events that are about to unfold.",
+        "poster_path": "/OG0mxQt4YaNIWiz8EKJSHe9lPh.jpg",
+        "backdrop_path": "/s6h8MemlWFshLmPfd08syBpaTTK.jpg",
+        "genre_ids": [
+            28,
+            9648,
+            878,
+            53
+        ],
+        "release_date": "2009-03-19",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.228
+    },
+    "Twisters (2024)": {
+        "public_rating": 3.407,
+        "vote_count": 2593,
+        "popularity": 8.8239,
+        "tmdb_id": 718821,
+        "original_title": "Twisters",
+        "overview": "As storm season intensifies, the paths of former storm chaser Kate Carter and reckless social-media superstar Tyler Owens collide when terrifying phenomena never seen before are unleashed. The pair and their competing teams find themselves squarely in the paths of multiple storm systems converging over central Oklahoma in the fight of their lives.",
+        "poster_path": "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+        "backdrop_path": "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+        "genre_ids": [
+            28,
+            53
+        ],
+        "release_date": "2024-07-10",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.814
+    },
+    "Madame Web (2024)": {
+        "public_rating": 2.6695,
+        "vote_count": 2297,
+        "popularity": 8.3033,
+        "tmdb_id": 634492,
+        "original_title": "Madame Web",
+        "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+        "poster_path": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+        "backdrop_path": "/pwGmXVKUgKN13psUjlhC9zBcq1o.jpg",
+        "genre_ids": [
+            28,
+            14
+        ],
+        "release_date": "2024-02-14",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 5.339
+    },
+    "The Lord of the Rings: The Fellowship of the Ring (2001)": {
+        "public_rating": 4.212,
+        "vote_count": 26256,
+        "popularity": 23.0904,
+        "tmdb_id": 120,
+        "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+        "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "backdrop_path": "/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+        "genre_ids": [
+            12,
+            14,
+            28
+        ],
+        "release_date": "2001-12-18",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 8.424
+    },
+    "Nacho Libre (2006)": {
+        "public_rating": 3.2545,
+        "vote_count": 1731,
+        "popularity": 4.9688,
+        "tmdb_id": 9353,
+        "original_title": "Nacho Libre",
+        "overview": "Ignacio, a disrespected cook at a Mexican monastery, can barely afford to feed the orphans who live there. Inspired by a local wrestling hero, he decides to moonlight as the not-so-famous Luchador \"Nacho Libre\" to earn money for the monastery -- not to mention the admiration of beautiful nun Sister Encarnaci\u00f3n.",
+        "poster_path": "/kh7B91bMl2lZ0mH9WhPfaNUIEQH.jpg",
+        "backdrop_path": "/nNCleqiADKVMKWDC5G7hjYcVCmv.jpg",
+        "genre_ids": [
+            35
+        ],
+        "release_date": "2006-06-16",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.509
+    },
+    "All Quiet on the Western Front (2022)": {
+        "public_rating": 3.865,
+        "vote_count": 4254,
+        "popularity": 7.1426,
+        "tmdb_id": 49046,
+        "original_title": "Im Westen nichts Neues",
+        "overview": "Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
+        "poster_path": "/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
+        "backdrop_path": "/zbOlpFM306PHE7EP1OELCH5qSmS.jpg",
+        "genre_ids": [
+            10752,
+            36,
+            18
+        ],
+        "release_date": "2022-10-07",
+        "original_language": "de",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.73
+    },
+    "Carry-On (2024)": {
+        "public_rating": 3.448,
+        "vote_count": 2354,
+        "popularity": 10.5438,
+        "tmdb_id": 1005331,
+        "original_title": "Carry-On",
+        "overview": "An airport security officer races to outsmart a mysterious traveler forcing him to let a dangerous item slip onto a Christmas Eve flight.",
+        "poster_path": "/sjMN7DRi4sGiledsmllEw5HJjPy.jpg",
+        "backdrop_path": "/6RcBQkC2PZJwwbFugqzgvN3moYL.jpg",
+        "genre_ids": [
+            53,
+            28
+        ],
+        "release_date": "2024-12-05",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.896
+    },
+    "Transformers: Age of Extinction (2014)": {
+        "public_rating": 2.9745,
+        "vote_count": 8409,
+        "popularity": 10.8252,
+        "tmdb_id": 91314,
+        "original_title": "Transformers: Age of Extinction",
+        "overview": "As humanity picks up the pieces after the battle of Chicago, a shadowy group reveals itself in an attempt to control the direction of history\u2026while an ancient, powerful new menace sets Earth in its crosshairs. With help from Cade Yeager, Optimus Prime and the Autobots rise to meet their most fearsome challenge yet.",
+        "poster_path": "/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg",
+        "backdrop_path": "/ojwiCGkC7Bv7Ol7jDSkQbTGBY3I.jpg",
+        "genre_ids": [
+            878,
+            28,
+            12
+        ],
+        "release_date": "2014-06-25",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 5.949
+    },
+    "Oblivion (2013)": {
+        "public_rating": 3.33,
+        "vote_count": 11025,
+        "popularity": 6.3645,
+        "tmdb_id": 75612,
+        "original_title": "Oblivion",
+        "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack\u2019s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
+        "poster_path": "/eO3r38fwnhb58M1YgcjQBd3VNcp.jpg",
+        "backdrop_path": "/sbkYWB5QcfT00gLUkbNE5LTdhIX.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12,
+            9648
+        ],
+        "release_date": "2013-04-10",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.66
+    },
+    "Fly Me to the Moon (2024)": {
+        "public_rating": 3.4055,
+        "vote_count": 983,
+        "popularity": 3.6663,
+        "tmdb_id": 956842,
+        "original_title": "Fly Me to the Moon",
+        "overview": "Sparks fly in all directions as marketing maven Kelly Jones, brought in to fix NASA's public image, wreaks havoc on Apollo 11 launch director Cole Davis' already difficult task of putting a man on the moon. When the White House deems the mission too important to fail, Jones is directed to stage a fake moon landing as backup, and the countdown truly begins.",
+        "poster_path": "/gjk8YdXpItoC1in53FCrZMFIuBx.jpg",
+        "backdrop_path": "/4ItXEyVPj6wb9AdhsltcqYE6f5f.jpg",
+        "genre_ids": [
+            10749,
+            35
+        ],
+        "release_date": "2024-07-10",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 6.811
+    },
+    "RRR (2022)": {
+        "public_rating": 3.85,
+        "vote_count": 1436,
+        "popularity": 5.3384,
+        "tmdb_id": 579974,
+        "original_title": "\u0c30\u0c4c\u0c26\u0c4d\u0c30\u0c02 \u0c30\u0c23\u0c02 \u0c30\u0c41\u0c27\u0c3f\u0c30\u0c02",
+        "overview": "A fictional history of two legendary revolutionaries' journey away from home before they began fighting for their country in the 1920s.",
+        "poster_path": "/ljHw5eIMnki3HekwkKwCCHsRSbH.jpg",
+        "backdrop_path": "/77GGKq6Ixq6ZiqBM6XcPZgQmiN2.jpg",
+        "genre_ids": [
+            28,
+            12,
+            18
+        ],
+        "release_date": "2022-03-24",
+        "original_language": "te",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.7
+    },
+    "The Spirit of the Beehive (1973)": {
+        "public_rating": 3.8135,
+        "vote_count": 369,
+        "popularity": 1.1871,
+        "tmdb_id": 4495,
+        "original_title": "El esp\u00edritu de la colmena",
+        "overview": "In 1940, in the immediate aftermath of the Spanish Civil War, a young girl living on the Castilian plain is haunted after attending a screening of James Whale's 1931 film Frankenstein and hearing from her sister that the monster is not dead, instead existing as a spirit inhabiting a nearby barn.",
+        "poster_path": "/p2wx4EWasQaPGxnbS2IsW74ewVN.jpg",
+        "backdrop_path": "/4vbL72K9uVaMLhnvmdg1So7kqex.jpg",
+        "genre_ids": [
+            18,
+            14
+        ],
+        "release_date": "1973-10-08",
+        "original_language": "es",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 7.627
+    },
+    "Snow White (2025)": {
+        "public_rating": 2.152,
+        "vote_count": 1336,
+        "popularity": 28.2914,
+        "tmdb_id": 447273,
+        "original_title": "Snow White",
+        "overview": "Following the benevolent King's disappearance, the Evil Queen dominated the once fair land with a cruel streak. Princess Snow White flees the castle when the Queen, in her jealousy over Snow White's inner beauty, tries to kill her. Deep into the dark woods, she stumbles upon seven magical dwarves and a young bandit named Jonathan. Together, they strive to survive the Queen's relentless pursuit and aspire to take back the kingdom.",
+        "poster_path": "/xWWg47tTfparvjK0WJNX4xL8lW2.jpg",
+        "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+        "genre_ids": [
+            10751,
+            14
+        ],
+        "release_date": "2025-03-12",
+        "original_language": "en",
+        "adult": false,
+        "video": false,
+        "tmdb_vote_average": 4.304
     }
 }
