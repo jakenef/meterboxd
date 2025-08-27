@@ -5,6 +5,13 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from csvReader import load_ratings_csv
 from stats import get_rating_data, get_obscurity_data
+import os
+import time
+from dotenv import load_dotenv
+from publicMovieData import log_stats  # Import the stats logging function
+
+# Load environment variables from .env file
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -16,15 +23,65 @@ try:
         app.logger.warning("TMDB_API_KEY is not set. Movie data features will not work properly.")
 except Exception as e:
     app.logger.error(f"Failed to load TMDB configuration: {e}")
+    
+# Validate MongoDB connection at startup
+try:
+    from database import MovieDatabase
+    db = MovieDatabase()
+    if db.client:
+        app.logger.info("MongoDB connection successful")
+    else:
+        app.logger.warning("MongoDB connection failed. Some features may not work properly.")
+except Exception as e:
+    app.logger.error(f"Failed to initialize MongoDB: {e}")
+    
+# Preload cache to speed up subsequent requests
+def preload_cache():
+    """Preload movie cache to speed up requests"""
+    try:
+        app.logger.info("Preloading movie cache...")
+        start_time = time.time()
+        from publicMovieData import load_cache
+        cache = load_cache()
+        elapsed = time.time() - start_time
+        app.logger.info(f"Preloaded {len(cache)} movies in {elapsed:.2f} seconds")
+    except Exception as e:
+        app.logger.error(f"Failed to preload movie cache: {e}")
+
+# Call preload cache immediately to warm up cache during startup
+preload_cache()
+    
+# Validate MongoDB connection at startup
+try:
+    from database import MovieDatabase
+    db = MovieDatabase()
+    if not db.client:
+        app.logger.warning("MongoDB connection failed. Using JSON files as fallback.")
+except Exception as e:
+    app.logger.error(f"Failed to initialize MongoDB: {e}")
 
 @app.route("/api/health", methods=["GET"])
 def health_check():
-    """Health check endpoint to verify API key and service status"""
+    """Health check endpoint to verify API key and database status"""
     try:
         from publicMovieData import TMDB_API_KEY
+        
+        # Check MongoDB connection
+        mongodb_status = False
+        try:
+            from database import MovieDatabase
+            db = MovieDatabase()
+            # Test connection by pinging
+            if db.client:
+                db.client.admin.command('ping')
+                mongodb_status = True
+        except Exception as e:
+            app.logger.error(f"MongoDB health check failed: {e}")
+        
         status = {
             "status": "healthy",
-            "tmdb_configured": bool(TMDB_API_KEY)
+            "tmdb_configured": bool(TMDB_API_KEY),
+            "mongodb_connected": mongodb_status
         }
         return jsonify(status), 200
     except Exception as e:
@@ -85,9 +142,19 @@ def upload_and_stats():
         if len(ratings_data) > 1000:
             return jsonify(error="Too many movies to process (max 1000)"), 413
 
+        # Calculate processing time
+        start_time = time.time()
+        
         # Calculate statistics
         avg_rating_diff, underrated_list, overrated_list = get_rating_data(ratings_data)
         obscurity_score, most_obscure_list, least_obscure_list = get_obscurity_data(ratings_data)
+        
+        # Log timing and data source statistics
+        elapsed = time.time() - start_time
+        app.logger.info(f"Processed {len(ratings_data)} movies in {elapsed:.2f} seconds")
+        
+        # Log movie data source statistics
+        log_stats()
 
         # Convert movie dataclasses to JSON-serializable dictionaries and
         # Build the response object for the frontend
