@@ -8,6 +8,8 @@ MeterBoxd analyzes your Letterboxd watch history to generate unique, personalize
 
 Simply upload your `letterboxd.zip` file and get instant insights!
 
+<img width="1714" height="991" alt="Screenshot 2025-08-26 at 9 14 02 PM" src="https://github.com/user-attachments/assets/ae10e02f-eafb-48c5-a875-d5c0274038d6" />
+
 ## 🚀 Features
 
 - 🎭 **Rating Difference** – Compare your ratings to the Letterboxd average.
