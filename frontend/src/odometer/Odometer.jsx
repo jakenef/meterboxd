@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Odometer.css';
+import './odometer.css';
 
 const Odometer = ({ value }) => {
   const [isAnimating, setIsAnimating] = useState(true);
