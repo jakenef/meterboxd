@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import Odometer from "../odometer/Odometer.jsx";
+import Odometer from "../odometer/odometer.jsx";
 import FlickerText from "../components/FlickerText.jsx";
 import MovieCardGrid from "../components/MovieCardGrid.jsx";
 import ShareableImage from "../components/ShareableImage.jsx";

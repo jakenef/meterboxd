@@ -1,5 +1,5 @@
 import React from "react";
-import Speedometer from "../speedometer/Speedometer.jsx";
+import Speedometer from "../speedometer/speedometer.jsx";
 
 export default function ObscuritySection({ stats }) {
   function renderObscurityRows(arr) {
