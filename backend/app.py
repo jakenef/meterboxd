@@ -193,6 +193,7 @@ def upload_and_stats():
 
 
 if __name__ == "__main__":
-    # For development only; in production use gunicorn or similar WSGI server
-    app.run(host="0.0.0.0", port=4000, debug=True)
+    # Use PORT environment variable for Railway, default to 4000 for local development
+    port = int(os.environ.get("PORT", 4000))
+    app.run(host="0.0.0.0", port=port, debug=os.environ.get("FLASK_DEBUG", "False").lower() == "true")
 
