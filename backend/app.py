@@ -60,13 +60,18 @@ try:
 except Exception as e:
     app.logger.error(f"Failed to initialize MongoDB: {e}")
 
+@app.route("/", methods=["GET"])
+def root():
+    """Root endpoint for Railway health checks"""
+    return jsonify({"status": "ok", "message": "MeterBoxd API is running"}), 200
+    
 @app.route("/api/health", methods=["GET"])
 def health_check():
     """Health check endpoint to verify API key and database status"""
     try:
         from publicMovieData import TMDB_API_KEY
         
-        # Check MongoDB connection
+        # Check MongoDB connection - but don't fail if it's not available
         mongodb_status = False
         try:
             from database import MovieDatabase
