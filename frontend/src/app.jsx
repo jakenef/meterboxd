@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./app.css";
 import "./main.scss";
 import { Routes, Route, NavLink, useLocation } from "react-router-dom";
-import Upload from "./upload/upload.jsx";
-import Stats from "./stats/stats.jsx";
+import Upload from "./upload/Upload.jsx";
+import Stats from "./stats/Stats.jsx";
 
 export default function App() {
   const location = useLocation();
