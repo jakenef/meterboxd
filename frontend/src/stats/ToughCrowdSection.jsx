@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useMemo } from "react";
-import Odometer from "../odometer/Odometer";
-import FlickerText from "../components/FlickerText";
-import MovieCardGrid from "../components/MovieCardGrid";
-import ShareableImage from "../components/ShareableImage";
-import { getUserTagline } from "../utils/userTaglines";
+import Odometer from "../odometer/Odometer.jsx";
+import FlickerText from "../components/FlickerText.jsx";
+import MovieCardGrid from "../components/MovieCardGrid.jsx";
+import ShareableImage from "../components/ShareableImage.jsx";
+import { getUserTagline } from "../utils/userTaglines.js";
 
 export default function ToughCrowdSection({ stats }) {
   const [showTagline, setShowTagline] = useState(false);
@@ -13,9 +13,10 @@ export default function ToughCrowdSection({ stats }) {
   const moreOrLess = isMoreStars ? "more" : "less";
 
   // Memoize the Odometer to prevent re-rendering when tagline state changes
-  const memoizedOdometer = useMemo(() => (
-    <Odometer value={ratingDifference} />
-  ), [ratingDifference]);
+  const memoizedOdometer = useMemo(
+    () => <Odometer value={ratingDifference} />,
+    [ratingDifference]
+  );
   useEffect(() => {
     // Initialize all tooltips on the page
     const tooltipTriggerList = document.querySelectorAll(
@@ -102,9 +103,12 @@ export default function ToughCrowdSection({ stats }) {
             </div>
           </div>
         </div>
-        
+
         {/* Tagline centered below the entire odometer/text section - always takes space */}
-        <div className="text-center" style={{ marginTop: "24px", minHeight: "32px" }}>
+        <div
+          className="text-center"
+          style={{ marginTop: "24px", minHeight: "32px" }}
+        >
           <p
             className="user-tagline"
             style={{
@@ -115,7 +119,7 @@ export default function ToughCrowdSection({ stats }) {
               textShadow: "0 1px 2px rgba(0,0,0,0.3)",
               opacity: showTagline ? 1 : 0,
               transition: "opacity 0.8s ease-out",
-              visibility: showTagline ? "visible" : "hidden"
+              visibility: showTagline ? "visible" : "hidden",
             }}
           >
             {getUserTagline(ratingDifference)}
@@ -123,14 +127,14 @@ export default function ToughCrowdSection({ stats }) {
         </div>
       </div>
 
-      <MovieCardGrid 
-        movies={stats?.rating_stats?.overrated_movies} 
-        title="Movies You Rated Lower Than Most:" 
+      <MovieCardGrid
+        movies={stats?.rating_stats?.overrated_movies}
+        title="Movies You Rated Lower Than Most:"
       />
 
-      <MovieCardGrid 
-        movies={stats?.rating_stats?.underrated_movies} 
-        title="Movies You Rated Higher Than Most:" 
+      <MovieCardGrid
+        movies={stats?.rating_stats?.underrated_movies}
+        title="Movies You Rated Higher Than Most:"
       />
 
       <ShareableImage stats={stats} />

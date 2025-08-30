@@ -1,5 +1,5 @@
 import React from "react";
-import Speedometer from "../speedometer/Speedometer";
+import Speedometer from "../speedometer/Speedometer.jsx";
 
 export default function ObscuritySection({ stats }) {
   function renderObscurityRows(arr) {
@@ -37,7 +37,11 @@ export default function ObscuritySection({ stats }) {
                 </th>
               </tr>
             </thead>
-            <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.most_obscure_movies) : null}</tbody>
+            <tbody>
+              {stats && stats.obscurity_stats
+                ? renderObscurityRows(stats.obscurity_stats.most_obscure_movies)
+                : null}
+            </tbody>
           </table>
         </div>
         <h4 className="text-light">Least Obscure Movies:</h4>
@@ -53,7 +57,13 @@ export default function ObscuritySection({ stats }) {
                 </th>
               </tr>
             </thead>
-            <tbody>{stats && stats.obscurity_stats ? renderObscurityRows(stats.obscurity_stats.least_obscure_movies) : null}</tbody>
+            <tbody>
+              {stats && stats.obscurity_stats
+                ? renderObscurityRows(
+                    stats.obscurity_stats.least_obscure_movies
+                  )
+                : null}
+            </tbody>
           </table>
         </div>
       </div>

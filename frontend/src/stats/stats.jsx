@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import ToughCrowdSection from "./ToughCrowdSection";
-import ObscuritySection from "./ObscuritySection";
-import ModernLoadingScreen from "../components/ModernLoadingScreen";
+import ToughCrowdSection from "./ToughCrowdSection.jsx";
+import ObscuritySection from "./ObscuritySection.jsx";
+import ModernLoadingScreen from "../components/ModernLoadingScreen.jsx";
 
 export default function Stats() {
   const { state } = useLocation();
@@ -21,10 +21,10 @@ export default function Stats() {
       id: "tough-crowd",
       label: "Average Rating Difference",
       component: ToughCrowdSection,
-      ref: useRef(null)
+      ref: useRef(null),
     },
     // {
-    //   id: "obscurity", 
+    //   id: "obscurity",
     //   label: "Obscurity Meter",
     //   component: ObscuritySection,
     //   ref: useRef(null)
@@ -35,7 +35,7 @@ export default function Stats() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
-      
+
       // Find which section we're currently in
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
@@ -53,9 +53,9 @@ export default function Stats() {
 
   // Handle tab click to scroll to section
   const scrollToSection = (sectionRef) => {
-    sectionRef.current?.scrollIntoView({ 
-      behavior: "smooth", 
-      block: "start" 
+    sectionRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
     });
   };
 
@@ -76,14 +76,14 @@ export default function Stats() {
           method: "POST",
           body: formData,
         });
-        
+
         const data = await res.json();
-        
+
         // Check if backend returned an error
         if (data.error) {
           throw new Error(data.error);
         }
-        
+
         if (!res.ok) throw new Error(res.statusText);
 
         setStats(data);
@@ -99,7 +99,10 @@ export default function Stats() {
   }, [file, fileName]);
 
   const renderBackButton = () => (
-    <button className="modern-upload-btn back-button mb-4" onClick={() => navigate("/")}>
+    <button
+      className="modern-upload-btn back-button mb-4"
+      onClick={() => navigate("/")}
+    >
       <i className="upload-icon bi bi-arrow-left"></i>
       Back to Upload
     </button>
@@ -118,22 +121,27 @@ export default function Stats() {
   }
 
   const renderTabs = () => (
-    <div className="container" style={{
-      position: "fixed",
-      top: "var(--header-height)",
-      left: "50%",
-      transform: "translateX(-50%)",
-      zIndex: 1020,
-      paddingTop: "0",
-      paddingBottom: "0",
-      width: "100%"
-    }}>
-      <div style={{ 
-        display: "flex", 
-        gap: "2px",
-        alignItems: "flex-end",
-        width: "auto"
-      }}>
+    <div
+      className="container"
+      style={{
+        position: "fixed",
+        top: "var(--header-height)",
+        left: "50%",
+        transform: "translateX(-50%)",
+        zIndex: 1020,
+        paddingTop: "0",
+        paddingBottom: "0",
+        width: "100%",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          gap: "2px",
+          alignItems: "flex-end",
+          width: "auto",
+        }}
+      >
         {sections.map((section) => (
           <button
             key={section.id}
@@ -145,13 +153,16 @@ export default function Stats() {
               fontSize: "14px",
               fontWeight: "500",
               transition: "all 0.3s ease",
-              backgroundColor: activeTab === section.id ? `var(--tab-${section.id})` : "rgba(108, 117, 125, 0.2)",
+              backgroundColor:
+                activeTab === section.id
+                  ? `var(--tab-${section.id})`
+                  : "rgba(108, 117, 125, 0.2)",
               color: activeTab === section.id ? "white" : "#adb5bd",
               cursor: "pointer",
               whiteSpace: "nowrap",
               display: "inline-block",
               width: "auto",
-              minWidth: "auto"
+              minWidth: "auto",
             }}
           >
             {section.label}
@@ -164,16 +175,19 @@ export default function Stats() {
   return (
     <>
       {renderTabs()}
-      <div className="container text-center" style={{ paddingTop: "calc(var(--header-height) + 30px)" }}>
+      <div
+        className="container text-center"
+        style={{ paddingTop: "calc(var(--header-height) + 30px)" }}
+      >
         {sections.map((section, index) => {
           const Component = section.component;
           return (
-            <div 
+            <div
               key={section.id}
-              ref={section.ref} 
-              style={{ 
-                paddingTop: index === 0 ? "20px" : "80px", 
-                marginTop: "-20px" 
+              ref={section.ref}
+              style={{
+                paddingTop: index === 0 ? "20px" : "80px",
+                marginTop: "-20px",
               }}
             >
               <Component stats={stats} />
