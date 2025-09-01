@@ -72,7 +72,7 @@ export default function Stats() {
       formData.append("zip", file, fileName);
 
       try {
-        const res = await fetch(import.meta.env.VITE_API_URL, {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/upload`, {
           method: "POST",
           body: formData,
         });
