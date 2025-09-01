@@ -1,5 +1,7 @@
 # 🎬 Meterboxd
 
+[See it in action!](https://www.meterboxd.click/)
+
 ## 📌 Overview
 
 MeterBoxd analyzes your Letterboxd watch history to generate unique, personalized movie stats:
