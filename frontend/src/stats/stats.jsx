@@ -132,6 +132,8 @@ export default function Stats() {
         paddingTop: "0",
         paddingBottom: "0",
         width: "100%",
+        marginTop: "-2px", // Negative margin to remove gap
+        borderTop: "1px solid var(--black)", // Add border to match the background
       }}
     >
       <div
@@ -177,7 +179,7 @@ export default function Stats() {
       {renderTabs()}
       <div
         className="container text-center"
-        style={{ paddingTop: "calc(var(--header-height) + 30px)" }}
+        style={{ paddingTop: "calc(var(--header-height))" }}
       >
         {sections.map((section, index) => {
           const Component = section.component;

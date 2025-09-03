@@ -31,7 +31,9 @@ export default function App() {
             />
             <div>
               <h1 className="mb-0">Meterboxd</h1>
-              <p className="mb-0">Metrics for your Letterboxd data.</p>
+              <p className="mb-0 d-none d-md-block">
+                Metrics for your Letterboxd data.
+              </p>
             </div>
           </div>
           {location.pathname === "/stats" && (
@@ -42,10 +44,12 @@ export default function App() {
                 marginLeft: "16px",
                 cursor: "pointer",
                 textDecoration: "none",
+                fontSize: "0.9rem",
               }}
             >
-              <i className="upload-icon bi bi-arrow-left"></i>
-              &larr; Back to Upload
+              <i className="upload-icon bi bi-arrow-left d-none d-sm-inline-block"></i>
+              <span className="d-none d-sm-inline-block">&larr; Back to Upload</span>
+              <span className="d-inline-block d-sm-none">&larr; Back</span>
             </NavLink>
           )}
         </div>
